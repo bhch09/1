@@ -186,7 +186,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Alcohols, Carboxylic Acids, and Ethers</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn className="chat-button">
+            <DownloadBtn className="chat-button" onClick={handleStartChat}>
               Download Notes
             </DownloadBtn>
           </ChapterCard>
