@@ -74,9 +74,9 @@ const HomePage = ({ onStartChat }) => {
 
       // Update document title if there's a new message
       if (hasUnread) {
-        document.title = "New Message! - CBSE Science Notes";
+        document.title = "** - CBSE Science Notes";
       } else {
-        document.title = "CBSE Science Notes - Physics Wallah";
+        document.title = "CBSE Science Notes";
       }
     });
 
@@ -109,8 +109,7 @@ const HomePage = ({ onStartChat }) => {
   return (
     <div>
       <Header>
-        <h1>CBSE Science Notes for Board and Olympiad</h1>
-        <p>Comprehensive Revision Notes</p>
+        <p>Revision Notes</p>
         {hasNewMessage && <NotificationDot />}
       </Header>
 
@@ -287,6 +286,7 @@ const ImportantPoints = styled.div`
   padding: 15px;
   border-radius: 6px;
   margin: 15px 0;
+  color: blue;
 `;
 
 const TopicList = styled.ul`
