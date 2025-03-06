@@ -548,23 +548,14 @@ export default function App() {
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [windowFocus, setWindowFocus] = useState(true);
   
-  // New approach to handle view state:
+  // View state handling: 
   // 0 = home page, 1 = login page, 2 = chat interface
-  const [viewState, setViewState] = useState(() => {
-    // Check if user is already logged in
-    const savedUser = localStorage.getItem('chatUser');
-    // Check if we should show chat interface
-    const showChatInterface = localStorage.getItem('showChatInterface') === 'true';
-    
-    // If showing chat interface is explicitly requested
-    if (showChatInterface) {
-      // If user exists, go to chat, otherwise go to login
-      return savedUser ? 2 : 1;
-    }
-    
-    // Default to home page
-    return 0;
-  });
+  const [viewState, setViewState] = useState(0); // Always start with homepage
+  
+  // Clear showChatInterface flag on initial load
+  useEffect(() => {
+    localStorage.removeItem('showChatInterface');
+  }, []);
   
   const messageListRef = useRef(null);
   const fileInputRef = useRef(null);
@@ -720,8 +711,8 @@ export default function App() {
       localStorage.removeItem('chatUser');
       setUser(null);
       
-      // Go to login page
-      setViewState(1);
+      // Go to homepage instead of login page
+      goToHomePage();
     }
   };
 
@@ -827,24 +818,14 @@ export default function App() {
 
   // Navigate to home page
   const goToHomePage = () => {
-    // Remove flag from localStorage
-    localStorage.removeItem('showChatInterface');
-    
-    // Set view state to home page
+    // Set view state to home page immediately
     setViewState(0);
-    
-    // Push state to history to prevent back button issues
-    window.history.pushState({page: 'home'}, 'Home', window.location.href);
   };
   
-  // Handle browser back button
+  // Handle browser back button - always return to home page
   useEffect(() => {
-    const handleBackButton = (e) => {
-      if (viewState !== 0) {
-        // Prevent default behavior
-        e.preventDefault();
-        goToHomePage();
-      }
+    const handleBackButton = () => {
+      goToHomePage();
     };
     
     window.addEventListener('popstate', handleBackButton);
@@ -852,22 +833,15 @@ export default function App() {
     return () => {
       window.removeEventListener('popstate', handleBackButton);
     };
-  }, [viewState]);
+  }, []);
 
   // Navigate to chat
   const goToChat = () => {
     console.log("goToChat function called, current user:", user);
     
-    // Set flag in localStorage
-    localStorage.setItem('showChatInterface', 'true');
-    
-    // Push state to history to prevent back button issues
-    window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
-    
     // If user is logged in, go to chat, otherwise go to login
     if (user) {
       console.log("User is logged in, going to chat interface");
-      setViewState(2);
       
       // Mark messages as read
       messages.forEach(message => {
@@ -880,6 +854,9 @@ export default function App() {
       // Update last read timestamp
       const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
       localStorage.setItem('lastReadMessage', latestTimestamp);
+      
+      // Update state immediately to prevent white screen
+      setViewState(2);
       
       // Scroll to bottom after transition
       setTimeout(scrollToBottom, 100);

@@ -96,11 +96,8 @@ const HomePage = ({ onStartChat }) => {
       localStorage.setItem('lastReadMessage', latestTimestamp);
     }
 
-    // Ensure we go to chat interface immediately
-    localStorage.setItem('showChatInterface', 'true');
-
-    // Push a new browser history state to prevent back button issues
-    window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
+    // We no longer need to store the state in localStorage
+    // as we'll handle transitions directly through React state
 
     // Call onStartChat which will handle login state in App.jsx
     if (typeof onStartChat === 'function') {
