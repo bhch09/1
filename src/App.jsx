@@ -551,16 +551,17 @@ export default function App() {
   // 0 = home page, 1 = login page, 2 = chat interface
   const [viewState, setViewState] = useState(0); // Always start with homepage
 
+  // Initialize all refs first to maintain consistent hook order
+  const messageListRef = useRef(null);
+  const fileInputRef = useRef(null);
+  const inputRef = useRef(null);
+  const typingTimeout = useRef(null);
+
   // Clear showChatInterface flag and setup consistent hook order
   useEffect(() => {
     // Clear flag on initial load
     localStorage.removeItem('showChatInterface');
   }, []);
-
-  const messageListRef = useRef(null);
-  const fileInputRef = useRef(null);
-  const inputRef = useRef(null);
-  let typingTimeout = useRef(null);
 
   // Firebase references
   const messagesRef = ref(database, 'messages');
@@ -843,30 +844,32 @@ export default function App() {
     if (user) {
       console.log("User logged in, going to chat interface");
 
-      // Mark messages as read first
-      try {
-        messages.forEach(message => {
-          if (message.sender !== user && !message.read) {
-            const messageRef = ref(database, `messages/${message.id}`);
-            update(messageRef, { read: true });
-          }
-        });
-
-        // Update last read timestamp
-        const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
-        localStorage.setItem('lastReadMessage', latestTimestamp);
-      } catch (err) {
-        console.error("Error updating message status:", err);
-      }
-
-      // Set view state directly without wrapping in setTimeout
-      // This helps avoid React hook inconsistencies
+      // We'll use a simpler approach to avoid hook order issues
+      // Mark messages as read separately after view change
+      
+      // Set view state first
       setViewState(2);
-
-      // After render is complete, scroll to bottom
-      requestAnimationFrame(() => {
-        requestAnimationFrame(scrollToBottom);
-      });
+      
+      // Process messages after state update in next render cycle
+      setTimeout(() => {
+        try {
+          messages.forEach(message => {
+            if (message.sender !== user && !message.read) {
+              const messageRef = ref(database, `messages/${message.id}`);
+              update(messageRef, { read: true });
+            }
+          });
+  
+          // Update last read timestamp
+          const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
+          localStorage.setItem('lastReadMessage', latestTimestamp);
+          
+          // Scroll to bottom after all processing is done
+          scrollToBottom();
+        } catch (err) {
+          console.error("Error updating message status:", err);
+        }
+      }, 100);
     } else {
       console.log("No user logged in, going to login screen");
       setViewState(1);
@@ -875,33 +878,34 @@ export default function App() {
 
   // Handle starting chat from home page
   const handleStartChat = () => {
-    goToChat();
+    // Use setTimeout to ensure consistent hook ordering
+    // This prevents the "rendered more hooks than during previous render" error
+    setTimeout(() => {
+      goToChat();
+    }, 0);
   };
 
-  // Render based on view state
-  if (viewState === 0) {
-    // Render home page
-    return (
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <HomePage onStartChat={handleStartChat} />
-      </ThemeProvider>
-    );
-  } else if (viewState === 1) {
-    // Render login screen
-    return (
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <LoginContainer>
-          <LoginTitle>Choose Your User</LoginTitle>
-          <UserButton $userColor="R" onClick={() => handleLogin('R')}>User R</UserButton>
-          <UserButton $userColor="B" onClick={() => handleLogin('B')}>User B</UserButton>
-        </LoginContainer>
-      </ThemeProvider>
-    );
-  }
+  // Create render components outside the main render to maintain consistent hook ordering
+  const renderHomePage = () => (
+    <HomePage onStartChat={handleStartChat} />
+  );
 
-  // viewState === 2: Render chat interface
+  const renderLoginScreen = () => (
+    <LoginContainer>
+      <LoginTitle>Choose Your User</LoginTitle>
+      <UserButton $userColor="R" onClick={() => handleLogin('R')}>User R</UserButton>
+      <UserButton $userColor="B" onClick={() => handleLogin('B')}>User B</UserButton>
+    </LoginContainer>
+  );
+
+  // Render chat UI or other views based on viewState
+  let currentView;
+  if (viewState === 0) {
+    currentView = renderHomePage();
+  } else if (viewState === 1) {
+    currentView = renderLoginScreen();
+  }
+  // viewState === 2: Render chat interface (the default case below)
 
   // Group messages by date
   const messagesByDate = messages.reduce((groups, message) => {
@@ -947,6 +951,17 @@ export default function App() {
     }
   `;
 
+  // If we have a specific view to render (HomePage or Login), return it
+  if (viewState !== 2) {
+    return (
+      <ThemeProvider theme={theme}>
+        <GlobalStyle />
+        {currentView}
+      </ThemeProvider>
+    );
+  }
+  
+  // Otherwise render the chat interface (viewState === 2)
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
