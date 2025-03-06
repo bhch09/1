@@ -552,8 +552,9 @@ export default function App() {
   // 0 = home page, 1 = login page, 2 = chat interface
   const [viewState, setViewState] = useState(0); // Always start with homepage
   
-  // Clear showChatInterface flag on initial load
+  // Clear showChatInterface flag and setup consistent hook order
   useEffect(() => {
+    // Clear flag on initial load
     localStorage.removeItem('showChatInterface');
   }, []);
   
@@ -855,11 +856,12 @@ export default function App() {
       const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
       localStorage.setItem('lastReadMessage', latestTimestamp);
       
-      // Update state immediately to prevent white screen
-      setViewState(2);
-      
-      // Scroll to bottom after transition
-      setTimeout(scrollToBottom, 100);
+      // Use a short timeout to prevent white screen during state transition
+      setTimeout(() => {
+        setViewState(2);
+        // Scroll to bottom after view state change
+        setTimeout(scrollToBottom, 100);
+      }, 10);
     } else {
       console.log("No user logged in, going to login screen");
       setViewState(1);

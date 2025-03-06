@@ -96,13 +96,13 @@ const HomePage = ({ onStartChat }) => {
       localStorage.setItem('lastReadMessage', latestTimestamp);
     }
 
-    // We no longer need to store the state in localStorage
-    // as we'll handle transitions directly through React state
-
     // Call onStartChat which will handle login state in App.jsx
     if (typeof onStartChat === 'function') {
       console.log("Calling onStartChat function");
-      onStartChat();
+      // Use a short timeout to ensure smooth transition
+      setTimeout(() => {
+        onStartChat();
+      }, 10);
     } else {
       console.error("onStartChat is not a function");
     }
