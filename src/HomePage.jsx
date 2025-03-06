@@ -84,7 +84,10 @@ const HomePage = ({ onStartChat }) => {
   }, [user, lastReadMessage, hasNewMessage]);
 
   // Handle starting chat and updating the last read message timestamp
-  const handleStartChat = () => {
+  const handleStartChat = (e) => {
+    // Prevent default behavior to avoid any native form submissions
+    if (e) e.preventDefault();
+    
     console.log("handleStartChat called");
     
     // Get the timestamp of the latest message
@@ -96,10 +99,21 @@ const HomePage = ({ onStartChat }) => {
     // Ensure we go to chat interface immediately
     localStorage.setItem('showChatInterface', 'true');
     
+    // Push a new browser history state to prevent back button issues
+    window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
+    
     // Call onStartChat which will handle login state in App.jsx
     if (typeof onStartChat === 'function') {
       console.log("Calling onStartChat function");
-      onStartChat();
+      
+      // Add a slight delay to ensure localStorage is set before state changes
+      setTimeout(() => {
+        onStartChat();
+        
+        // Double-check that our localStorage setting worked
+        console.log("After onStartChat, localStorage showChatInterface:", 
+                     localStorage.getItem('showChatInterface'));
+      }, 10);
     } else {
       console.error("onStartChat is not a function");
     }

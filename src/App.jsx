@@ -548,9 +548,14 @@ export default function App() {
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [windowFocus, setWindowFocus] = useState(true);
   const [showHomePage, setShowHomePage] = useState(() => {
-    // Get from localStorage but with a more robust check
+    // Get from localStorage with more robust check and logging
     const showChatInterface = localStorage.getItem('showChatInterface');
-    return showChatInterface !== 'true';
+    console.log("Initial state check - showChatInterface in localStorage:", showChatInterface);
+    
+    // Default to homepage unless explicitly set to show chat
+    const shouldShowHomePage = showChatInterface !== 'true';
+    console.log("Initial showHomePage state:", shouldShowHomePage);
+    return shouldShowHomePage;
   });
   
   const messageListRef = useRef(null);
@@ -842,19 +847,24 @@ export default function App() {
     // This ensures we stay in chat/login screen even after refresh
     localStorage.setItem('showChatInterface', 'true');
     
+    // Push a new state to prevent back button causing issues
+    window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
+    
     // Check if user is logged in
     if (!user) {
       console.log("No user, showing login screen");
       // If not logged in, immediately set showHomePage to false to show login screen
       setShowHomePage(false);
+      
+      // Extra debug to confirm state change
+      console.log("Set showHomePage to false");
       return;
     }
     
     console.log("User logged in, proceeding to chat interface");
     // If logged in, proceed with normal flow
     
-    // Small delay to prevent white screen flash
-    setTimeout(() => {
+    // Immediate state change instead of using setTimeout
       setShowHomePage(false);
       
       // Mark all messages as read
@@ -874,6 +884,15 @@ export default function App() {
     }, 50);
   };
 
+  // Log current app state
+  useEffect(() => {
+    console.log("Current app state:", { 
+      showHomePage, 
+      user, 
+      localStorageChat: localStorage.getItem('showChatInterface')
+    });
+  }, [showHomePage, user]);
+
   // Render home page first
   if (showHomePage) {
     return (
@@ -886,6 +905,7 @@ export default function App() {
 
   // Render login screen if not authenticated and trying to access chat
   if (!user) {
+    console.log("Rendering login screen");
     return (
       <ThemeProvider theme={theme}>
         <GlobalStyle />
