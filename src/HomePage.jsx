@@ -105,15 +105,7 @@ const HomePage = ({ onStartChat }) => {
     // Call onStartChat which will handle login state in App.jsx
     if (typeof onStartChat === 'function') {
       console.log("Calling onStartChat function");
-
-      // Add a slight delay to ensure localStorage is set before state changes
-      setTimeout(() => {
-        onStartChat();
-
-        // Double-check that our localStorage setting worked
-        console.log("After onStartChat, localStorage showChatInterface:", 
-                     localStorage.getItem('showChatInterface'));
-      }, 10);
+      onStartChat();
     } else {
       console.error("onStartChat is not a function");
     }

@@ -547,15 +547,23 @@ export default function App() {
   const [image, setImage] = useState(null);
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [windowFocus, setWindowFocus] = useState(true);
-  const [showHomePage, setShowHomePage] = useState(() => {
-    // Get from localStorage with more robust check and logging
-    const showChatInterface = localStorage.getItem('showChatInterface');
-    console.log("Initial state check - showChatInterface in localStorage:", showChatInterface);
+  
+  // New approach to handle view state:
+  // 0 = home page, 1 = login page, 2 = chat interface
+  const [viewState, setViewState] = useState(() => {
+    // Check if user is already logged in
+    const savedUser = localStorage.getItem('chatUser');
+    // Check if we should show chat interface
+    const showChatInterface = localStorage.getItem('showChatInterface') === 'true';
     
-    // Default to homepage unless explicitly set to show chat
-    const shouldShowHomePage = showChatInterface !== 'true';
-    console.log("Initial showHomePage state:", shouldShowHomePage);
-    return shouldShowHomePage;
+    // If showing chat interface is explicitly requested
+    if (showChatInterface) {
+      // If user exists, go to chat, otherwise go to login
+      return savedUser ? 2 : 1;
+    }
+    
+    // Default to home page
+    return 0;
   });
   
   const messageListRef = useRef(null);
@@ -609,12 +617,8 @@ export default function App() {
         set(userStatusRef, false);
         set(userPresenceRef, false);
       };
-    } else if (!showHomePage) {
-      // If no user and not on homepage, go to homepage
-      setShowHomePage(true);
-      localStorage.removeItem('showChatInterface');
     }
-  }, [user, showHomePage]);
+  }, [user]);
 
   // Listen for status changes
   useEffect(() => {
@@ -667,18 +671,19 @@ export default function App() {
         
         setMessages(messagesData);
         
-        if (!showHomePage) {
+        // Only scroll and mark as read if in chat interface
+        if (viewState === 2) {
           setTimeout(scrollToBottom, 100);
-        }
-        
-        // Only mark messages as read if on chat screen and window is focused
-        if (user && windowFocus && !showHomePage) {
-          messagesData.forEach(message => {
-            if (message.sender !== user && !message.read) {
-              const messageRef = ref(database, `messages/${message.id}`);
-              update(messageRef, { read: true });
-            }
-          });
+          
+          // Mark messages as read if window is focused
+          if (user && windowFocus) {
+            messagesData.forEach(message => {
+              if (message.sender !== user && !message.read) {
+                const messageRef = ref(database, `messages/${message.id}`);
+                update(messageRef, { read: true });
+              }
+            });
+          }
         }
       } catch (error) {
         console.error("Error processing messages:", error);
@@ -686,10 +691,11 @@ export default function App() {
     });
 
     return () => unsubscribe();
-  }, [user, windowFocus, showHomePage]);
+  }, [user, windowFocus, viewState]);
 
   // Login handler
   const handleLogin = (selectedUser) => {
+    console.log("Logging in as:", selectedUser);
     setUser(selectedUser);
     localStorage.setItem('chatUser', selectedUser);
     
@@ -697,9 +703,12 @@ export default function App() {
     const userStatusRef = ref(database, `status/${selectedUser}`);
     set(userStatusRef, true);
     
-    // Ensure we stay on chat interface after login
-    setShowHomePage(false);
+    // Set state to show chat interface
+    setViewState(2);
     localStorage.setItem('showChatInterface', 'true');
+    
+    // Push state to history to prevent back button issues
+    window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
   };
 
   // Logout handler
@@ -710,6 +719,9 @@ export default function App() {
       
       localStorage.removeItem('chatUser');
       setUser(null);
+      
+      // Go to login page
+      setViewState(1);
     }
   };
 
@@ -815,19 +827,22 @@ export default function App() {
 
   // Navigate to home page
   const goToHomePage = () => {
-    // Set state in localStorage before changing React state
+    // Remove flag from localStorage
     localStorage.removeItem('showChatInterface');
     
-    // Small delay to prevent white screen flash
-    setTimeout(() => {
-      setShowHomePage(true);
-    }, 50);
+    // Set view state to home page
+    setViewState(0);
+    
+    // Push state to history to prevent back button issues
+    window.history.pushState({page: 'home'}, 'Home', window.location.href);
   };
   
   // Handle browser back button
   useEffect(() => {
-    const handleBackButton = () => {
-      if (!showHomePage) {
+    const handleBackButton = (e) => {
+      if (viewState !== 0) {
+        // Prevent default behavior
+        e.preventDefault();
         goToHomePage();
       }
     };
@@ -837,74 +852,59 @@ export default function App() {
     return () => {
       window.removeEventListener('popstate', handleBackButton);
     };
-  }, [showHomePage]);
+  }, [viewState]);
 
   // Navigate to chat
   const goToChat = () => {
-    console.log("goToChat function called");
+    console.log("goToChat function called, current user:", user);
     
-    // First set the flag in localStorage regardless of user state
-    // This ensures we stay in chat/login screen even after refresh
+    // Set flag in localStorage
     localStorage.setItem('showChatInterface', 'true');
     
-    // Push a new state to prevent back button causing issues
+    // Push state to history to prevent back button issues
     window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
     
-    // Check if user is logged in
-    if (!user) {
-      console.log("No user, showing login screen");
-      // If not logged in, immediately set showHomePage to false to show login screen
-      setShowHomePage(false);
+    // If user is logged in, go to chat, otherwise go to login
+    if (user) {
+      console.log("User is logged in, going to chat interface");
+      setViewState(2);
       
-      // Extra debug to confirm state change
-      console.log("Set showHomePage to false");
-      return;
+      // Mark messages as read
+      messages.forEach(message => {
+        if (message.sender !== user && !message.read) {
+          const messageRef = ref(database, `messages/${message.id}`);
+          update(messageRef, { read: true });
+        }
+      });
+      
+      // Update last read timestamp
+      const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
+      localStorage.setItem('lastReadMessage', latestTimestamp);
+      
+      // Scroll to bottom after transition
+      setTimeout(scrollToBottom, 100);
+    } else {
+      console.log("No user logged in, going to login screen");
+      setViewState(1);
     }
-    
-    console.log("User logged in, proceeding to chat interface");
-    // If logged in, proceed with normal flow
-    
-    // Immediate state change
-    setShowHomePage(false);
-    
-    // Mark all messages as read
-    messages.forEach(message => {
-      if (message.sender !== user && !message.read) {
-        const messageRef = ref(database, `messages/${message.id}`);
-        update(messageRef, { read: true });
-      }
-    });
-    
-    // Update last read timestamp in localStorage
-    const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
-    localStorage.setItem('lastReadMessage', latestTimestamp);
-    
-    // Scroll to bottom after transition
-    setTimeout(scrollToBottom, 100);
   };
 
-  // Log current app state
-  useEffect(() => {
-    console.log("Current app state:", { 
-      showHomePage, 
-      user, 
-      localStorageChat: localStorage.getItem('showChatInterface')
-    });
-  }, [showHomePage, user]);
+  // Handle starting chat from home page
+  const handleStartChat = () => {
+    goToChat();
+  };
 
-  // Render home page first
-  if (showHomePage) {
+  // Render based on view state
+  if (viewState === 0) {
+    // Render home page
     return (
       <ThemeProvider theme={theme}>
         <GlobalStyle />
-        <HomePage onStartChat={goToChat} />
+        <HomePage onStartChat={handleStartChat} />
       </ThemeProvider>
     );
-  }
-
-  // Render login screen if not authenticated and trying to access chat
-  if (!user) {
-    console.log("Rendering login screen");
+  } else if (viewState === 1) {
+    // Render login screen
     return (
       <ThemeProvider theme={theme}>
         <GlobalStyle />
@@ -917,6 +917,8 @@ export default function App() {
     );
   }
 
+  // viewState === 2: Render chat interface
+  
   // Group messages by date
   const messagesByDate = messages.reduce((groups, message) => {
     const date = formatDate(message.timestamp);
