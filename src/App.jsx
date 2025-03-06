@@ -864,24 +864,23 @@ export default function App() {
     console.log("User logged in, proceeding to chat interface");
     // If logged in, proceed with normal flow
     
-    // Immediate state change instead of using setTimeout
-      setShowHomePage(false);
-      
-      // Mark all messages as read
-      messages.forEach(message => {
-        if (message.sender !== user && !message.read) {
-          const messageRef = ref(database, `messages/${message.id}`);
-          update(messageRef, { read: true });
-        }
-      });
-      
-      // Update last read timestamp in localStorage
-      const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
-      localStorage.setItem('lastReadMessage', latestTimestamp);
-      
-      // Scroll to bottom after transition
-      setTimeout(scrollToBottom, 100);
-    }, 50);
+    // Immediate state change
+    setShowHomePage(false);
+    
+    // Mark all messages as read
+    messages.forEach(message => {
+      if (message.sender !== user && !message.read) {
+        const messageRef = ref(database, `messages/${message.id}`);
+        update(messageRef, { read: true });
+      }
+    });
+    
+    // Update last read timestamp in localStorage
+    const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
+    localStorage.setItem('lastReadMessage', latestTimestamp);
+    
+    // Scroll to bottom after transition
+    setTimeout(scrollToBottom, 100);
   };
 
   // Log current app state
