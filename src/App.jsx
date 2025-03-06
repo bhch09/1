@@ -1041,8 +1041,7 @@ export default function App() {
         </MessageList>
 
         <InputArea>
-          {replyTo<replit_final_file>
-&& (
+          {replyTo && (
             <ReplyPreview>
               <ReplyPreviewText>
                 <BsReply style={{ marginRight: '5px' }} />
