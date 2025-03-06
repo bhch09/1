@@ -85,14 +85,24 @@ const HomePage = ({ onStartChat }) => {
 
   // Handle starting chat and updating the last read message timestamp
   const handleStartChat = () => {
+    console.log("handleStartChat called");
+    
     // Get the timestamp of the latest message
     if (messages.length > 0) {
       const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0));
       localStorage.setItem('lastReadMessage', latestTimestamp);
     }
 
+    // Ensure we go to chat interface immediately
+    localStorage.setItem('showChatInterface', 'true');
+    
     // Call onStartChat which will handle login state in App.jsx
-    onStartChat();
+    if (typeof onStartChat === 'function') {
+      console.log("Calling onStartChat function");
+      onStartChat();
+    } else {
+      console.error("onStartChat is not a function");
+    }
   };
 
   return (

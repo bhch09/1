@@ -836,20 +836,22 @@ export default function App() {
 
   // Navigate to chat
   const goToChat = () => {
-    // First check if user is logged in
+    console.log("goToChat function called");
+    
+    // First set the flag in localStorage regardless of user state
+    // This ensures we stay in chat/login screen even after refresh
+    localStorage.setItem('showChatInterface', 'true');
+    
+    // Check if user is logged in
     if (!user) {
-      // If not logged in, set showHomePage to false to show login screen directly
-      localStorage.setItem('showChatInterface', 'true'); 
-      setTimeout(() => {
-        setShowHomePage(false);
-      }, 50);
+      console.log("No user, showing login screen");
+      // If not logged in, immediately set showHomePage to false to show login screen
+      setShowHomePage(false);
       return;
     }
     
+    console.log("User logged in, proceeding to chat interface");
     // If logged in, proceed with normal flow
-    // Store that user is in chat interface so if page refreshes, 
-    // they stay in chat interface
-    localStorage.setItem('showChatInterface', 'true');
     
     // Small delay to prevent white screen flash
     setTimeout(() => {
