@@ -122,7 +122,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Balancing Chemical Equations</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat}>Download Notes</DownloadBtn>
+            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 2 */}
@@ -137,7 +137,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Types of Salts and their Uses</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat}>Download Notes</DownloadBtn>
+            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 3 */}
@@ -152,7 +152,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Extraction of Metals</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat}>Download Notes</DownloadBtn>
+            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 4 */}
@@ -184,7 +184,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Excretion in Plants and Animals</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat}>Download Notes</DownloadBtn>
+            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
         </ChapterList>
       </Container>

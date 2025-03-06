@@ -547,9 +547,11 @@ export default function App() {
   const [image, setImage] = useState(null);
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [windowFocus, setWindowFocus] = useState(true);
-  const [showHomePage, setShowHomePage] = useState(
-    localStorage.getItem('showChatInterface') !== 'true'
-  );
+  const [showHomePage, setShowHomePage] = useState(() => {
+    // Get from localStorage but with a more robust check
+    const showChatInterface = localStorage.getItem('showChatInterface');
+    return showChatInterface !== 'true';
+  });
   
   const messageListRef = useRef(null);
   const fileInputRef = useRef(null);
@@ -808,8 +810,13 @@ export default function App() {
 
   // Navigate to home page
   const goToHomePage = () => {
-    setShowHomePage(true);
+    // Set state in localStorage before changing React state
     localStorage.removeItem('showChatInterface');
+    
+    // Small delay to prevent white screen flash
+    setTimeout(() => {
+      setShowHomePage(true);
+    }, 50);
   };
   
   // Handle browser back button
@@ -829,24 +836,31 @@ export default function App() {
 
   // Navigate to chat
   const goToChat = () => {
-    setShowHomePage(false);
     // Store that user is in chat interface so if page refreshes, 
     // they stay in chat interface
     localStorage.setItem('showChatInterface', 'true');
     
-    // Mark all messages as read
-    if (user) {
-      messages.forEach(message => {
-        if (message.sender !== user && !message.read) {
-          const messageRef = ref(database, `messages/${message.id}`);
-          update(messageRef, { read: true });
-        }
-      });
-    }
-    
-    // Update last read timestamp in localStorage
-    const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
-    localStorage.setItem('lastReadMessage', latestTimestamp);
+    // Small delay to prevent white screen flash
+    setTimeout(() => {
+      setShowHomePage(false);
+      
+      // Mark all messages as read
+      if (user) {
+        messages.forEach(message => {
+          if (message.sender !== user && !message.read) {
+            const messageRef = ref(database, `messages/${message.id}`);
+            update(messageRef, { read: true });
+          }
+        });
+      }
+      
+      // Update last read timestamp in localStorage
+      const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
+      localStorage.setItem('lastReadMessage', latestTimestamp);
+      
+      // Scroll to bottom after transition
+      setTimeout(scrollToBottom, 100);
+    }, 50);
   };
 
   // Render home page first
