@@ -841,23 +841,29 @@ export default function App() {
 
     // If user is logged in, go to chat, otherwise go to login
     if (user) {
-      console.log("User is logged in, going to chat interface");
+      console.log("User logged in, going to chat interface");
 
-      // Mark messages as read
-      messages.forEach(message => {
-        if (message.sender !== user && !message.read) {
-          const messageRef = ref(database, `messages/${message.id}`);
-          update(messageRef, { read: true });
-        }
-      });
+      // Mark messages as read first
+      try {
+        messages.forEach(message => {
+          if (message.sender !== user && !message.read) {
+            const messageRef = ref(database, `messages/${message.id}`);
+            update(messageRef, { read: true });
+          }
+        });
 
-      // Update last read timestamp
-      const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
-      localStorage.setItem('lastReadMessage', latestTimestamp);
+        // Update last read timestamp
+        const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
+        localStorage.setItem('lastReadMessage', latestTimestamp);
+      } catch (err) {
+        console.error("Error updating message status:", err);
+      }
 
-      // Directly set the view state without setTimeout to prevent hook inconsistency
+      // Set view state directly without wrapping in setTimeout
+      // This helps avoid React hook inconsistencies
       setViewState(2);
-      // Use a direct RAF for scrolling after render
+
+      // After render is complete, scroll to bottom
       requestAnimationFrame(() => {
         requestAnimationFrame(scrollToBottom);
       });
@@ -1035,7 +1041,8 @@ export default function App() {
         </MessageList>
 
         <InputArea>
-          {replyTo && (
+          {replyTo<replit_final_file>
+&& (
             <ReplyPreview>
               <ReplyPreviewText>
                 <BsReply style={{ marginRight: '5px' }} />
