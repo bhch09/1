@@ -91,12 +91,7 @@ const HomePage = ({ onStartChat }) => {
       localStorage.setItem('lastReadMessage', latestTimestamp);
     }
 
-    // Check if user is logged in
-    if (!user) {
-      // If no user is logged in, we'll proceed to chat which will show login screen
-      console.log("No user logged in, will be redirected to login");
-    }
-
+    // Call onStartChat which will handle login state in App.jsx
     onStartChat();
   };
 
@@ -167,9 +162,9 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Alcohols, Carboxylic Acids, and Ethers</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <ChatButton className="xx" onClick={handleStartChat}>
+            <DownloadBtn onClick={handleStartChat} className="chat-button">
               Download Notes
-            </ChatButton>
+            </DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 5 */}

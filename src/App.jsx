@@ -836,6 +836,17 @@ export default function App() {
 
   // Navigate to chat
   const goToChat = () => {
+    // First check if user is logged in
+    if (!user) {
+      // If not logged in, set showHomePage to false to show login screen directly
+      localStorage.setItem('showChatInterface', 'true'); 
+      setTimeout(() => {
+        setShowHomePage(false);
+      }, 50);
+      return;
+    }
+    
+    // If logged in, proceed with normal flow
     // Store that user is in chat interface so if page refreshes, 
     // they stay in chat interface
     localStorage.setItem('showChatInterface', 'true');
@@ -845,14 +856,12 @@ export default function App() {
       setShowHomePage(false);
       
       // Mark all messages as read
-      if (user) {
-        messages.forEach(message => {
-          if (message.sender !== user && !message.read) {
-            const messageRef = ref(database, `messages/${message.id}`);
-            update(messageRef, { read: true });
-          }
-        });
-      }
+      messages.forEach(message => {
+        if (message.sender !== user && !message.read) {
+          const messageRef = ref(database, `messages/${message.id}`);
+          update(messageRef, { read: true });
+        }
+      });
       
       // Update last read timestamp in localStorage
       const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
