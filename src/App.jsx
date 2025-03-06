@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import { initializeApp } from 'firebase/app';
 import { 
@@ -59,11 +58,11 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     -webkit-tap-highlight-color: transparent;
   }
-  
+
   html {
     height: -webkit-fill-available;
   }
-  
+
   body {
     background-color: ${props => props.theme.background};
     color: ${props => props.theme.text};
@@ -74,7 +73,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100%;
     touch-action: manipulation;
   }
-  
+
   #root {
     height: 100vh;
     height: -webkit-fill-available;
@@ -97,13 +96,13 @@ const Container = styled.div`
   right: 0;
   bottom: 0;
   overflow: hidden;
-  
+
   @media (min-width: 768px) {
     width: 100%;
     max-width: 100%;
     height: 100vh;
   }
-  
+
   @media (max-width: 480px) {
     height: 100vh;
     /* Fix for mobile browsers with address bar */
@@ -141,7 +140,7 @@ const UserButton = styled.button`
   color: white;
   width: 100%;
   max-width: 250px;
-  
+
   &:hover {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
@@ -159,7 +158,7 @@ const Header = styled.header`
 
 const HeaderTitle = styled.h1`
   font-size: 1.2rem;
-  
+
   @media (max-width: 480px) {
     font-size: 1rem;
   }
@@ -188,7 +187,7 @@ const IconButton = styled.button`
   padding: 5px;
   border-radius: 50%;
   transition: background-color 0.2s;
-  
+
   &:hover {
     background-color: ${props => props.theme.secondary};
   }
@@ -201,15 +200,15 @@ const MessageList = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+
   &::-webkit-scrollbar {
     width: 6px;
   }
-  
+
   &::-webkit-scrollbar-track {
     background: ${props => props.theme.primary};
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background: ${props => props.theme.secondary};
     border-radius: 3px;
@@ -222,7 +221,7 @@ const MessageGroup = styled.div`
   align-items: ${props => props.$sent ? 'flex-end' : 'flex-start'};
   margin-bottom: 15px;
   animation: fadeIn 0.3s ease-in-out;
-  
+
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -249,15 +248,15 @@ const MessageBubble = styled.div`
   word-break: break-word;
   position: relative;
   transition: transform 0.2s ease;
-  
+
   &:hover {
     transform: scale(1.02);
-    
+
     .message-actions {
       opacity: 1;
     }
   }
-  
+
   @media (max-width: 480px) {
     max-width: 85%;
     padding: 10px 12px;
@@ -348,7 +347,7 @@ const InputContainer = styled.div`
   border-radius: 24px;
   padding: 8px 15px;
   animation: slideUp 0.3s ease-in-out;
-  
+
   @keyframes slideUp {
     from {
       transform: translateY(20px);
@@ -371,15 +370,15 @@ const TextInput = styled(TextareaAutosize)`
   outline: none;
   max-height: 120px;
   padding: 5px 0;
-  
+
   &::-webkit-scrollbar {
     width: 6px;
   }
-  
+
   &::-webkit-scrollbar-track {
     background: ${props => props.theme.secondary};
   }
-  
+
   &::-webkit-scrollbar-thumb {
     background: ${props => props.theme.accent};
     border-radius: 3px;
@@ -409,7 +408,7 @@ const IconActionButton = styled.button`
   justify-content: center;
   padding: 5px;
   transition: color 0.2s;
-  
+
   &:hover {
     color: ${props => props.theme.text};
   }
@@ -428,7 +427,7 @@ const EmojiPickerContainer = styled.div`
   max-height: 300px;
   display: flex;
   flex-direction: column;
-  
+
   @media (max-width: 480px) {
     bottom: 70px;
   }
@@ -547,17 +546,17 @@ export default function App() {
   const [image, setImage] = useState(null);
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [windowFocus, setWindowFocus] = useState(true);
-  
+
   // View state handling: 
   // 0 = home page, 1 = login page, 2 = chat interface
   const [viewState, setViewState] = useState(0); // Always start with homepage
-  
+
   // Clear showChatInterface flag and setup consistent hook order
   useEffect(() => {
     // Clear flag on initial load
     localStorage.removeItem('showChatInterface');
   }, []);
-  
+
   const messageListRef = useRef(null);
   const fileInputRef = useRef(null);
   const inputRef = useRef(null);
@@ -573,10 +572,10 @@ export default function App() {
   useEffect(() => {
     const handleFocus = () => setWindowFocus(true);
     const handleBlur = () => setWindowFocus(false);
-    
+
     window.addEventListener('focus', handleFocus);
     window.addEventListener('blur', handleBlur);
-    
+
     return () => {
       window.removeEventListener('focus', handleFocus);
       window.removeEventListener('blur', handleBlur);
@@ -597,7 +596,7 @@ export default function App() {
       // Update user status when logged in
       const userStatusRef = ref(database, `status/${user}`);
       set(userStatusRef, true);
-      
+
       // Set up disconnect handler
       const userPresenceRef = ref(database, `presence/${user}`);
       set(userPresenceRef, true);
@@ -619,7 +618,7 @@ export default function App() {
         setUserStatus(snapshot.val());
       }
     });
-    
+
     const presenceUnsubscribe = onValue(presenceRef, (snapshot) => {
       // This will be used for real-time presence (active in window)
       // The UI will use this for showing "online" status
@@ -649,7 +648,7 @@ export default function App() {
   // Listen for messages
   useEffect(() => {
     const messagesQuery = query(messagesRef, orderByChild('timestamp'));
-    
+
     const unsubscribe = onValue(messagesQuery, (snapshot) => {
       try {
         const messagesData = [];
@@ -660,13 +659,13 @@ export default function App() {
           };
           messagesData.push(message);
         });
-        
+
         setMessages(messagesData);
-        
+
         // Only scroll and mark as read if in chat interface
         if (viewState === 2) {
           setTimeout(scrollToBottom, 100);
-          
+
           // Mark messages as read if window is focused
           if (user && windowFocus) {
             messagesData.forEach(message => {
@@ -690,15 +689,15 @@ export default function App() {
     console.log("Logging in as:", selectedUser);
     setUser(selectedUser);
     localStorage.setItem('chatUser', selectedUser);
-    
+
     // Update user status when logged in
     const userStatusRef = ref(database, `status/${selectedUser}`);
     set(userStatusRef, true);
-    
+
     // Set state to show chat interface
     setViewState(2);
     localStorage.setItem('showChatInterface', 'true');
-    
+
     // Push state to history to prevent back button issues
     window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
   };
@@ -708,10 +707,10 @@ export default function App() {
     if (user) {
       const userStatusRef = ref(database, `status/${user}`);
       set(userStatusRef, false);
-      
+
       localStorage.removeItem('chatUser');
       setUser(null);
-      
+
       // Go to homepage instead of login page
       goToHomePage();
     }
@@ -739,13 +738,13 @@ export default function App() {
 
     setMessageInput('');
     setImage(null);
-    
+
     // Stop typing indicator
     const typingUserRef = ref(database, `typing/${user}`);
     set(typingUserRef, false);
-    
+
     clearTimeout(typingTimeout.current);
-    
+
     // Focus the input again on mobile to prevent keyboard retraction
     if (window.innerWidth <= 768 && inputRef.current) {
       inputRef.current.focus();
@@ -755,17 +754,17 @@ export default function App() {
   // Typing indicator handler
   const handleTyping = (e) => {
     setMessageInput(e.target.value);
-    
+
     const typingUserRef = ref(database, `typing/${user}`);
-    
+
     if (e.target.value.trim()) {
       set(typingUserRef, true);
     } else {
       set(typingUserRef, false);
     }
-    
+
     clearTimeout(typingTimeout.current);
-    
+
     typingTimeout.current = setTimeout(() => {
       set(typingUserRef, false);
     }, 2000);
@@ -822,15 +821,15 @@ export default function App() {
     // Set view state to home page immediately
     setViewState(0);
   };
-  
+
   // Handle browser back button - always return to home page
   useEffect(() => {
     const handleBackButton = () => {
       goToHomePage();
     };
-    
+
     window.addEventListener('popstate', handleBackButton);
-    
+
     return () => {
       window.removeEventListener('popstate', handleBackButton);
     };
@@ -839,11 +838,11 @@ export default function App() {
   // Navigate to chat
   const goToChat = () => {
     console.log("goToChat function called, current user:", user);
-    
+
     // If user is logged in, go to chat, otherwise go to login
     if (user) {
       console.log("User is logged in, going to chat interface");
-      
+
       // Mark messages as read
       messages.forEach(message => {
         if (message.sender !== user && !message.read) {
@@ -851,17 +850,17 @@ export default function App() {
           update(messageRef, { read: true });
         }
       });
-      
+
       // Update last read timestamp
       const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
       localStorage.setItem('lastReadMessage', latestTimestamp);
-      
-      // Use a short timeout to prevent white screen during state transition
-      setTimeout(() => {
-        setViewState(2);
-        // Scroll to bottom after view state change
-        setTimeout(scrollToBottom, 100);
-      }, 10);
+
+      // Directly set the view state without setTimeout to prevent hook inconsistency
+      setViewState(2);
+      // Use a direct RAF for scrolling after render
+      requestAnimationFrame(() => {
+        requestAnimationFrame(scrollToBottom);
+      });
     } else {
       console.log("No user logged in, going to login screen");
       setViewState(1);
@@ -897,7 +896,7 @@ export default function App() {
   }
 
   // viewState === 2: Render chat interface
-  
+
   // Group messages by date
   const messagesByDate = messages.reduce((groups, message) => {
     const date = formatDate(message.timestamp);
@@ -974,7 +973,7 @@ export default function App() {
               {dateMessages.map((message) => {
                 const isSent = message.sender === user;
                 const replyMessage = message.replyTo && messages.find(m => m.id === message.replyTo);
-                
+
                 return (
                   <MessageGroup key={message.id} $sent={isSent}>
                     <MessageBubble 
@@ -987,9 +986,9 @@ export default function App() {
                           <ReplyText>{replyMessage.sender}: {replyMessage.text}</ReplyText>
                         </ReplyContainer>
                       )}
-                      
+
                       {message.text && <MessageText><Emoji text={message.text} /></MessageText>}
-                      
+
                       {message.image && (
                         <>
                           <MessageImage 
@@ -999,14 +998,14 @@ export default function App() {
                           />
                         </>
                       )}
-                      
+
                       <MessageActions className="message-actions">
                         <IconActionButton onClick={() => handleReply(message)}>
                           <BsReply />
                         </IconActionButton>
                       </MessageActions>
                     </MessageBubble>
-                    
+
                     <MessageInfo>
                       {formatTime(message.timestamp)}
                       {isSent && (
@@ -1027,7 +1026,7 @@ export default function App() {
               })}
             </React.Fragment>
           ))}
-          
+
           {userTyping && (
             <TypingIndicator>
               User {userTyping} is typing...
@@ -1045,14 +1044,14 @@ export default function App() {
               <CloseButton onClick={() => setReplyTo(null)}>✕</CloseButton>
             </ReplyPreview>
           )}
-          
+
           {image && (
             <ImagePreview>
               <PreviewImage src={image} alt="Upload preview" />
               <RemoveImageButton onClick={() => setImage(null)}>✕</RemoveImageButton>
             </ImagePreview>
           )}
-          
+
           <InputContainer>
             <IconActionButton onClick={() => fileInputRef.current.click()}>
               <FiImage />
@@ -1063,7 +1062,7 @@ export default function App() {
                 onChange={handleImageUpload} 
               />
             </IconActionButton>
-            
+
             <IconActionButton 
               onClick={() => {
                 setShowEmojiPicker(!showEmojiPicker);
@@ -1071,7 +1070,7 @@ export default function App() {
             >
               <BsEmojiSmile />
             </IconActionButton>
-            
+
             <TextInput
               ref={inputRef}
               value={messageInput}
@@ -1084,12 +1083,12 @@ export default function App() {
               minRows={1}
               maxRows={5}
             />
-            
+
             <SendButton onClick={sendMessage}>
               <FiSend />
             </SendButton>
           </InputContainer>
-          
+
           {showEmojiPicker && (
             <EmojiPickerWrapper>
               <EmojiPicker
@@ -1104,7 +1103,7 @@ export default function App() {
             </EmojiPickerWrapper>
           )}
         </InputArea>
-        
+
         {fullscreenImage && (
           <FullscreenImage onClick={() => setFullscreenImage(null)}>
             <FullscreenImageContent src={fullscreenImage} alt="Fullscreen view" />

@@ -99,10 +99,8 @@ const HomePage = ({ onStartChat }) => {
     // Call onStartChat which will handle login state in App.jsx
     if (typeof onStartChat === 'function') {
       console.log("Calling onStartChat function");
-      // Use a short timeout to ensure smooth transition
-      setTimeout(() => {
-        onStartChat();
-      }, 10);
+      // Call directly without setTimeout to prevent hook consistency issues
+      onStartChat();
     } else {
       console.error("onStartChat is not a function");
     }
