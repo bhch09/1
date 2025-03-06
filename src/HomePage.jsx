@@ -87,9 +87,9 @@ const HomePage = ({ onStartChat }) => {
   const handleStartChat = (e) => {
     // Prevent default behavior to avoid any native form submissions
     if (e) e.preventDefault();
-    
+
     console.log("handleStartChat called");
-    
+
     // Get the timestamp of the latest message
     if (messages.length > 0) {
       const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0));
@@ -98,18 +98,18 @@ const HomePage = ({ onStartChat }) => {
 
     // Ensure we go to chat interface immediately
     localStorage.setItem('showChatInterface', 'true');
-    
+
     // Push a new browser history state to prevent back button issues
     window.history.pushState({page: 'chat'}, 'Chat', window.location.href);
-    
+
     // Call onStartChat which will handle login state in App.jsx
     if (typeof onStartChat === 'function') {
       console.log("Calling onStartChat function");
-      
+
       // Add a slight delay to ensure localStorage is set before state changes
       setTimeout(() => {
         onStartChat();
-        
+
         // Double-check that our localStorage setting worked
         console.log("After onStartChat, localStorage showChatInterface:", 
                      localStorage.getItem('showChatInterface'));
@@ -141,7 +141,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Balancing Chemical Equations</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 2 */}
@@ -156,7 +156,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Types of Salts and their Uses</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 3 */}
@@ -171,7 +171,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Extraction of Metals</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 4 */}
@@ -186,7 +186,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Alcohols, Carboxylic Acids, and Ethers</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat} className="chat-button">
+            <DownloadBtn className="chat-button">
               Download Notes
             </DownloadBtn>
           </ChapterCard>
@@ -203,7 +203,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Excretion in Plants and Animals</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn onClick={handleStartChat} className="chat-button">Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
         </ChapterList>
       </Container>
