@@ -65,6 +65,7 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-image: url("b.jpg");
+    background-repeat: no-repeat;
     color: ${props => props.theme.text};
     height: 100vh;
     height: -webkit-fill-available;
@@ -236,8 +237,8 @@ const MessageGroup = styled.div`
 
 const MessageBubble = styled.div`
   max-width: 80%;
-  padding: 5px 5px;
-  border-radius: 24px;
+  padding: 8px 10px;
+  border-radius: 18px;
   background-color: ${props => {
     if (props.$sent) {
       return '#5183fe';
