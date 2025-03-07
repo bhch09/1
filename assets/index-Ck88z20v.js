@@ -1692,7 +1692,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   right: 15px;
   width: 14px;
   height: 14px;
-  background-color: #4CAF50;
+  background-color: blue;
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   animation: pulse 1.5s infinite;
@@ -1742,7 +1742,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   overflow-y: auto;
   padding-bottom: 20px;
 `,go=se.div`
-  background: white;
+  background: rgba(17, 25, 40, 0.75);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-bottom: 20px;
@@ -1752,7 +1752,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   color: #004685;
   margin-bottom: 15px;
 `,mo=se.div`
-  background-color: #e9f5ff;
+  background-color: rgba(17, 25, 40, 3);
   padding: 15px;
   border-radius: 6px;
   margin: 15px 0;
@@ -1762,7 +1762,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 `,st=se.li`
   margin: 10px 0;
 `,wo=se.button`
-  background-color: #004685;
+  background-color: rgba(17, 25, 40, 3);
   color: white;
   padding: 10px 20px;
   border: none;
