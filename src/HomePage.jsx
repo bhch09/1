@@ -212,7 +212,7 @@ const NotificationDot = styled.div`
   right: 15px;
   width: 14px;
   height: 14px;
-  background-color: #4CAF50;
+  background-color: blue;
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
   animation: pulse 1.5s infinite;
@@ -268,7 +268,7 @@ const ChapterList = styled.div`
 `;
 
 const ChapterCard = styled.div`
-  background: white;
+  background: rgba(17, 25, 40, 0.75);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   margin-bottom: 20px;
@@ -282,7 +282,7 @@ const ChapterTitle = styled.h2`
 `;
 
 const ImportantPoints = styled.div`
-  background-color: #e9f5ff;
+  background-color: rgba(17, 25, 40, 3);
   padding: 15px;
   border-radius: 6px;
   margin: 15px 0;
@@ -298,7 +298,7 @@ const TopicItem = styled.li`
 `;
 
 const DownloadBtn = styled.button`
-  background-color: #004685;
+  background-color: rgba(17, 25, 40, 3);
   color: white;
   padding: 10px 20px;
   border: none;
