@@ -64,7 +64,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${props => props.theme.background};
+    background-image: url("b.jpg");
     color: ${props => props.theme.text};
     height: 100vh;
     height: -webkit-fill-available;
@@ -152,7 +152,7 @@ const Header = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 15px;
-  background-color: ${props => props.theme.primary};
+  background-color: rgba(17, 25, 40, 0.3);
   border-bottom: 1px solid ${props => props.theme.secondary};
 `;
 
@@ -206,11 +206,11 @@ const MessageList = styled.div`
   }
 
   &::-webkit-scrollbar-track {
-    background: ${props => props.theme.primary};
+    background: transparent;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: ${props => props.theme.secondary};
+    background: transparent;
     border-radius: 3px;
   }
 `;
@@ -236,13 +236,13 @@ const MessageGroup = styled.div`
 
 const MessageBubble = styled.div`
   max-width: 80%;
-  padding: 12px 15px;
-  border-radius: 18px;
+  padding: 5px 5px;
+  border-radius: 24px;
   background-color: ${props => {
     if (props.$sent) {
-      return props.theme[props.$userColor === 'R' ? 'userR' : 'userB'];
+      return '#5183fe';
     }
-    return props.theme.secondary;
+    return 'rgba(17, 25, 40, 0.3)';
   }};
   color: ${props => props.theme.text};
   word-break: break-word;
@@ -264,7 +264,7 @@ const MessageBubble = styled.div`
 `;
 
 const ReplyContainer = styled.div`
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(17, 25, 40, 0.5);
   padding: 8px;
   border-radius: 8px;
   margin-bottom: 8px;
@@ -318,9 +318,9 @@ const ReadReceipt = styled.div`
 `;
 
 const TypingIndicator = styled.div`
-  padding: 5px 8px;
+  padding: 4px 6px;
   border-radius: 12px;
-  background-color: ${props => props.theme.secondary};
+  background-color: rgba(17, 25, 40, 0.3);
   color: ${props => props.theme.textSecondary};
   align-self: flex-start;
   margin-bottom: 5px;
@@ -329,12 +329,12 @@ const TypingIndicator = styled.div`
   bottom: 0;
   z-index: 10;
   width: fit-content;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
 `;
 
 const InputArea = styled.div`
   padding: 15px;
-  background-color: ${props => props.theme.primary};
+  background-color: transparent;
   border-top: 1px solid ${props => props.theme.secondary};
   position: relative;
 `;
@@ -343,7 +343,7 @@ const InputContainer = styled.div`
   display: flex;
   align-items: flex-end;
   gap: 10px;
-  background-color: ${props => props.theme.secondary};
+  background-color: rgba(17, 25, 40, 0.5);
   border-radius: 24px;
   padding: 8px 15px;
   animation: slideUp 0.3s ease-in-out;
@@ -420,7 +420,7 @@ const EmojiPickerContainer = styled.div`
   right: 15px;
   left: 15px;
   z-index: 100;
-  background-color: ${props => props.theme.primary};
+  background-color: transparent;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   padding: 10px;
@@ -434,7 +434,7 @@ const EmojiPickerContainer = styled.div`
 `;
 
 const ReplyPreview = styled.div`
-  background-color: ${props => props.theme.secondary};
+  background-color: rgba(17, 25, 40, 0.5);
   padding: 10px 15px;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -892,7 +892,7 @@ export default function App() {
 
   const renderLoginScreen = () => (
     <LoginContainer>
-      <LoginTitle>Choose Your User</LoginTitle>
+      <LoginTitle>Login</LoginTitle>
       <UserButton $userColor="R" onClick={() => handleLogin('R')}>User R</UserButton>
       <UserButton $userColor="B" onClick={() => handleLogin('B')}>User B</UserButton>
     </LoginContainer>
@@ -941,10 +941,10 @@ export default function App() {
     }
 
     & .EmojiPickerReact {
-      --epr-bg-color: ${props => props.theme.primary};
-      --epr-category-label-bg-color: ${props => props.theme.secondary};
+      --epr-bg-color: transparent;
+      --epr-category-label-bg-color: rgba(17, 25, 40, 0.3);
       --epr-text-color: ${props => props.theme.text};
-      --epr-search-input-bg-color: ${props => props.theme.secondary};
+      --epr-search-input-bg-color: rgba(17, 25, 40, 0.3);
       --epr-hover-bg-color: ${props => props.theme.secondary};
       height: 350px !important;
       width: 100% !important;
@@ -972,7 +972,7 @@ export default function App() {
               <FiArrowLeft />
             </IconButton>
             <HeaderTitle>
-              {user === 'R' ? 'Chat with User B' : 'Chat with User R'}
+              {user === 'R' ? 'B' : 'R'}
             </HeaderTitle>
           </HeaderActions>
           <ActionButtons>

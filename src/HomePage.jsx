@@ -157,7 +157,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Extraction of Metals</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button" onClick={handleStartChat}>Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 4 */}
@@ -172,7 +172,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Alcohols, Carboxylic Acids, and Ethers</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn className="chat-button" onClick={handleStartChat}>
+            <DownloadBtn className="chat-button">
               Download Notes
             </DownloadBtn>
           </ChapterCard>
@@ -200,8 +200,8 @@ const HomePage = ({ onStartChat }) => {
 // Styled components
 const Header = styled.div`
   text-align: center;
-  padding: 40px 0;
-  background-color: #004685;
+  padding: 20px 0;
+  background-color: rgba(17, 25, 40, 0.75);
   color: white;
   position: relative;
 `;
@@ -236,9 +236,9 @@ const NotificationDot = styled.div`
 const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   overflow-y: auto;
-  height: calc(100vh - 130px); /* Adjust height based on header */
+  height: calc(120vh - 130px); /* Adjust height based on header */
   -webkit-overflow-scrolling: touch; /* Smoother scrolling on iOS */
   scrollbar-width: thin;
 
