@@ -1957,8 +1957,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
 `,yE=se.div`
   max-width: 80%;
-  padding: 8px 10px;
-  border-radius: 18px;
+  padding: 11px;
+  border-radius: 10px;
   background-color: ${t=>t.$sent?"#5183fe":"rgba(17, 25, 40, 0.3)"};
   color: ${t=>t.theme.text};
   word-break: break-word;
@@ -2031,7 +2031,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   width: fit-content;
   font-size: 0.5rem;
 `,IE=se.div`
-  padding: 15px;
+  padding: 10px;
   background-color: transparent;
   border-top: 1px solid ${t=>t.theme.secondary};
   position: relative;
