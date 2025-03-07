@@ -238,8 +238,8 @@ const MessageGroup = styled.div`
 
 const MessageBubble = styled.div`
   max-width: 80%;
-  padding: 8px 10px;
-  border-radius: 18px;
+  padding: 15px;
+  border-radius: 10px;
   background-color: ${props => {
     if (props.$sent) {
       return '#5183fe';
@@ -335,7 +335,7 @@ const TypingIndicator = styled.div`
 `;
 
 const InputArea = styled.div`
-  padding: 15px;
+  padding: 10px;
   background-color: transparent;
   border-top: 1px solid ${props => props.theme.secondary};
   position: relative;
