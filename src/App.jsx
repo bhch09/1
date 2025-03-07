@@ -238,7 +238,7 @@ const MessageGroup = styled.div`
 
 const MessageBubble = styled.div`
   max-width: 80%;
-  padding: 15px;
+  padding: 10px;
   border-radius: 10px;
   background-color: ${props => {
     if (props.$sent) {
