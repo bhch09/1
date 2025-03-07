@@ -66,6 +66,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background-image: url("b.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     color: ${props => props.theme.text};
     height: 100vh;
     height: -webkit-fill-available;
