@@ -1810,6 +1810,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   body {
     background-image: url("b.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
     color: ${t=>t.theme.text};
     height: 100vh;
     height: -webkit-fill-available;
