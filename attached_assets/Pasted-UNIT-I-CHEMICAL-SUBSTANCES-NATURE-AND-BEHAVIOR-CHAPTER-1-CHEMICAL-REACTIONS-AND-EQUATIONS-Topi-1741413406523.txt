@@ -1,0 +1,2627 @@
+UNIT – I: CHEMICAL SUBSTANCES—NATURE AND BEHAVIOR
+CHAPTER-1
+CHEMICAL REACTIONS AND EQUATIONS
+Topic-1 Chemical Reaction and Equations
+Concepts Covered  Chemical reaction and examples,  Skeletal and balanced chemical equation,  Steps to balance a chemical equation.
+Revision Notes
+A chemical reaction
+		  A chemical reaction is a process in which the original substance(s) loses its nature and identity and forms new
+substance(s) with different properties.
+ Breaking of the chemical bonds and formation of new chemical bonds is responsible for the occurrence of a
+chemical reaction.
+ The substances which take part in a chemical reaction are called Reactants.
+		  The substances which are formed in a chemical reaction are called Products.
+ Examples of chemical reaction:
+(i) Digestion of food
+(ii) Respiration
+(iii) Rusting of iron
+(iv) Burning of magnesium ribbon
+(v) Formation of curd
+		  A chemical reaction can be identified by either of the following observations:
+S. No. Characteristics Examples
+1. Change in state The combustion reaction of candle wax is characterized by a change in state
+from solid to liquid and gas.
+2. Change in colour The chemical reaction between citric acid and purple coloured potassium
+permanganate solution is characterized by a change in colour from purple
+to colourless.
+3. Evolution of gas The chemical reaction between zinc and dilute sulphuric acid is characterized
+by hydrogen gas. Zn(s) + H2SO4(aq) → ZnSO4(aq) + H2(g)
+4. Change in temperature The reaction between quicklime and water to form slaked lime is
+characterized by an increase in temperature.
+5. Formation of a
+precipitate
+When an aqueous solution of sodium sulphate is mixed with the aqueous
+solution of barium chloride, barium sulphate comes in the form of white
+precipitate
+Na2SO4 (aq)+BaCl2(aq) → BaSO4(↓)+2NaCl(aq)
+ Chemical equations
+  A chemical equation is the symbolic representation of a chemical reaction in the form of symbols and formulae.
+  It is a way to represent the chemical reaction in a concise and informative way.
+  For example,
+ Magnesium + Oxygen → Magnesium oxide
+ (Reactants) (Product)
+ This equation is called word equation.
+  The word equation can be written into chemical equation by writing symbols and formulae of the substance in
+place of their name.
+2Mg + O2 → 2MgO
+Writing a chemical equation
+ (i) The symbols of elements and the formulae of reacting substances (reactants) are written on the left hand side
+of the equation, with a plus (+) sign between them.
+2 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ (ii) The symbols and formulae of the substances formed (products) are written on the right hand side of the
+equation, with a plus sign (+) between them.
+ (iii) An arrow sign (→) is put between the reactants and the products.
+ (iv) The physical states of the reactants and products are also mentioned in a chemical equation.
+Skeletal chemical equation: A chemical equation which simply represents the symbols and formulas of reactants
+and products taking part in the reaction is known as skeletal chemical equation for a reaction.
+ For example: For the burning of Magnesium in the air, Mg + O2 → MgO is the skeletal equation.
+Balanced Equation: The equation in which atoms of various elements on both sides of a chemical equation
+are equal in accordance with the law of conservation of mass.
+ The example of balanced chemical equation :
+ (i) CO(g) + 2H2 (g) 340 atm  →  CH3OH(l)
+ (ii) 6CO2(g) + 6H2O(l)
+ sunlight
+ chlorophyll    C6H12O6(aq) + 6O2 (g)
+ Glucose
+The process of equalizing the atoms of various elements both on either sides of an equation is called the balancing
+of chemical equation. This is known as hit and trial method. Let us understand this with the help of an example
+given below:
+ Key Word
+Law of conservation of mass: It states that, "The matter can neither be created nor destroyed in a chemical
+reaction. " OR "
+the total mass of reactants = total mass of products".
+ Example 1
+ Balancing a chemical equation :
+ Step 1. Write the chemical equation and draw boxes around each formula.
+Fe + H2O → Fe3O4 + H2
+ Step 2. Count the number of atoms of each element on both the sides of the arrow :
+Element No. of atoms at
+reactant side
+No. of atoms at
+product side
+1. Fe 1 3
+2. H 2 2
+3. O 1 4
+ Step 3. Equalize the number of the atoms of element which has the maximum number of atoms (oxygen).
+Fe + 4H2O → Fe3O4 + H2
+ Step 4. Try to equalize all the atoms of elements on reactant and product side by adding coefficient in front of it.
+3Fe + 4H2O → Fe3O4 + 4H2
+ Now, all the atoms of elements are equal on both sides.
+ Step 5. Write the physical states of reactants and products.
+3Fe (s) + 4H2O (g) → Fe3O4 (s) + 4H2 (g)
+Solid state = (s), Liquid state = (l), Gaseous state = (g), Aqueous state = (aq)
+ Step 6. Write necessary conditions of temperature, pressure or catalyst at above or below the arrow.
+Topic-2
+Types of Chemical Reactions
+Concepts Covered  Combination reaction,  Decomposition reaction,
+ Displacement reaction,  Double displacement reaction,  Redox reaction,
+ Oxidation and reduction reaction,  Exothermic and endothermic reaction.
+Revision Notes
+ Types of Chemical Reactions
+I. Combination Reaction: The reaction in which two or more reactants combine to form a single product.
+ e.g.,(i) Burning of coal
+ C(s) + O2(g) → CO2(g)
+ (ii) Formation of water
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 3
+ 2H2(g) + O2(g) → 2H2O(l)
+ (iii) CaO(s) + H2O(l) → Ca(OH)2 (aq) + Heat
+ (Quick lime) (Slaked lime)
+ Exothermic Reactions: Reaction in which heat is released along with formation of products.
+ e.g.,(i) Burning of natural gas.
+ CH4(g) + 2O2(g) → CO2(g) + 2H2O(g) + Heat
+ (ii) Respiration is also an exothermic reaction.
+ C6H12O6(aq) + 6O2(g) → 6CO2(aq) + 6H2O(l) + energy
+ (Glucose)
+II. Decomposition Reaction:
+ The reaction in which a compound splits into two or more simpler substances is called decomposition reaction.
+A → B + C
+(a) Thermal decomposition: When decomposition is carried out by heating.
+ e.g., (i) 2FeSO4(s)   Heat
+ Fe2O3(s) + SO2(g) + SO3(g)
+ (Ferrous sulphate) (Ferric oxide)
+ Green colour Red-brown colour
+ (ii) CaCO3(s)   Heat
+ CaO(s) + CO2(g)
+ (Lime stone) (Quick lime)
+(b) Electrolytic Decomposition: When decomposition is carried out by passing electricity.
+ e.g., 2H2O(l) Electric   curren
+t
+ 2H2(g) + O2(g)
+(c) Photolytic Decomposition: When decomposition is carried out in presence of sunlight.
+ e.g., (i) 2AgCl(s) Sunlight    2Ag(s) + Cl2(g)
+ (ii) 2AgBr(s) Sunlight    2Ag(s) + Br2(g)
+ Endothermic Reaction: The reactions which require energy in the form of heat, light or electricity to break reactants
+are called endothermic reactions.
+III. Displacement Reaction: The chemical reactions in which more reactive element displaces less reactive element
+from its salt solution.
+ e.g., (i) Fe(s) + CuSO4(aq) → FeSO4(aq) + Cu(s)
+ (Iron) (Copper sulphate) (Ferrous sulphate) (Copper)
+ The iron nail becomes brownish in colour by deposition of Cu and blue colour of CuSO4 changes into dirty
+green colour due to formation of FeSO4.
+ (ii) Zinc displaces copper forming zinc sulphate. Zn is more reactive than copper.
+Zn(s) + CuSO4(aq) → ZnSO4(aq) + Cu(s)
+ (Zinc Sulphate)
+IV. Double Displacement Reaction: A reaction in which new compounds are formed by mutual exchange of ions
+between two compounds.
+ Na2SO4(aq) + BaCl2(aq) → BaSO4(s) + 2NaCl(aq)
+ (Sodium sulphate) (Barium chloride) (Barium sulphate) (Sodium chloride)
+ White precipitate of BaSO4 is formed, so it is also called precipitation reaction.
+V. Oxidation and Reduction:
+ Oxidation: Loss of electrons
+ Reduction: Gain of electrons
+ Mnemonics
+Concept: Types of decomposition reaction
+Mnemonics: PET
+Interpretations:
+Photolytic reaction, Electrolytic reaction, Thermal reaction
+Concept: Oxidation and reduction reaction
+Mnemonics: OIL RIG
+Interpretations:
+Oxidation Is Loss of electrons, Reduction Is Gain of electrons
+Concept: Types of chemical reactions
+Mnemonics: ROC.D3
+Interpretations:
+Reduction, Oxidation, Combination, Decomposition, Displacement, Double Displacement
+4 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Oxidation: It is a process of gaining oxygen during a reaction by an atom, molecule or ion.
+ 2Cu + O2   Heat
+ 2CuO
+ Reduction: It is the gain of electrons or a decrease in the oxidation state of an atom by another atom, an ion or a
+molecule.
+CuO + H2 → Cu + H2O
+ In this reaction, CuO is reduced to Cu and H2 is oxidised to H2O. In other words, one reactant gets oxidised while
+the other gets reduced. Such reactions are called oxidation-reduction reactions or redox reactions.
+VI. Important equation
+ Redox (Oxidation and Reduction) Reaction :
+
+VII. Some usually asked equations in exams for balancing :
+  2CO(g) + O2(g) → 2CO2(g)
+ (Carbon monoxide) (Oxygen) (Carbon dioxide)
+  ZnCO3   He
+at
+ ZnO + CO2
+  2FeSO4(s) + → Fe2O3(s) + SO2(g) + SO3(g)
+  Pb(NO3)2 + 2KI → 2KNO3 + PbI2
+ (Lead nitrate) (Potassium iodide) (Potassium nitrate) (Lead Iodide)
+  CaO(s) + H2O → Ca(OH)2 + Heat
+ (Quick lime) (Slaked lime)
+  NaCl + AgNO3 → AgCl + NaNO3
+ (Sodium chloride) (Silver nitrate) (Silver chloride) (Sodium nitrate)
+  Ca + 2HNO3 → Ca(NO3)2 + H2↑  Mg + 2HNO3 → Mg(NO3)2 + H2↑
+  2Al + 3H2SO4 → Al2(SO4)3 + 3H2↑  Na2CO3 + 2HCl → 2NaCl + H2O + CO2
+  Ca(OH)2 + CO2 → CaCO3 + H2O  Zn + H2SO4 → ZnSO4 + H2↑
+  Zn + 2HCl → ZnCl2 + H2↑  4Zn +10 HNO3 → 4Zn(NO3)2 + 5H2O + N2O
+  Zn + 2NaOH   He
+at
+ Na2ZnO2 + H2↑
+Effects of oxidation reactions in everyday life :
+1. Corrosion: Corrosion is a process in which metals are deteriorated by action of air, moisture, chemicals, etc. It is a
+redox reaction where metal gets oxidised to metal oxide and oxygen gets reduced to oxide ion.
+ Examples:
+ (a) Corrosion of iron is called rusting. Iron objects when left in moist open air for sometime get coated with a
+reddish brown powder. The process is known as rusting.
+ (b) Green coating on Copper articles and black coating on silver ornaments are another example of corrosion.
+Effects of corrosion :
+ (a) Rusting causes damage to ships, car bodies, bridges, railings.
+ (b) Corrosion is a wasteful process because it leads to wastage of tonnes of various metals every year and lot of
+money is spent to repair or replace it.
+ Prevention of Rusting:
+ (a) The iron articles should be painted.
+ (b) The machine parts should be oiled and greased.
+ (c) Galvanised iron pipes should be used for water supply.
+(d) Iron can be coated with chromium to prevent rusting.
+ Mnemonics
+Concept: Preventive ways of rusting
+Mnemonics: POGG
+Interpretations:
+Painting Oiling Greasing Galvanising
+2. Rancidity : Rancidity is the process of slow oxidation of oil and fat, present in the food materials resulting in the
+production of foul odour and taste in them. When cooked food items are placed for a long time, they become
+rancid and unsuitable for the consumption.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 5
+ Rancidity can be prevented by the following ways :
+(a) Storing the food in refrigerator.
+ (b) Storing the food in air-tight container.
+ (c) Addition of anti-oxidants to food.
+ (d) Storing the food in flush bags with gas, such as nitrogen to prevent the oxidation process.
+CHAPTER-2
+ACIDS, BASES AND SALTS
+Topic-1
+Acids and Bases
+Concepts Covered  Definition of acids and bases,  Properties of acids and bases,
+ Indicators and its type,  pH scale and importance of pH in everyday life.
+Revision Notes
+Acids
+Acids are the substances that furnish H+ ions in aqueous solution. Acids are sour in taste. They turn blue litmus red.
+The example includes Sulphuric acid (H2SO4), Acetic acid (CH3COOH), Nitric acid (HNO3) etc.
+If in an aqueous solution, concentration of acid is low, it is called dilute solution and if concentration of acid is high,
+it is called concentrated solution.
+Those acids which dissociates into ions completely are called strong acids, e.g., H2SO4, HCl.
+Those acids which do not dissociate into ions completely are called weak acids, e.g., citric acid, acetic acid.
+Note:
+Although we talk of ‘taste’ of acids and bases, it is not advisable to taste any acid or base. Most of them are
+harmful. Similarly touching the solutions of strong acids and bases should be avoided. They may harm the
+skin.
+Some Naturally occurring acids :
+Natural source Acid Natural source Acid
+Vinegar Acetic acid Sour milk (Curd) Lactic acid
+Orange Citric acid Lemon Citric acid
+Tamarind Tartaric acid Ant sting Methanoic acid
+Tomato Oxalic acid Nettle sting Methanoic acid
+Bases
+Bases are those chemical compounds which are bitter in taste, soapy in touch, turn red litmus blue and give OH–
+ions in aqueous solution.
+The examples include Sodium hydroxide (NaOH), Potassium hydroxide (KOH), etc.
+The substances / bases which ionise completely to furnish OH-
+ ions are called strong bases, e.g., KOH, NaOH, etc.
+ The bases which ionise only partially are called weak bases, e.g., Mg(OH)2, Cu(OH)2, etc.
+Both acids and bases conduct free electric current in their aqueous solution due to the presence of free ions.
+Strength of an acid or base depends on the number of H+ ions or OH–
+ ions produced by them respectively. More
+the H+ ions produced by an acid, stronger is the acid. More the OH–
+ ions produced by a base, stronger is the base.
+Chemical compounds can cause harm to our body, some are very lethal, and therefore, we cannot rely on physical
+tests such as taste and appearance. In laboratory, to test whether a compound has acidic character or basic character,
+indicators are used.
+Indicators: These are the substances which change their colour / smell in different types of substances.
+6 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Types of Indicators:
+S.
+No. Indicator Smell/Colour
+In Acid Solution
+Smell/Colour
+In Basic Solution
+1. Litmus Red Blue
+Natural
+
+
+
+
+
+
+
+2. Red cabbage leaf extract Red Green
+Indicator 3. Flowers of hydrangea plant Blue Pink
+4. Turmeric No change Red
+Synthetic 
+
+
+1. Phenolphthalein Colourless Pink
+Indicator 2. Methyl orange Red Yellow
+1. Onion Characteristic smell No smell
+Olfactory 2. Vanilla essence Retains smell No smell
+Indicator 3. Clove oil Retains smell Loses smell
+Chemical Properties of Acids and Bases:
+1. Reaction of Metals with:
+Acids Bases
+Acid + Metal → Salt + Hydrogen gas Base + Metal → Salt + Hydrogen gas
+e.g., 2HCl + Zn → ZnCl2 + H2 ↑
+ (Zinc chloride)
+e.g., 2NaOH + Zn → Na2ZnO2 + H2 ↑
+ (Sodium zincate)
+Test for H2 gas: Hydrogen gas released can be tested by bringing a burning candle near gas bubbles, it bursts with
+pop sound.
+2. Reaction of Metal Carbonates / Metal Hydrogen Carbonates with:
+Acids Bases
+Acid + Metal Carbonate / Metal hydrogen Carbonate Base + Metal Carbonate / Metal Hydrogen Carbonate
+↓ ↓
+Salt + CO2 + H2O No Reaction
+e.g., 2HCl + Na2CO3 → 2NaCl + CO2 + H2O
+ HCl + NaHCO3 → NaCl + CO2 + H2O
+Test for CO2: CO2 can be tested by passing it through lime water. Lime water turns milky.
+Ca(OH)2 + CO2 → CaCO3 + H2O
+When excess CO2 is passed, milkiness disappears.
+CaCO3 + CO2 + H2O → Ca(HCO3)2
+3. Reaction of Acids and Bases With Each Other
+When an acid reacts with base, the hydrogen ion of acid combines with hydroxide ion of base and forms water. As
+these ions combine together, they form water instead of remaining free, thus both neutralize each other.
+ Acid + Base → Salt + Water
+ H X + MOH →MX + HOH
+ H+
+(aq) + OH–
+ (aq) → H2O(l)
+ Since, in the reaction between an acid and a base both neutralize each other, it is also known as neutralization
+reaction.
+Example : Sodium hydroxide (a strong base) reacts with hydrochloric acid to form sodium chloride and water.
+ NaOH(aq) + HCl(aq) → NaCl(aq) + H2O(l)
+ Dilution of Acid and Base
+ When a concentrated acid or base is diluted, a vigorous reaction takes place. The process is called dilution. It is an
+exothermic process as a lot of heat is produced.
+ The process of forming ions in aqueous solution is called ionisation. All ionic compounds like NaCl, NaNO3,
+Na2SO4 form ions in aqueous solution.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 7
+ Key Facts
+• We add acid to water. If we add water to acid, the high concentration of acid may produce a violent exothermic
+reaction.
+ • Concentrated acids and bases are corrosive; no person should touch it with bare hand or skin. In case a few drops
+spill on the body, a person should wash it with plenty of water.
+Common property between all acids and all bases
+l Acids give hydrogen gas when they react with metal. This shows that all acids contain hydrogen.
+l When acids are dissolved in water they dissociate as H+ ions. The dissociation as hydrogen ions in aqueous
+solution is the common property of all acids. As a result, an acid shows acidic behavior.
+HCl (aq) → H+(aq) + Cl- (aq)
+HNO3(aq) → H+(aq) + NO3
+ - (aq)
+CH3COOH (aq) → H+ (aq) + CH3COO- (aq)
+l As H+ ion cannot exist alone so it combines with water molecules and forms H3O+ (hydronium) ions.
+Example :
+HCl + H2O → H3O+ + Cl–
+H+ + H2O → H3O+
+Thus, acids can also be defined as ‘Substances which when dissolved in water ionize to produce hydrogen
+ions, H+ (aq).
+l Similarly, substances which when dissolved in water ionize to produce hydroxide ions, OH–
+ (aq).
+Examples : When sodium hydroxide is dissolved in water, it dissociates into hydroxide and sodium ion.
+ NaOH(s) Na+(aq) + OH– (aq)
+4. Reaction of acids with metal oxides :
+Metal oxides react with acids to give salt and water.
+Metal oxide + Acid → Salt + Water
+Example : Copper oxide reacts with dil. hydrochloric acid to form copper chloride (salt) and water.
+ CuO + 2HCl → CuCl2 + H2O
+Copper oxide Copper chloride
+Copper oxide is black in colour. When dilute hydrochloric acid is added in it, the colour of the solution becomes
+blue green due to formation of copper chloride.
+How strong are acid or base solutions?
+l Strength of an acid or base depends on the number of H+ ions or OH-
+ ions produced by them respectively.
+l Based on its ability to dissociate into ions in solution, acids and bases are classified as strong acid or base and
+weak acid or base.
+(i) Strong acids : Acid which completely dissociates in water to produce large amount of hydrogen ions are called
+strong acids. For example hydrochloric acid (HCl), sulphuric acid (H2SO4), nitric acid (HNO3) are strong acids
+as they get completely ionized in water to form ions.
+HCl (aq) → H+(aq) + Cl-
+ (aq)
+(ii) Weak acids : Acids which are partially ionized in water to produces small amount of hydrogen ions are known
+as weak acids. For example, acetic acid partially dissociates in water to produce small amount of hydrogen ions.
+CH3COOH (aq) → H+ (aq) + CH3COO-
+(aq)
+(iii) Strong bases : Bases which completely ionize in water to produce large amount of hydroxide ions are called
+strong bases. Examples include NaOH, KOH, etc.
+(iv) Weak bases : Bases which partially dissociate in water to furnish lesser amount of hydroxide ions are called
+weak bases. Examples include ammonium hydroxide (NH4OH) and calcium hydroxide Ca(OH)2
+pH
+A scale for measuring H+ ion concentration in a solution.
+The concentrations of H+ are generally small, therefore concentrations of H+ are expressed in terms of pH. pH is
+defined as negative logarithm of H+ concentration or H3O+ concentration.
+pH = – log [H+] or pH = – log [H3O+]
+l pH = 7 → neutral solution
+l pH < 7 → acidic solution
+l pH > 7 → basic solution
+l On diluting an acid: pH increases ↑
+l On diluting a base: pH decreases ↓
+8Key Diagram Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Importance of pH in everyday life:
+l Plants and animals are pH sensitive.
+l Our body works within the pH range of 7 – 7.8.
+l When pH of rain water is less than 5.6, it is called acid rain.
+l Plants require a specific pH range for their healthy growth.
+ Key Fact
+p in pH stands for ‘potentz’, a German word which means power.
+l pH of stomach is 1.5-3.0 due to secretion of HCl. In case of indigestion, acidity increases, which can be neutralised
+by antacids like milk of magnesia.
+l Tooth decay starts when pH of the mouth is lower than 5.5. To protect tooth decay, toothpastes which are basic
+in nature are used to neutralize the excess acid.
+l Many plants and animals produce certain acids to defend themselves. For example, Bee stings leave an acid into
+the skin, which causes pain and irritation. If a mild base like baking soda is applied on the stung area, it gives
+relief.
+ Key Word
+Acid rain: Acid rain is rain or any other form of precipitation that is unusually acidic, meaning that it has elevated
+levels of hydrogen ions (low pH).
+Important Reaction of different solutions with different indicators :
+S. No. Name of the solution Colour change (if any)
+Phenolphthalein
+Colour change (if any)
+Blue litmus
+1. Sodium carbonate turns pink no change
+2. Hydrochlroic acid no change turns red
+3. Sodium chloride no change no change
+Topic-2
+Salts, their Properties and Uses
+Concepts Covered  Salts,  Types of salts,  Preparation and uses of Sodium
+Hydroxide, Bleaching powder, Baking soda, Washing soda and Plaster of Paris..
+Revision Notes
+Salts: A salt is an ionic compound that results from the neutralisation reaction of an acid and a base. Salts
+are composed of related numbers of cations and anions, so that, the product is electrically neutral.
+Types of Salts:
+ (i) Neutral salts : Salts produced by reaction of strong acid and strong base are neutral in nature with pH value 7.
+For example, sodium chloride formed by reaction between sodium hydroxide (strong base) and hydrochloric
+acid (strong acid).
+NaOH (aq) + HCl (aq) → NaCl (aq) + H2O (l)
+ (ii) Acidic salts : Salts formed by reaction between a strong acid and weak base are acidic in nature with pH value
+less than 7. For example, ammonium hydroxide. It is a salt of hydrochloric acid (strong acid) and ammonium
+hydroxide (weak base).
+NH4OH (aq) + HCl(aq) → NH4Cl (aq) + H2O (l)
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 9
+ Key Word
+Neutralisation reaction: The reaction in which base or basic oxide reacts with acid or acidic oxide is called
+neutralisation reaction.
+Example : NaOH(aq) + HCl(aq) → NaCl(aq) + H2O.
+ (iii) Basic salts : Salts formed by reaction of strong base and weak acid are basic in nature with pH value more
+than 7. For example, sodium carbonates. It is a salt of carbonic acid (weak acid) and sodium hydroxide (strong
+base).
+H2CO3 (aq) + 2NaOH (aq) → Na2CO3 + 2H2O (l)
+Common Salt (NaCl):
+Preparation: NaOH + HCl → NaCl + H2O
+Properties: 2NaCl (aq) + 2H2O (l) → 2NaOH (aq) +Cl2 (g) + H2 (g)
+Users of common salt:
+(a) Used as daily food.
+(b) Used as preservative.
+(c) Used in manufacture of metal (Na ) and gas (Cl2) in molten state by electrolysis
+Sodium hydroxide (NaOH)
+Preparation : 2NaCl (aq) + 2H2O (l) → 2NaOH (aq) + Cl2 (g) + H2 (g)
+The process is called chlor - alkali process because of the products formed- Chlor for chlorine and alkali for sodium
+hydroxide.
+Uses :
+(a) Sodium hydroxide is used in making of paper, soap and detergents, for de-greasing metals, etc.
+(b) Chlorine gas is used in water treatment, manufacturing of PVC, pesticides, etc.
+(c) liquid hydrogen is used as rocket fuel, in hydrogenation process of oil to produce vegetable ghee (margarine)
+and in making of ammonia for fertilizers..
+Bleaching Powder (CaOCl2):
+Preparation: It is produced by the action of chlorine on dry slaked lime.
+Cl2 + Ca(OH)2 → CaOCl2 + H2O
+Properties:
+(a) It has a strong smell of chlorine.
+(b) Soluble in water.
+(c) It loses Chlorine by the action of carbon di oxide.
+Uses:
+(a) Bleaching cotton and linen in textile industry.
+(b) Bleaching wood pulp in paper factories.
+(c) Oxidizing agent in chemical industries.
+(d) Disinfecting drinking water.
+Baking Soda (Sodium hydrogen carbonate) (NaHCO3):
+Preparation: NaCl+ H2O + CO2 + NH3 → NH4Cl + NaHCO3
+ Baking soda
+Properties:
+(a) It is mild non-corrosive base.
+(b) When it is heated during cooking, the following reaction takes place.
+ 2NaHCO3
+∆  → Na2CO3 + H2O + CO2
+Uses:
+(a) For making baking powder (mixture of baking soda and tartaric acid). When baking powder is heated or mixed
+with water, CO2 is produced which causes bread and cake to rise making them soft and spongy.
+NaHCO3 + H+ ® CO2 + H2O + Sodium salt of an acid
+(b) An ingredient in antacid.
+(c) Used in soda acids, fire extinguishers.
+Washing Soda (Na2CO3.10H2O):
+Preparation: Re-crystallization of sodium carbonate gives washing soda. It is a basic salt.
+ Na2CO3 + 10H2O → Na2CO3.10H2O
+10 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Properties:
+(a) Transparent crystalline solid.
+(b) It has 10 molecules of water of crystallisation.
+(c) It dissolves in water and the aqueous solution is alkaline.
+(d) It liberates Carbon dioxide when treated with Hydrochloric acid and Sulphuric acid.
+Uses:
+(a) In glass, soap and paper industry.
+(b) Manufacture of borax.
+(c) It can be used as cleaning agent.
+(d) It can be used for removing permanent hardness of water.
+Plaster of Paris (Calcium sulphate hemihydrates) (CaSO4.½H2O):
+Preparation: On heating gypsum CaSO4.2H2O at 373K, it loses water molecules and becomes Plaster of Paris
+(POP). It is white powder and on mixing with water it changes to gypsum.
+
+CaSO4 2 H O CaSO4 2 H O H O2 2 1
+2
+1
+1
+2 . . → +
+Properties: CaSO4 2 HO HO2 4 CaSO H O2
+1
+2
+1
+1
+2 . . + → 2
+Uses:
+(a) Doctors use POP for supporting fractured bones.
+(b) For making toys and material for decoration.
+Important salts :
+Common name Chemical name Chemical formula Uses
+Washing soda Sodium carbonate decahydrate Na2CO3.10H2O Manufacture of borax, caustic soda,
+softening of hard water.
+Baking soda Sodium hydrogen carbonate NaHCO2 Used as antacid, ingredient of baking
+powder.
+Bleaching powder Calcium oxychloride CaOCl2 Bleaching clothes, used as oxidising
+agent, disinfecting water, manufacture
+of chloroform.
+Plaster of Paris Calcium sulphate hemihydrate CaSO4.1/2 H2O Plastering fractured bones, making
+toys, decorative materials, statues.
+Water of crystallization
+Water molecules present in the crystal structure of salt are called water of crystallization and such salts are called
+hydrated salts. Water of crystallization is the fixed number of water molecule present in one formula unit of a salt.
+Examples:
+ Copper sulphate pentahydrate (CuSO4.5H2O) : It has five water molecules in one formula unit of copper
+sulphate (blue vitriol).
+ Sodium carbonate (Na2CO3.10H2O) : It has ten molecules of water as water of crystallization.
+ Gypsum (CaSO4.2H2O) : It has two molecules of water as water of crystallization.
+Key Diagram
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 11
+CHAPTER-3
+METALS AND NON-METALS
+Topic-1
+Properties of Metals and Non-Metals
+Concepts Covered  Physical properties of Metals and non-metals,  Chemical
+properties of Metals and non-metals:,  Reaction with oxygen,  Reaction with
+water,  Reaction with acids,  Reaction with other metal salt solutions,  Reaction between metals and non-metals (ionic bond formation).
+Revision Notes
+ Physical Properties of Metals and Non-metals :
+Property Metals Non-Metals
+1. Lustre Metals have shining surface. They do not have shining surface.
+l Except Iodine.
+2. Hardness They are generally hard.
+l Except Sodium, Lithium and Potassium which are soft and can be easily
+cut with knife.
+Generally soft.
+l Except Diamond, a form of carbon which is the hardest natural
+substance.
+3. State Exist as solids.
+l Except Mercury that exists as liquid.
+Exist as solids or gases
+l Except Bromine that exists as liquid.
+4. Malleability Metals can be beaten into thin sheets.
+l Gold, Silver and Aluminium are the
+most malleable metals.
+Non-metals are non-malleable.
+l They are brittle.
+5. Ductility Metals can be drawn into thin wires. They are non-ductile.
+6. Conductor of heat &
+electricity
+Metals are good conductors of heat and
+electricity.
+Non-metals are poor conductors of heat
+and electricity.
+l Except Graphite.
+7. Density and Melting
+point
+Generally metals have high density and
+high melting point.
+l Except Sodium and Potassium
+Non metals have low density and low
+melting point.
+8. Sonorous Metals produce a sound on striking a
+hard surface.
+They are not sonorous.
+9. Oxides Metallic oxides are basic in nature. Non-metallic oxides are acidic in nature.
+Chemical Properties of Metals :
+(A)Reaction of Metals with Air: Metals combine with oxygen to form metal oxide.
+Metals + O2 → Metal oxide
+Examples:
+ (i) 2Cu + O2 → 2CuO
+ Copper (II) oxide (black)
+ (ii) 4Al + 3O2 → 2Al2O3
+ Aluminium oxide
+ (iii) 2Mg + O2 → 2MgO
+ Magnesium oxide
+Different metals show different reactivity towards O2.
+		  Na and K react so vigorously with oxygen that they catch fire if kept in open. So, they are kept immersed in
+kerosene.
+ Surfaces of Mg, Al, Zn and Pb are covered with a thin layer of oxide which prevent them from further oxidation.
+  Fe does not burn on heating but iron fillings burn vigorously.
+ Cu does not burn but is coated with black copper (II) oxide.
+ Au and Ag do not react with oxygen.
+Amphoteric Oxides: Metal oxides which react with both acids as well as bases to produce salt and water are called
+amphoteric oxides.
+12 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Examples: Al2O3 + 6HCl → 2AlCl3 + 3H2O
+ Aluminium
+ chloride
+ Al2O3 + 2NaOH → 2NaAlO2 + H2O
+ Sodium
+ aluminate
+(B)Reaction of Metals with Water: Metals react with water to produce metal hydroxide and hydrogen gas.
+Metal + Water → Metal oxide + Hydrogen
+Examples:
+Metal oxide + Water → Metal hydroxide
+2Mg + 2H2O → 2MgO + 2H2 ↑
+ Magnesium
+ oxide
+ MgO + H2O → Mg(OH)2
+ Magnesium
+ hydroxide
+Sodium and Potassium react vigorously with water.
+Magnesium metal reacts with hot water to produce magnesium hydroxide and hydrogen gas.
+Mg + 2H2O → Mg(OH)2 + H2
+Aluminium and zinc react with steam to produce metal oxide and hydrogen gas.
+Metals like silver, gold, copper and lead do not react with water.
+(C) Reactions of Metals with Acid:
+Metal + Dil. Acid → Salt + Hydrogen gas
+ e.g., Mg + H2SO4 → MgSO4 + H2
+Copper, mercury and silver don’t react with dilute acids.
+(D)Reaction of Metals with solutions of other Metal Salts:
+ Metal A + Salt solution B → Salt solution A + Metal B
+		  Reactive metals can displace less reactive metals from their compounds in solution form.
+Fe + CuSO4 → FeSO4 + Cu
+Reactivity or activity series of metals : All the metals do not react with the same rate. Some react very fast, some
+react moderately whereas others react very slowly. The series of metals in decreasing order of reactivity is called
+reactivity or activity series of metals. The metals at the top (K at the top most) are most reactive whereas metals at
+the bottom (Pt at the extreme bottom) are least reactive.
+ Mnemonics
+Concept: Activity series of metals
+Mnemonics: Popular Scientists Can Make A Zoo InThe Low Humid Country More Satisfactorily
+Interpretations:
+P: Potassium S: Sodium
+C: Calcium M: Magnesium
+A: Aluminium Z: Zinc
+I: Iron T: Tin
+L: Lead H: Hydrogen
+C: Copper M: Mercury
+S: Silver
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 13
+Reaction of Non-Metals:
+		 l Reaction with oxygen: Non- metals react with oxygen to form acidic oxides.
+ e.g., C + O2 → CO2
+		 l Reaction with water: Non-metals do not react with water because they do not release any electrons.
+		 l Reaction with dil. acids: No reaction.
+		 l Reaction with salt solutions: A more reactive non-metals will displace less reactive non-metal from its salt
+solution.
+		 l Reaction with chlorine: Non-metals react with chlorine to form their respective Chlorides.
+ e.g., H2 + Cl2 → 2HCl
+		 l Reaction with hydrogen: Non-metals react with hydrogen to form their respective hydrides.
+ e.g., H2 + S → H2S
+Aqua Regia is a mixture of conc. HCl and conc. HNO3 in the ratio of 3: 1. It can dissolve gold and platinum. Aqua
+Regia is a strong oxidizing agent due to the formation of NOCl (Nitrosyl chloride) and chlorine produced by
+reaction of two acids.
+Reaction between metal and non-metals:
+		 l Reactivity of an element is the tendency to attain completely filled valence shells.
+ l Atoms of metals can lose electrons from valence shells to form cations while atoms of non-metals can gain
+electrons in valence shell to form anions.
+ l Opposite charged ions attract each other and held by strong electrostatic forces of attraction.
+ l Let us understand formation of NaCl with the help of an example :
+Example 1
+ Step 1: Atomic number of sodium (Na) is 1. Atoms in
+last shell are 1.
+ Step 2: Atomic number of chlorine (Cl) is 17. Atoms
+in last shell are 7.
+ Step 3: So, Na gives 1 atom to chlorine.
+ Step 4: This is complete transfer of electrons. So, it is
+ionic compound.
+Topic-2
+Ionic compounds, Metallurgy and Corrosion
+Concepts Covered  Ionic compounds  Occurrence of Metals  Extraction of
+Metals  Corrosion  Alloy.
+Revision Notes
+Ionic Compounds
+ The compounds formed by the transfer of electrons from a metal to a non-metal are called ionic compounds or
+electrovalent compounds.
+Properties of Ionic Compounds
+(i) Physical nature: They are solid and hard, generally brittle.
+ Key Word
+Brittle: The property of a substance to get easily broken or cracked when hammered.
+(ii) Melting and Boiling Point: They have high melting and boiling points.
+(iii) Solubility: Generally soluble in water and insoluble in solvents such as kerosene, petrol, etc.
+(iv) Conduction of electricity: Ionic compounds conduct electricity in molten and solution form but not in solid state.
+14 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Occurrence of Metals
+ l Minerals: The elements or compounds which occur naturally in the earth’s crust are called minerals.
+l Ores: Minerals that contain very high percentage of particular metal and the metal can be profitably extracted
+from it, such minerals are called ores.
+Metals on the basis of reactivity, can be grouped into three categories:
+l Metals at the bottom of the activity series are least reactive and are often found in free state. For e.g., Gold,
+silver, platinum and copper.
+ These metals are very unreactive. The oxides of these metals can be reduced to metals by heating alone. For
+example, cinnabar (HgS) (an ore of mercury). When it is heated in air, it is first converted into mercuric oxide
+which is further reduced to mercury on heating.
+ 2HgS(s) + 3O2(g) ∆
+ → 2HgO(s) + 2SO2(g)
+ 2HgO(s) ∆
+ → 2Hg(l) + O2(g)
+ l Metals at the top of the activity series are so reactive that they are not found in nature as free state. e.g., K, Na,
+Ca, Mg and Al.
+l Metals in the middle of the activity series are moderately reactive. They are found in the earth’s crust as oxides,
+sulphides and carbonates. e.g., Zn, Fe, Pb, etc.
+ The highly reactive metals are used as reducing agents because they can displace metals of lower reactivity
+from their compounds.
+ For example: 3MnO2(s) + 4Al(s) → 3Mn(l) + 2Al2O3(s) + Heat
+ Thermit reaction: Fe2O3(s) + 2Al(s) → 2Fe(l) + Al2O3(s) + Heat
+ The amount of heat evolved is so large that the metals are produced in the molten state. This reaction is used
+to join railway tracks or cracked machine parts.
+Extraction of metals : It is the process of obtaining pure metal from its ore. Extraction of metal can be classified into
+three steps :
+(1) Enrichment of ores or concentration of ores.
+ (2) Extraction of metal from the concentrated ores.
+ (3) Refining of metal.
+Metals of high
+reactivity
+Electrolysis of
+molten ore
+Pure metal
+Metals of low
+reactivity
+Sulphide ores
+Roasting
+Pure metal
+Ore
+Concentration of ore
+Metals of medium
+reactivity
+Carbonate ore Sulphide ore
+Calcination Roasting
+Oxide of metal
+Reduction to metal
+Purification of metal
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 15
+Steps involved in extraction of metals from ores are as follows:
+Metallurgy: The extraction of metals from their ores and then refining them for use is known as metallurgy.
+Corrosion: It is the deterioration of a metal as a result of chemical reactions between it and surrounding environment.
+For example,
+ l Silver reacts with sulphur in air to form silver sulphide and articles become black.
+ l Copper reacts with moist carbon dioxide in air and forms green coat of copper carbonate.
+l Iron acquires a coating of brown flaky substance called rust.
+l Rust is hydrated Iron (III) oxide, i.e., Fe2O3.xH2O
+Prevention of corrosion: By painting, oiling, greasing, galvanizing and by making alloys.
+Galvanization: It is the process which involves coating of iron with zinc. The oxide thus formed is impervious to
+air and moisture thus protects further layers from getting corroded.
+Alloys: These are homogeneous mixture of metals with metals and non-metals. For example,
+ l Stainless steel: Alloy of iron, nickel, chromium
+ l Brass: Alloy of copper and zinc
+ l Bronze: Alloy of copper and tin
+ l Solder: Alloy of lead and tin
+Amalgam: If one of the metals is mercury, then the alloy is known as amalgam. E.g, Sodium amalgam and silver
+amalgam.
+CHAPTER-4
+CARBON COMPOUNDS
+Topic-1
+Carbon and its Properties, Homologous Series and
+IUPAC Names
+Concepts Covered  Covalent bonding in carbon compounds,  Versatile
+nature of carbon,  Homologous series,  Nomenclature of carbon compounds
+containing functional groups,  Difference between saturated and unsaturated hydrocarbons,  Chemical properties of carbon compounds
+Revision Notes
+Properties of Carbon
+• The element carbon is non-metal. Its symbol is C.
+• Carbon is a versatile element. The percentage of carbon present in earth's crust in form of mineral is 0.02% and in
+atmosphere as CO2 is 0.03%.
+• All the living things, like plants and animals are made up of carbon based compounds.
+• Carbon always forms covalent bonds.
+• The atomic number of carbon is 6.
+• Electronic configuration:
+ K L
+ C (6) 2 4
+How carbon attain noble gas configuration ?
+ (i) Carbon is tetravalent in nature. It does not form ionic bond because it has 4 valence electrons, half of an octet.
+To form ionic bonds, carbon molecules must either gain or lose 4 electrons. It is because, that is difficult to hold
+four extra electron and would require large amount of energy to remove four electrons. So, carbon can form
+bond by sharing of its electron with the electrons of other carbon atom or with other element and attain noble
+gas configuration.
+ (ii) The atoms of other elements like hydrogen, oxygen, nitrogen and chlorine also form bonds by sharing of
+electrons.
+ (iii) The bond formed by sharing of electrons between same or different atoms is covalent bond.
+16 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Key Word
+Covalent Bond is formed by sharing of electrons between atoms. In a covalent bond, the shared pair of electrons
+belongs to the valence shell of both the atoms.
+Conditions for formation of a covalent bond:
+ (i) The combining atoms should have 4 to 7 electrons in their valence shell.
+ (ii) The combining atoms should not lose electrons easily.
+ (iii)The combining atoms should not gain electrons readily.
+ (iv)The difference in electronegativity of two bonded atoms should be low.
+Properties of covalent compounds:
+ (i) Physical state: They are generally liquids or gases. Some covalent compounds may exist as solid.
+(ii) Solubility: They are generally insoluble in water and other polar solvents but soluble in organic solvents such
+as benzene, toluene, etc.
+ (iii) Melting and boiling points: They generally have low melting and boiling points.
+ (iv)Electrical conductivity: They do not conduct is more apt word instead of electrical current.
+Steps for writing the Lewis dot Structures of a covalent compound:
+ (i) Write the electronic configuration of all the atoms present in the molecule.
+ (ii) Identify how many electrons are needed by each atom to attain noble gas configuration.
+ (iii)Share the electrons between atoms in such a way that all the atoms in a molecule have noble gas configuration.
+ (iv)Keep in mind that the shared electrons are counted in the valence shell of both the atoms sharing it.
+ Key Word
+Lewis dot structures reflect the electronic structures of the elements, including how the electrons are paired. In
+Lewis dot structures each dot represents an electron. A pair of dots between chemical symbols for atoms represents
+a bond.
+Let us understand this with the help of examples:
+ Example 1
+(i) H2
+
+H – H: Single bond between hydrogen atoms
+ (ii) O2
+
+O = O: Double bond between oxygen atoms
+ (iii) N2
+
+N ≡ N: Triple bond between nitrogen atoms
+Versatile Nature of Carbon: Carbon can form large number of carbon compounds. The factors that enable carbon
+to form large number of compounds are catenation and tetravalency.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 17
+ Key Words
+Catenation: It is the unique ability of elements to form long, straight or branched chains and rings of different
+sizes. Carbon shows maximum catenation in the periodic table.
+Tetravalency: It is the state of an atom in which there are four electrons available with the atom for covalent
+chemical bonding.
+Hydrocarbon: Compounds made up of hydrogen and carbon are called hydrocarbon.
+Electron dot structure of saturated hydrocarbons:
+Ethane C2H6
+
+
+ Mnemonics
+Concept: Saturated and unsaturate
+compounds
+Mnemonics: Thank You DeSa.
+Interpretation:
+T: Triple bond
+Y: Alkyne
+D: Double bond
+e: Alkene
+S: Single bond
+A: Alkane
+Electron dot structure of unsaturated hydrocarbons:
+ Ethene: C2H4 Ethyne: C2H2
+
+ H – C º C – H
+On the basis of structures, hydrocarbons can be:
+ (i) Straight chain hydrocarbons: Propane, butane, etc.
+(ii) Branched chain hydrocarbon: Iso-butane, iso-pentane, etc.
+ (iii) Cyclic hydrocarbons: Cyclohexane C6H12, benzene C6H6, etc.
+Cyclic or Closed Chain Hydrocarbons: These are the hydrocarbons which have carbon - carbon closed chain.
+ They are classified as:
+ (i) Alicyclic hydrocarbons: These are the hydrocarbons which do not have benzene ring in their structures.
+ (ii) Aromatic hydrocarbons: The hydrocarbons which have benzene ring in their structures. When hydrogen
+bonded to carbon of benzene is substituted with halogens, radicals or other functional groups, the derivatives
+are called aromatic compounds.
+18 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Benzene: It is an aromatic hydrocarbon which has the molecular formula C6H6. It has alternating carbon - carbon
+single and double bonds.
+ • Benzene can also be represented as:
+IUPAC name of hydrocarbon consists of two parts. It involves:
+ (i) Word root: Number of carbons in the longest carbon chain.
+Number of carbon atoms Word root (Greek name)
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Meth
+Eth
+Prop
+But
+Pent
+Hex
+Hept
+Oct
+Non
+Dec
+ (ii) Suffix: It depends on the type of carbon - carbon bond, for single bond suffix is – ane; for double bond,
+suffix is – ene; and for triple bond suffix is – yne.
+Types of Formula for Writing Hydrocarbons:
+ (i) Molecular formula: It involves the actual number of each type of atom present in the compound.
+ (ii) Structural formula: The actual arrangement of atoms is written in structural formula.
+ (iii)Condensed formula: It is the shortened form of the structural formula.
+In hydrocarbon chain, one or more hydrogen atom is replaced by other atoms in accordance with their valencies.
+These are heteroatoms.
+These heteroatoms or group of atoms which make carbon compound reactive and decides its properties are called
+functional groups.
+Some important functional groups in carbon compounds are:
+Hetero atom Functional group Formula of functional group
+Cl/Br Halo (Chloro/Bromo) — Cl, — Br, — I
+Oxygen 1. Alcohol — OH
+2. Aldehyde — CHO
+3. Ketone — C —
+
+O
+4. Carboxylic acid O
+
+— C — OH
+Double bond 1. Alkene group > C = C <
+Triple bond 2. Alkyne group — C ≡ C —
+Isomerism: The compounds which possess the same molecular formula but different structural formulae, are
+called isomers, and the phenomenon is known as isomerism. For example, butane with a molecular formula
+C4H10 has two isomers.
+ Key Word
+Heteroatoms: An
+atom other than carbon
+or hydrogen atom.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 19
+Homologous Series: A series of organic compounds in which every succeeding member differs from the previous
+one by – CH2 or 14 a.m.u. is called homologous series. The molecular formula of all the members of a homologous
+series can be derived from a general formula.
+Properties of a homologous series: As the molecular mass increases in a series, physical properties of the
+compounds show a variation, but chemical properties which are determined by a functional group remain the
+same within a series.
+ Mnemonics
+Concept 1: Homologous series
+Mnemonics: Monkeys Eat Peeled Bananas
+Interpretations:
+M: Methane (1C), E: Ethane (2C), P: Propane (3C), B: Butane (4C)
+Concept 2: Reaction in saturated and Unsaturated compounds
+Mnemonics: SaSUnA
+Interpretations:
+Sa: Saturated, S: Substitution, Un: Unsaturated, A: Addition
+Homologous series of alkanes: General formula: CnH2n+ 2, where n = number of carbon atoms. CH4, C2H6, C3H8.
+Homologous series of alkenes: General formula: CnH2n, where n = number of carbon atoms. C2H4, C3H6, C4H8.
+Homologous series of alkynes: General formula: CnH2n–2, where n = number of carbon atoms. C2H2, C3H4, C4H6.
+Chemical Properties of carbon compounds
+ (a) Combustion: Carbon compounds burn in air to give carbon dioxide, water, heat and light.
+ CH4 + 2O2   Combustion
+ CO2 + 2H2O + Heat + Light
+ l Carbon and its compounds are used as fuels because they burn in air releasing lot of heat energy.
+ l Saturated hydrocarbon generally burn in air with blue and non-sooty flame.
+ l Unsaturated hydrocarbon burns in air with yellow sooty flame because percentage of carbon is higher than
+saturated hydrocarbon which does not get completely oxidized in air.
+ (b) Oxidation: Alcohols can be converted into carboxylic acid in the presence of oxidizing agent like alkaline
+KMnO4 (potassium permanganate) or acidic potassium dichromate K2Cr2O7.
+ CH3CH2OH Alkaline KMnO Or
+Acidic K Cr O
+4
+2 2 7
+   CH3COOH
+ Ethanol Ethanoic acid
+ (c) Addition Reaction: Unsaturated hydrocarbons (alkene, alkyne) undergo addition reactions.
+ In unsaturated hydrocarbon, hydrogen added in the presence of catalyst palladium or nickel. Vegetable oils
+are converted into vegetable ghee using this process. It is also called hydrogenation of vegetable oils.
+ (d) Substitution Reaction: Saturated hydrocarbons undergo substitution reaction in the presence of sunlight.
+ CH4 + Cl2
+Sunlight    CH3Cl + HCl
+Topic-2 Ethanol, Ethanoic acid, Soaps and Detergents
+Concepts Covered  Properties and uses of ethanol and ethanoic acid, 
+Soap and Detergents.
+Revision Notes
+Ethanol: Ethanol is commonly known as alcohol. It is the second member of the alcohol series. The molecular
+formula of ethanol is C2H5OH.
+• Chemical Properties:
+(i) Reaction with sodium: Formation of sodium ethoxide and hydrogen.
+ 2CH3CH2OH + 2Na → 2CH3CH2ONa + H2
+20 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+(ii) Reaction with acid: Formation of ester (ethyl ethanoate) – a sweet smelling ester. This process is called
+esterification.
+CH COOH C H OH CH COOCH CH H O conc H SO
+3 2 5 3 2 3 2
+2 4 + + .
+CH COOH C H OH      CH COOCH CH H O conc H SO
+3 2 5 3 2 3 2
+2 4 + + .
+     
+• Uses: In preparation of soap, cosmetics, in alcoholic beverages, in medicines, in laboratory reagent.
+Ethanoic acid: The common name of ethanoic acid is acetic acid and it belongs to the group of acids called carboxylic
+acid. It is the second member of the series. The molecular formula of the compound is CH3COOH.
+• Vinegar — 5-8 % solution of acetic acid in water.
+• Glacial acetic acid — Pure acetic acid
+• Chemical Properties of ethanoic acid
+(i) Reaction with sodium carbonate:
+2CH3COOH + Na2CO3 → 2CH3COONa + H2O + CO2
+(ii) Reaction with sodium hydrogen carbonate:
+ CH3COOH + NaHCO3 → CH3COONa + H2O + CO2
+Brisk effervescence marks the presence of carbon dioxide.
+(iii) Reaction with NaOH:
+ CH3COOH + NaOH → CH3COONa + H2O
+(iv) Reaction with ethanol (Esterification):
+CH COOH CH CH OH CH COOC H H O conc
+3 3 2 3 2 5 2
+2 4 + + .H SO
+     
+Soap and detergents
+• Soap is sodium or potassium salt of long chain carboxylic acid. e.g., C17H35COONa+
+• On hydrolysis, ester gives parent alcohol and sodium salt of carboxylic acid. Alkaline hydrolysis of ester is
+called saponification.
+• Soaps are effective only in soft water.
+• Detergents are ammonium or sulphonate salt of long chain of carboxylic acid.
+• Detergents are effective in both hard and soft water.
+• Soap molecule has:
+ (i) Ionic (hydrophilic) part
+ (ii) Long hydrocarbon chain (hydrophobic) part
+ Structure of soap molecule
+ Key Word
+Ester: Esters is generally sweet-smelling substances and is produced as a result of the reaction of an acid such as
+ethanoic acid and an alcohol such as ethanol in the presence of an acid catalyst. It is used in making perfumes and
+as flavouring agents.
+Cleansing Action of Soap: Most dirt is oily in nature. The hydrophobic end of soap molecule attaches itself with
+dirt and the ionic end is surrounded with molecule of water. This result in formation of a radial structure called
+micelles.
+• Soap micelles helps to dissolve dirt and grease in water and cloth gets cleaned.
+• The magnesium and calcium salt present in hard water reacts with soap molecule to form insoluble product
+called scum. This scum create difficulty in cleansing action.
+• By use of detergent, insoluble scum is not formed with hard water and clothes get cleaned effectively.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 21
+UNIT – II: WORLD OF LIVING
+CHAPTER-5
+LIFE PROCESSES
+Topic-1
+Nutrition
+Concepts Covered  Modes of nutrition- Autotrophic and heterotrophic
+ Process of photosynthesis  Nutrition in human beings  Human digestive
+system
+Revision Notes
+All living things perform certain life processes like growth, excretion, respiration, circulation and reproduction etc.
+The basic functions performed by living organisms for their survival and body maintenance are called life processes.
+Basic life processes are:
+Life Processes
+Growth Digestion Respiration Circulation Excretion Reproduction
+Energy required to carry out the different life processes, is obtained from carbon-based food sources through
+nutrition.
+There are two modes of nutrition:
+(i) Autotrophic nutrition: It is a kind of nutrition in which organism prepare its own food by a process called
+photosynthesis for e.g., Green plants and some photosynthetic bacteria.
+(ii) Heterotrophic nutrition: It is a kind of nutrition in which an organism takes food from another organism
+for e.g., Animals and fungi. It is of three types: Holozoic (e.g. Amoeba, animals), Saprophytic (e.g., fungi) and
+Parasitic (e.g., Cuscuta, ticks and mites)
+Depending on the mode of nutrition, organisms are classified as autotrophs and heterotrophs.
+(i) Autotrophs can prepare their own food from simple inorganic sources like carbon dioxide and water. (e.g.,
+green plants, some bacteria).
+(ii) Heterotrophs cannot synthesise their own food and are dependent on the autotrophs for obtaining complex
+organic substances for nutrition. (e.g., animals)
+Green plants manufacture their own food by the process of photosynthesis. Here, they utilise CO2 and H2O in
+presence of sunlight, with the help of chlorophyll and gives out O2 as a by-product.
+Main Events of Photosynthesis are:
+(i) Absorption of light energy by chlorophyll.
+(ii) Conversion of light energy to chemical energy and splitting of water molecules into hydrogen and oxygen.
+(iii) Reduction of CO2 to form carbohydrates.
+Site of photosynthesis in the leaf is chloroplast. It contains a green colour pigment called chlorophyll.
+Amoeba is a unicellular organism, which follows holozoic mode of nutrition. Amoeba captures food with the help of
+temporary finger-like processes called pseudopodia.
+Plants carry out exchange of gases with surrounding atmosphere through stomata.
+ The opening and closing of stomatal pores are controlled by the turgidity of guard cells.
+(i) When guard cells uptake water from surrounding cells, they swell to become a turgid body. This enlarges the
+pore in between and causes stomatal opening.
+(ii) When water is released, guard cells become flaccid. This closes the pore in between causing stomatal closing.
+Nutrition in human beings: The human digestive system comprises of alimentary canal and associated digestive
+glands.
+The alimentary canal is a long muscular tube extending from the mouth to the anus. Various regions are specialised
+to perform different functions.
+ Associated glands include salivary gland, gastric gland, Liver and Pancreas.
+22 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Mnemonics
+Concept: Parts of an alimentary canal in humans.
+Mnemonics: MOSS DJ I LA – remember this as “Kate MOSS is a DJ In LA”
+Interpretations:
+M = Mouth O = Oesophagus
+S = Stomach S = Small Intestine
+D = Duodenum J = Jejunum
+I = Ileum L = Large Intestine
+A = Anus
+ Key Words
+Salivary glands: Secretes
+an enzyme called salivary
+amylase or ptyalin. It
+degrades starch into simple
+sugar.
+Peristaltic movement:
+It is a wave of contraction
+behind the food and
+expansion in the region of
+contained food that occurs
+in the alimentary canal
+for pushing the food from
+anterior to posterior ends.
+ Key Facts
+ Small intestine is the site
+of the complete digestion
+of carbohydrates, proteins
+and fats.
+	 Bile is secreted by liver
+and stored in gall bladder.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 23
+Topic-2
+Respiration
+Concepts Covered  Breakdown of glucose by various pathways  Types of
+respiration  Human respiratory system  Process of Breathing  Respiration
+in plants  Respiration in animals.
+Revision Notes
+ Respiration is the process in living organisms, which involves:
+ (i) Breathing (Gaseous exchange): Intake of oxygen from the atmosphere and release of CO2
+(ii) Breakdown of simple food in order to release energy inside the cell
+Important Flowchart:
+		Breakdown of Glucose by Various Pathways:
+
+ Key Word
+Emulsification of fats is
+conversion of large fat
+pieces into very fine fat
+globules.
+ Key Facts
+ l The breakdown of sugars
+by yeast to make alcohol in
+the absence of air is called
+fermentation.
+ l The accumulation of
+lactic acid causes muscle
+cramps.
+ l Pharynx contains rings
+of cartilage which ensure
+that air passage does not
+collapse.
+ l Respiration in plants
+occurs all through the day,
+but the photosynthesis
+process occurs in the
+daytime, in the presence
+of sunlight only.
+24 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Types of Respiration:
+Respiration
+Aerobic Anaerobic
+Takes place in the presence of oxygen. Takes place in the absence of oxygen.
+Occurs in mitochondria. Occurs in cytoplasm.
+End products are CO2 and H2O. End products are alcohol or lactic acid.
+More amount of energy is released. Less amount of energy is released.
+Examples: Most plants and animals. Examples: Muscles, bacteria, yeast and parasitic worms etc.
+Human Respiratory system: Respiratory system in human serves to provide fresh oxygen to all body cells and
+removes harmful carbon dioxide from the body.
+It comprises Nostrils, Nasal cavity, Pharynx, Larynx, Trachea, Bronchi, Bronchiole, Alveoli, Blood capillaries and
+Lungs.
+Breathing involves two main processes:
+ (a) Inspiration (Breathing IN): Inspiration is the active intake of air from atmosphere into lungs.
+ l The path followed by fresh air (oxygen) is:
+ External nares → Nasal cavity → Internal nares → Pharynx → Glottis → Larynx → Trachea → Bronchi
+→ Bronchioles → Alveolar duct → Alveoli
+ (b) Expiration (Breathing OUT): It is the passive expelling of air from the lungs.
+ l The path followed by foul air (carbon dioxide) is:
+ Alveoli → Alveolar duct → Bronchioles → Bronchi → Trachea → Larynx → Glottis → Pharynx →
+Internal nares → Nasal cavities → External nares → Outside
+The alveoli of lungs are richly supplied with blood and are the sites where exchange of gases (O2 and CO2) occurs
+between blood and atmosphere.
+In humans, the respiratory pigment haemoglobin carries oxygen from lungs to different tissues of the body.
+In plants, gaseous exchange takes place through stomata in leaves, lenticel in stems, general surface of roots and
+transpiration.
+Respiration in Animals:
+ (i) Unicellular animals: Diffusion
+ (ii) Earthworm: Breathe through the skin.
+ (iii) Aquatic animals: Gills which extract dissolved oxygen in water.
+ (iv) Insects: Tiny holes called spiracles
+ (v) Land animals: Lungs
+l Terrestrial organisms use atmospheric oxygen for respiration.
+l Aquatic organisms use oxygen dissolved in water.
+ The rate of breathing in aquatic organisms is much faster than that seen in terrestrial organisms.
+Topic-3
+Circulation and Transportation
+Concepts Covered  Human circulatory system,  Double circulation system
+in humans,  Circulation of blood in animals,  Transportation in Plants 
+Transpiration.
+Human Circulatory System
+The circulatory system in human beings consists of: A circulatory medium (blood and lymph), blood vessels (veins,
+arteries and capillaries) and heart.
+Heart is a muscular organ which is composed of cardiac muscles. It is the main pumping organ which pumps the
+blood to all parts of the body.
+Human heart is four chambered i.e., it is composed of four chambers: right atrium, right ventricle, left ventricle and
+left atrium. The chambers are separated by a muscular wall that prevents the mixing of the blood rich in oxygen
+with the blood rich in carbon dioxide.
+Blood pressure is the force that the blood exerts on the blood vessels.
+Humans have double circulation system. Blood travels twice through the heart in one complete cycle of the body.
+Pulmonary Circulation: Blood moves from the heart to the lungs and back to the heart.
+Systemic Circulation: Blood moves from the heart to rest of the body and back to the heart.
+Blood is a fluid connective tissue. It comprises four components- Plasma, RBCs, WBCs, and platelets.
+Lymph is a yellowish fluid that escapes from the blood capillaries into the intercellular spaces.
+Blood Vessels: There are three types of blood vessels:Arteries, veins and capillaries.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 25
+
+ Key Facts
+ Ventricles have thicker muscular walls as they pump blood into various organs.
+ A healthy normal blood pressure reading is less than 120 mm Hg systolic and 80 mm Hg diastolic. A blood
+pressure of 140/90 mmHg or higher indicates high blood pressure.
+ Valves ensures that blood does not flow backwards when the atria and ventricles contracts.
+		Differences between arteries and veins:
+Arteries Veins
+1. Carry oxygenated blood from heart to different body parts except pulmonary artery.
+1. Carry deoxygenated blood from different body
+parts to the heart except pulmonary vein.
+2. Also called distributing vessel. 2. Also called collecting vessel.
+3. Walls thick, elastic and muscular. 3. Thin, non-muscular and less elastic.
+4. Deep seated 4. Superficial as compared to arteries.
+5. Have no valves 5. Have valves, which prevent backward flow of
+blood.
+Transportation in plants:
+ There are two main conducting channels in vascular plants. These are Xylem and Phloem.
+Xylem Phloem
+1. Transports water and minerals
+from the roots to upper parts of
+the plant.
+1. Transports product of photosynthesis from
+leaves to the non-photosynthesising parts
+of the plants such as root & stem.
+2. No energy is used for transport. 2. Energy is used from ATP for transport.
+3. On maturity, the xylem becomes
+dead tissue and gives mechanical
+support to the plant.
+3. Phloem exists as living soft tissue.
+		Transpiration: It is the process of loss of water as vapours from aerial parts of the plant.
+Translocation: Transport of food from leaves (food factory) to different parts of the plant is called translocation.
+Topic-4
+Excretion
+Concepts Covered  Excretion in human,  Structure of Nephron,  Urine
+formation,  Artificial Kidney,  Excretion in plants.
+Excretion in Human beings:
+During excretion, the harmful metabolic nitrogenous wastes like urea and uric acid generated are removed from
+the body.
+
+ Key Word
+Excretion is the process of the removal of the harmful metabolic wastes from the body.
+Excretory system of human beings includes a pair of Kidney, a Urinary Bladder, a pair of Ureter and a Urethra.
+Each kidney contains many filtration units called nephrons. Nephrons are the basic filtration units of kidneys. They
+carry out filtration, selective reabsorption and tubular secretion to form urine in kidney, which is then passed out
+through the urethra, via the ureters and urinary bladder..
+A Nephron is made up of a cluster of thin walled capillaries called glomerulus which is associated with a cup like
+structure called as Bowman's capsule and a long tube which terminates through this capsule.
+The renal artery brings oxygenated blood to the kidneys along with the nitrogenous wastes like urea and uric acid
+and many other substances.
+The blood gets filtered through the glomerulus and this filtrate enters the tubular part of nephron.
+As this filtrate moves down the tubular part, glucose, amino acids, salts and excess of water gets selectively reabsorbed by the blood vessels surrounding the tubules.
+26 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+The amount of water re-absorbed depends upon:
+ l How much excess of water is there in the body and,
+ l How much nitrogenous wastes need to be excreted out.
+The fluid now flowing in the tubular part is urine, which gets collected in collecting ducts of nephrons.
+These collecting ducts together leave the kidney at a common point by forming the ureter.
+
+ Key Fact
+The expulsion of urine from the body is known as micturition.
+Each ureter drains the urine in the urinary bladder where it is stored until the pressure of expanded bladder leads
+to an urge to pass it out through urethra.
+This bladder is a muscular structure which is under nervous control.
+180 litres of filtrate is formed daily but only 2 litres is excreted out as urine so the rest is re-absorbed in the body.
+Urine formation in Kidneys:
+ Urine formation involves three steps:
+(i) Glomerular filtration: Nitrogenous wastes, glucose, water, amino acids filter from the blood into Bowman’s
+capsule of the nephron.
+(ii) Tubular reabsorption: Useful substances from the filtrate are re-absorbed back by capillaries surrounding the
+nephron.
+(iii) Secretion: Urea, extra water and salts are secreted in the tubule which open up into the collecting duct and
+then into the ureter.
+Haemodialysis: In case of kidney failure, haemodialysis is the process of purifying blood by an artificial kidney.
+Excretion in plants: In plants, excretion of oxygen, CO2 and water takes place through stomata by the process of
+transpiration.
+CHAPTER-6
+CONTROL AND CO-ORDINATION
+Topic-1
+Control and Co-ordination in Plants
+Concepts Covered  Tropic movements in plants,  Plants hormones- Auxins,
+Gibberellins, Cytokinins, Abscisic acid and Ethylene.
+Revision Notes
+Introduction
+All the living organisms respond and react to the changes that happen in the environment around them.
+The changes in the environment to which the organisms respond and react are called stimuli such as light, heat,
+cold, smell, touch, etc.
+Both plants and animals respond to stimuli but in a different manner.
+ Plant Movements: The movements of the individual plant parts or organs of a plant like shoot, root, etc, are due to
+some external stimuli like light, force of gravity, chemical substance, water, etc.
+Tropic Movement: It is the directional growth movement of a plant organ in response to an external stimulus.
+Growth towards the stimulus is positive tropism and growth away from the stimulus is negative tropism.
+Plants show two different types of movement:
+(A) Movement dependent on growth: It is of four types:
+ (i) Phototropism: Growth movements of plants towards light e.g., shoots bend toward light (positively
+phototropic) and roots move away from light (negatively phototropic).
+ (ii) Geotropism: Movement towards gravity. e.g., Roots of a plant are positively geotropic while shoots of a
+plant are negatively geotropic.
+ (iii) Chemotropism: Movement towards chemicals. e.g., Growth of pollen tube towards ovule.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 27
+ (iv) Hydrotropism:
+ Movement towards water.
+(B) Movement independent of growth: These are immediate response to stimulus. e.g., Drooping of leaves of
+"Touch me not plant" on touching it. This is known as thigmotropism.
+ Key Fact
+Thermotropism is a type of growth movement in plants in response to temperature, e.g., seedlings curve towards
+warm side.
+ Plant Hormones: They are the chemical compounds produced naturally in plants which control the growth
+and other physiological functions' at a site, far away from the place of secretion are called plant hormones or
+phytohormones.. They are required in very small amount and help to coordinate growth, development and
+responses to the environment.
+ Key Word
+Hormones: They are the chemical substances which co-ordinate and control the activities of living organisms and
+also their growth. They are functional in small concentration at the remote site from their production.
+ Main plant hormones are:
+(a) Auxins Synthesized at shoot tip.
+Helps the cells to grow longer.
+Involved in tropic movements of plants.
+(b) Gibberellin Helps in the growth of the stem.
+(c) Cytokinins Promotes cell division.
+Present in greater concentration in fruits and seeds.
+(d) Abscisic
+ Acid
+Inhibits growth.
+Cause wilting of leaves.
+Also called as Stress hormone.
+(e) Ethylene
+(H2C=CH2)
+A gaseous hormone which helps in artificial ripening of fruits.
+Promotes senescence and abscission of leaves.
+ Mnemonics
+Concept: Plant Hormone
+Mnemonics: A CAGE
+Interpretations:
+A - Auxins
+C - Cytokinins
+A - ABA (Abscisic Acid)
+G - Gibberellins
+E - Ethylene
+Topic-2
+Control and Co-ordination in Animals
+Concepts Covered  Nervous System,  Voluntary and involuntary action, 
+Reflex action,  Animal hormones.
+Revision Notes
+Control and coordination is brought about in all animals with the help of two main systems: Nervous system and
+Endocrine system.
+Nervous system: It is the system of conducting tissues that receives the stimulus and transmits it to other parts of
+the body forming a network of nerves. It is involved in receiving information (sensation) and generating responses
+to that information (motor response).
+A typical neuron consists of following parts:
+(i) Cyton or Cell body: It is star shaped which contains nucleus with abundant cytoplasm called neuroplasm. The
+information acquired by it travels as an electrical impulse.
+(ii) Dendrite: The hair like structure protruding out from margins of cell body is called dendrite. It receives the
+nerve impulses.
+28 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+(iii) Axon: It is the longest fiber on the cell body. It ends in several hairs like structures called axon terminals, which
+transmits electrical impulse from cell body to dendrite of next neuron.
+(iv) Myelin sheath: It is an insulator covered around the axon.
+(v) Synapse: It is the point of contact between the nerve ending of one neuron and dendrite of other neuron. It is
+the part where electrical signal is converted into chemical signal for onward transmission to next neuron.
+Dendrite
+Soma Schwann cell
+Myelin Sheath
+Nucleus
+Nerve
+ending
+Axon
+Structure of a Neuron
+Important term:
+A chemical synapse formed by the contact between a motor neuron and a muscle fiber is called a neuromuscular
+junction.
+Functioning of neuron: Dendrites → Cell body → Axon → Nerve endings at the tip of axon → Synapse → Dendrite
+of next neuron
+The units which make up the nervous system are called nerve cells or neurons.
+The receptors pass the information to the brain through a type of nerve cells called sensory neurons.
+Motor neurons transmits the information from the brain to the effector organs, mainly muscles and glands.
+Nerve Impulse: It is the information in the form of chemical and electrical signals passing through neurons. These
+impulses are carried by dendrites towards the cell body.
+ Key Words
+Neurons are structural and functional unit of nervous system.
+Receptors are the chemical structures made up of proteins that receive signals from both external and internal
+environment.
+Sensory neurons: The neurons which transmit impulses towards central nervous system.
+Synapse: The point of contact between the terminal branches of axon of one neuron with the dendrite of another
+neuron is called synapse.
+Voluntary Action: These are the actions which need thinking and are performed knowingly i.e., these are controlled
+by conscious thought. e.g.,: speaking to a friend, writing a letter etc.
+Involuntary Action: These are not under the control of the will of an individual and are automatic response to
+a stimulus which is not under the voluntary control of the brain. It occurs without the conscious choice of an
+organism. e.g.,: Touching a hot plate unknowingly.
+Reflex action: It is quick, sudden and immediate response of the body to a stimulus. e.g., Knee jerk, withdrawal of
+hand on touching hot object.
+Reflex arc: The pathway through which nerve impulse passes during reflex action is called reflex arc. i.e., it is a
+pathway through which the reflex action occurs.
+Stimulus
+
+e. ,g. Heat
+Response
+
+Receptor Organ
+(Skin)
+Effector Organ
+(Muscles)
+e. ,g. withdrawal
+of hand
+Spinal Cord
+Stimulus and Response: Stimulus is an observable or detectable change in the external or internal environment to
+which an organism reacts while response is the final reaction after reflex action.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 29
+ Mnemonics
+Concept: Reflex Arc
+Mnemonics: RACEE
+Interpretations:
+R: Receptor
+A: Afferent or Sensory Nerve
+C: Centre (Brain or Spinal cord)
+E: Efferent or Motor Nerve
+E: Effector
+Responses are of three main types:
+(a) Voluntary: Controlled by fore brain for e.g., talking, writing.
+(b) Involuntary: Controlled by mid and hind brain for e.g., heartbeat, vomiting, respiration.
+(c) Reflex action: Controlled by spinal cord for e.g., withdrawal of hand on touching a hot object.
+Need of Reflex Actions: In some situations such as touching a hot object, pinching, etc., we need to act quickly,
+otherwise our body would be harmed. Hence, this response is generated from spinal cord instead of brain.
+Human nervous system: The nervous system of vertebrates (including humans) is divided into the central nervous
+system (CNS) and the peripheral nervous system (PNS).
+Human Nervous System
+Central Nervous System Peripheral Nervous System
+(CNS) (PNS)
+Brain Spinal Cord ( : Cranial Nerves
+Arise from
+the brain)
+( : Spinal Nerves
+Arise from the
+spinal cord)
+Human brain is the main coordinating centre of the body. It has three major parts: Forebrain, midbrain and hind
+brain.
+(a) Fore-brain: It is the most complex or specialized part of the brain. It consists of cerebrum. The main functions
+of forebrain are as follows:
+ (i) Main thinking part of the brain.
+ (ii) Controls the voluntary actions.
+ (iii) Stores information (memory).
+ (iv) Receives sensory impulses from various parts of the body and integrate it.
+ (v) It is the centre associated with hunger.
+ The brain is protected by the skull called the cranium and is surrounded by three membranes called the
+meninges.
+ Key Fact
+The space between meninges is filled with a fluid called Cerebro-Spinal Fluid (CSF). The brain floats in CSF, which
+acts as a cushion and shock absorber, making the brain neutrally buoyant.
+Medulla oblongata, pons varolii and mid brain are collectively called the brain stem.
+Pituitary gland is the master gland which controls all other endocrine glands.
+(b) Mid-brain: Controls involuntary actions.
+(c) Hind-brain: It has three parts:
+ (i) Cerebellum: Controls posture and balance, precision of voluntary actions. e.g., picking pen.
+ (ii) Medulla: Controls involuntary actions. e.g., blood pressure, salivation, vomiting.
+ (iii) Pons: Controls voluntary actions and helps in regulation of respiration.
+There are 31 pairs of spinal nerves and 12 pairs of cranial nerves in humans.
+Spinal cord is a cylindrical structure and a part of the central nervous system. It is made up of nervous tissue that
+extends from medulla oblongata in the brain stem to the lumbar region of vertebral column. It functions primarily
+in the transmission of nerve signals.
+30 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Endocrine system: Endocrine system comprises endocrine glands and its secretion is called hormones.
+Hormones are chemical messengers secreted in very small amounts by specialized tissue called ductless glands.
+They act on target tissues/organs usually away from their source.
+Hormones assist the nervous system in control and coordination.
+Endocrine glands with the hormones names and their secretions in humans are:
+No. Gland Hormones Functions Target Site
+1. Hypothalamus (i) Releasing hormones (RH)
+(ii) Growth inhibiting hormones
+Regulates secretion of pituitary
+hormones.
+Pituitary gland
+2. Pituitary Gland (i) Growth hormone (GH) Controls growth-dwarfism and
+gigantism.
+Various body cells
+which undergo
+growth
+3. Thyroid Gland (i) Thyroxin
+(ii) Triiodothyronine
+(iii)Thyrocalcitonin (TCT)
+Regulate basal metabolic rate,
+RBC formation.
+Regulate Calcium level.
+Body tissues
+4. Adrenal Gland (i) Adrenaline
+(ii) Nor adrenaline
+(iii)Corticoids
+Increase alertness, pupillary
+dilation, piloerection, sweating
+and heart beat.
+Body tissues
+5. Pancreas (i) Insulin Regulates glucose homeostasis,
+stimulates glycogenesis, controls
+carbohydrate metabolism.
+Tissues
+(ii) Glucagon Maintains glucose levels,
+stimulates gluconeogenesis.
+6. Testis (i) Testosterone
+(ii) Androgens
+Plays a role in development of
+male reproductive tissues and
+promotes secondary sexual
+characters in male.
+Male body tissues
+7. Ovary (i) Estrogen
+(ii) Progesterone
+Helps in development of female
+secondary sexual characters.
+Support pregnancy.
+Female body tissues
+Hormonal Disorders: All hormones are secreted in precise quantities. Its hypo (less) or hyper (more) secretion may
+lead to different disorders. For example:
+(a) Dwarfism: Hyposecretion (Deficiency) of growth hormone causes a disease called dwarfism.
+(b) Gigantism: Hypersecretion of growth hormone causes a disease called gigantism or excessive growth.
+(c) Goitre: Deficiency of iodine causes a disease called goitre.
+Importance of iodine: Thyroid gland needs iodine to make thyroxine, which helps in regulating the metabolism of
+carbohydrates, fats and proteins.
+(d) Diabetes: Deficiency of insulin hormone causes diabetes. Diabetes can be treated by injecting insulin hormone
+in the patient’s body.
+Feedback mechanisms: The excess or deficiency of hormones have a harmful effect on our body. Feedback mechanism
+makes sure that hormones are secreted in precise quantities and at the right time.
+For example, blood is detected by the cells of the pancreas which respond by producing more insulin. As the blood
+sugar level falls, insulin secretion is reduced.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 31
+CHAPTER-7
+REPRODUCTION
+Topic-1
+Asexual Reproduction and Vegetative Propagation.
+Concepts Covered  Reproduction and its type,  Various Types of Asexual
+reproduction
+Revision Notes
+Reproduction is the process by which living organisms produce new individuals similar to themselves. It ensures
+continuity of life on earth.
+Nucleus of the cell contains DNA (Deoxyribonucleic acid), which is the hereditary material.
+DNA replicates and forms new cells causing variation. So, these new cells will be similar but may not be identical
+to original cell.
+Variations are useful for the survival of the individual and species over time. It is the base of evolution.
+Types of Reproduction
+I Asexual Reproduction
+		  A single individual give rise to new individual.
+		  Gametes are not formed.
+		  New individuals are identical to their parents.
+		  Asexual reproduction is seen in most of the lower organisms and plants as well.
+II Sexual Reproduction
+		  Two individuals i.e., one male and one female are needed to give rise to new individual.
+		  Gametes are formed.
+		  New individual is genetically similar but not identical to parents.
+		  It is useful to generate more variations in species.
+		  Adopted by higher organisms.
+I. Asexual reproduction takes place through fission, fragmentation, regeneration, budding, vegetative propagation,
+and spore formation. These modes of reproduction depend on the body design of the organisms.
+ (a) Fission: It is of two types - Binary fission and Multiple fission.
+ (i) Binary fission: It is the division of one cell into two similar or identical cells. The nucleus first divides
+amitotically into two, followed by the division of the cytoplasm. The cell finally splits into two daughter
+cells. e.g., Amoeba
+ (ii) Multiple fission: In multiple fission, many individuals are formed from a single individual. e.g.,
+Plasmodium.The nucleus divides repeatedly, producing many nuclei and many daughter cells are formed.
+ (b) Fragmentation: It takes place in multicellular organisms with simple body organisation such as in Spirogyra. In
+this, the body breaks up into two or more small pieces of fragments upon maturation. These fragments grow into
+new individuals.
+ (c) Regeneration: It is the ability of a fully differentiated organism to give rise to new individual organisms from
+its body parts. Small cut or broken parts of the organism’s body grow or regenerate into separate individuals.
+For example: Planaria and Hydra.
+ (d) Budding: In budding, a small part of the body of the parent grows out as a bud which then detaches and becomes
+a new organism. Hydra reproduces by budding using the regenerative cells.
+ (e) Vegetative Propagation: In many plants, new plantlets develops from vegetative parts of a plant’s body such
+as stem, roots, leaves, etc.
+ l Methods of vegetative propagation:
+ (i) Natural methods are:
+ (a) By roots: e.g., Dahlia, sweet potato.
+ (b) By stems: e.g., Potato, ginger.
+ (c) By leaves: e.g., Bryophyllum (leaf margins bear buds which develop into plants).
+32 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ (ii) Artificial methods:
+ (a) Grafting: e.g., Mango
+ (b) Cutting: e.g., Rose
+ (c) Layering: e.g., Jasmine
+ (d) Tissue culture: e.g., Ornamental plants, orchid.
+ Mnemonics
+Concept: Vegetative Reproduction
+Mnemonics: Positive Example Based Learning
+Interpretation:
+P - Potato
+E - Eyes
+B - Bryophyllum
+L - Leaf buds
+ Key Word
+Vegetative propagation is a mode of asexual reproduction in which new plants are obtained from the vegetative parts
+of plants such as roots, stem, and leaves.
+ (f) Spore Formation: Spores are small bulb like structures which are covered by thick walls. Under favourable
+conditions, they germinate and produce new organisms. e.g., Rhizopus.
+ Key Fact
+Tissue culture: It is the production or propagation of new plants from isolated plant cells or small pieces of plant
+tissue in a nutrient medium. This technique is also known as micro-propagation, and in vitro culture because it
+takes place outside the body of the parent plant in a test tube in an artificial environment.
+Topic-2
+Sexual Reproduction in Plants
+Concepts Covered  Flower and its various parts  Pollination  Process of fertilization
+Double fertilization.
+Revision Notes
+Parts of Flower
+l Flowers are main reproductive part of a plant. The main parts of a flower are: sepals, petals, stamens and
+carpels.
+l Stamens and carpels are the reproductive parts of a flower which contain the germ cells. The male organ of
+a flower called ‘stamen’ makes the male gamete which are present in the pollen grain. The female organ of a
+flower called ‘carpel’ makes the female gamete, which are present in ovules of the plant.
+l Flowers may be unisexual (e.g., papaya and watermelon) or bisexual (e.g., Hibiscus and mustard).
+Pollination: It is the transfer of pollen grains from the anther of a stamen to the stigma of a carpel. Pollination is of
+two types: Self pollination and Cross pollination.
+ Mnemonics
+Concept: Reproductive parts of a Flower
+Mnemonics: a CAR belongs to Women but STeering belongs to Men
+Interpretation:
+CARpel : Female organ of the plant.
+STaMEN : Male part of the plant
+l Self Pollination is the transfer of pollen in the same flower. In cross pollination, pollen is transferred from one
+flower to another.
+l Cross-pollination introduces variations in plants because of the mixing of different genes. These variations
+further increase the adaptability of plants towards the environment or surroundings.
+l The transfer of pollens takes place by agents like wind, water or animals.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 33
+l After pollination, a pollen tube grows out of pollen grains, through which male germ cell reaches the ovary
+and fuses with the female germ cell.
+l Fertilisation is the process of fusion of male and female gamete to produce zygote. It occurs inside the ovary.
+Post fertilization Changes :
+l The outer layers of the ovule become impervious and hard and function as a seed coat.
+l An ovule with an embryo inside is called a seed.
+l The ovary enlarges and ripens to become a fruit.
+l Other floral parts such as sepals, petals, stamens, styles and stigma may fall off. However, in some cases, they
+remain degenerated persistent in the fruit.
+Double fertilisation:
+l It is a characteristic feature of flowering plants. In this process, out of the two sperm nuclei, one sperm
+nucleus fuses with the egg nucleus to form an embryo (process is called syngamy) and another fuses with
+the secondary nucleus to form an endosperm (process is called triple fusion). Because two kinds of fusion,
+syngamy and triple fusion take place, the process is known as double fertilisation.
+l Seed is the final (last) product of sexual reproduction in angiosperms. It is the fertilised ovule that is developed
+inside a fruit.
+l Seed protects the future plant i.e., embryo.
+l A seed consists of seed coat(s), cotyledon(s) and an embryonal axis.
+l Embryo axis has two parts : Plumule and radical. Plumule develops into shoot and radicle develops into root.
+l The process of development of seedling from the embryo under suitable conditions such as air, moisture etc.,
+is known as germination.
+Topic-3
+Reproduction in Human Beings
+Concepts Covered  Puberty  Male and female reproductive system  Process
+of fertilisation  Menstrual cycle  Sexually Transmitted Diseases  Methods of
+contraception.
+Revision Notes
+Humans have sexual mode of reproduction.
+It needs sexual maturation, which is the period of life when production of germ cells i.e., ova (female) and sperm
+(male) start in the body. This period of sexual maturity is called puberty.
+Changes at Puberty are:
+ Common in male and female
+l Thick hair growth in armpits and genital area.
+ l Skin becomes oily, may result in pimples.
+ (a) In girls:
+ l Breast size begins to increase.
+ l Girls begin to menstruate.
+ (b) In boys:
+ l Thick hair grows on face.
+ l Voice begins to crack.
+ l These changes signals that sexual maturity is taking place.
+Male Reproductive System
+ (a) Testes: A pair of testes are located inside scrotum which is present outside the abdominal cavity. Scrotum has
+a relatively lower temperature needed for the production of sperms.
+ Functions of testes:
+ l Produce male germ cells i.e., sperms are formed here.
+ l Testes release male sex hormone (testosterone). Its function is to:
+ (i) Regulate production of sperms.
+ (ii) Bring changes at puberty.
+34 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Mnemonics
+Concept 1: Parts of Male Reproductive System
+Mnemonics: SEVEn UP
+Interpretation:
+S: Seminiferous tubules, E: Epididymis, V: Vas deferens, E: Ejaculatory duct, U: Urethra, P: Penis
+Concept 1: Accessory glands in Males
+Mnemonics: Saint Peters
+Interpretation:
+S: Seminal vesicle, P: Prostate gland
+Concept 3: Accessory Ducts in Females
+Mnemonics: Our United Villages
+Interpretation:
+Oviduct, Uterus, Vagina
+ (b) Vas deferens: It passes sperms from testes towards the urethra.
+ (c) Urethra: It is a common passage for both sperms and urine. Its outer covering is called penis. It is like a
+fibromuscular long tube which travels through penis.
+ (d) Associated glands: Seminal vesicles and prostate gland add their secretion to the sperms. This fluid provide
+nourishment to sperms and make their transport easy. Sperm along with secretion of glands form semen.
+Female Reproductive System
+(a) Ovary: A pair of ovary is located in both sides of abdomen.
+	 	 l Female germ cells i.e., eggs are produced here.
+ l At the time of birth of a girl, thousands of immature eggs are present in the ovary.
+ l At the onset of puberty, some of these eggs start maturing.
+ (b) Oviduct or Fallopian tube
+ l Receives the egg produced by the ovary and transfer it to the uterus.
+ l Fertilisation i.e., fusion of gametes takes place here.
+ Key Words
+Embryo: It is the stage of development between the zygote or fertilised egg and the newly formed offspring.
+Fertilisation : The process of fusion of sperm and the ovum to from a single cell called zygote is called fertilisation.
+It occurs in fallopian tube (oviduct).
+Zygote: The cell which is formed by the fusion of a male gamete and female gamete is called zygote, i.e., it is a
+‘fertilised ovum’ or ‘fertilised egg.’
+Contraception: It is the avoidance of pregnancy, which can be achieved by preventing the fertilisation of ova.
+ (c) Uterus: It is a bag-like structure where development of the foetus takes place.
+	 	 l Uterus opens into vagina through cervix.
+ l The embryo moves down to reach the uterus. The embedding of the embryo in the thick inner lining of
+the uterus is called implantation.
+The time period from the development of foetus inside the uterus till birth is called gestation period. The act of
+giving birth to the fully developed foetus at the end of gestation period is termed as parturition.
+ Placenta is a specialised tissue embedded in the uterine wall. It contains villi on the embryo’s side and blood spaces
+on the mother’s side.
+The breakdown and removal of the inner, thick and soft lining of the uterus along with its blood vessels in the form
+of vaginal bleeding is called menstrual flow or menstruation.
+Reproductive Health;
+ Reproductive health is all those aspects of general health which help a person to lead a normal, safe and satisfying reproductive
+life.
+Sexually Transmitted Diseases (STDs) are the diseases which spread by sexual contact from an infected person to
+a healthy person. Some common STDs are Gonorrhoea, syphilis, warts, HIV-AIDS.
+Birth Control Methods: There are different methods which are developed to prevent and control pregnancy such
+as mechanical methods, chemical methods, oral pills and surgical methods. These are also known as methods of
+contraception.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 35
+ Methods of contraception
+ (a) Physical barrier
+	 	 l To prevent union of egg and sperm.
+ l Use of condoms, cervical caps and diaphragm.
+ Mnemonics
+Concept 1: Birth control Methods
+Mnemonics: SON Is Born
+Interpretations:
+S: Surgical; O: Oral contraceptive; N: Natural; I: IUD; B: Barrier
+Concept 2: Barrier Methods
+Mnemonics: CDC Volunteered Student’s Junior Fellowship
+Interpretation:
+Condoms, Diaphragm, Cervical caps, Vaults, Spermicidal creams, Jellies, Foams
+ (b) Chemical methods
+	 	 l Use of oral pills.
+ l These change hormonal balance of body so that eggs are not released.
+ l May have side effects.
+ (c) Intrauterine contraceptive device (IUCD)
+ l Copper-T or loop is placed in uterus to prevent pregnancy.
+ (d) Surgical methods
+ l In males the vas deferens is blocked to prevent sperm transfer called vasectomy.
+ l In females, the fallopian tube is blocked to prevent egg transfer called tubectomy.
+CHAPTER-8
+HEREDITY AND EVOLUTION
+Revision Notes
+Introduction
+Variations arise usually during the process of sexual reproduction. They may be few in asexual reproduction, but
+many in case of sexual reproduction.
+The minor variations arising during sexual reproduction are caused by slight inaccuracies in DNA copying. In
+sexual reproduction, variations are also caused by crossing over process during meiosis.
+Beneficial variations help the species to survive better in the environment.
+Nature selects the beneficial variations thereby leading to evolution.
+Sexual reproduction produces offspring with similar body design of the parents. However, the offsprings are not
+identical and show a great deal of variation from the parents.
+Importance of Variation:
+(i) Depending upon the nature of variations, different individuals would have different kinds of advantages.
+ e.g., Bacteria that can withstand heat will survive better in a heat wave.
+(ii) Main advantage of variation to species is that it increases the chances of its survival in a changing environment.
+Mendel and His Work on Inheritance
+Gregor Johann Mendel (1833 & 1884) started his experiments on plant breeding and hybridization. He proposed
+the laws of inheritance in living organisms.
+Mendel was known as the Father of Genetics.
+Plant selected by Mendel was Pisum sativum (garden pea). Mendel used a number of varieties of garden pea to
+study the inheritance of seven pairs of contrasting characters.
+36 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Seven pairs of contrasting characters in garden plant, selected by Mendel were:
+Character Dominant Trait Recessive Trait
+Flower colour Violet White
+Flower position Axial Terminal
+Seed colour Yellow Green
+Seed shape Round Wrinkled
+Pod shape Inflated Constricted
+Pod colour Green Yellow
+Height of plant Tall Dwarf/Short
+		Mendel conducted a series of experiments in which he crossed the pollinated plants to study one character (at a
+time).
+ Key Word
+Monohybrid cross is a cross between two pea plants with one pair of contrasting characters. e.g., Cross
+between a tall and a dwarf plant (short)
+In case of monohybrid cross with pure line breeding varieties of plants, the phenotypic ratio obtained in F2
+generation was 3:1.
+ Key Words
+Phenotype is the characteristic which is visible in an organism whereas genotype is the genetic composition of
+an individual.
+Dihybrid cross is a cross between two plants having two pairs of contrasting characters.
+e.g., Cross between green round seed with a yellow wrinkled seed.
+Example 1
+ Cross between tall and dwarf pea plants :
+ (a) Phenotypic ratio:-Tall: Dwarf (3:1), (b) Genotypic ratio:-Pure Tall: Hybrid Tall: Pure Dwarf (1:2:1)
+In case of dihybrid cross i.e., involving two pairs of contrasting characters, the phenotypic ratio obtained in F2
+generation was 9:3:3:1.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 37
+Example 2
+ Cross between pea plants bearing round green seeds with plants bearing wrinkled and yellow seeds:
+Based on above monohybrid cross, he proposed Law of Dominance, which states that “When parents having pure
+contrasting characters are crossed then only one character expresses itself in F1 generation. This character is the
+dominant character and the character which cannot express itself is called recessive character”.
+The homozygous dominant trait is denoted by two capital letters whereas the homozygous recessive trait is
+denoted by two small letters.
+Alleles are alternate forms of genes. For e.g., The gene for eye color has several alleles. Two major alleles are: brown
+and blue.
+A dominant allele expresses itself in the presence or absence of a recessive trait whereas a recessive allele is able to
+express itself only in the absence of a dominant trait.
+Law of Segregation: It states that every individual possesses a pair of alleles for a particular trait. During gamete
+formation, a gamete receives only one trait from the alleles. A particular trait can be dominant or recessive in a
+particular generation.
+Law of Independent Assortment : It states that alleles of different characters separates from each other during
+gamete formation.
+Genes carry information for producing proteins, which in turn control the various body characteristics.
+For a particular trait, the offspring receives one allele from the father and one allele from the mother.
+The combination of the male and female germ cells gives a diploid zygote. Thus, the normal diploid number of
+chromosomes in the offspring is restored.
+Different mechanisms are used for sex determination in different species.
+The process by which sex of a new born individual is determined is called sex determination.
+Sex Chromosomes: In human beings, there are 23 pairs of chromosomes. Out of these, 22 chromosome pairs are
+called autosomes and the last pair of chromosome which helps in deciding sex of the individual is called sex
+chromosome.
+Autosomes are pairs of chromosomes that are identical in appearance and are not involved in sex determination.
+Sex chromosomes are pairs of chromosomes involved in sex determination and are not identical in appearance
+(e.g., X and Y chromosome in humans).
+38 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Sex determination in human beings:
+A male has one X and Y sex chromosomes (XY) while a female has two X-sex chromosomes (XX).
+An egg fertilised by X-carrying sperm result into girl child.
+An egg fertilised by Y carrying sperm results into a boy child.
+Thus, sex of the child is determined by the type of sperm that fuses with egg.
+Acquired traits: e.g., low weight of beetles.
+Inherited traits: e.g., Colour of eyes and hair, shape of nose, ear lobes.
+UNIT – III: NATURAL PHENOMENA
+CHAPTER-9
+LIGHT REFLECTION AND REFRACTION
+Topic-1
+Reflection of Light, Images Formed by Spherical
+Mirrors
+Concepts Covered  Reflection of light,  Laws of reflection of light,
+ Images formed by plane mirror and spherical mirrors.
+Revision Notes
+Introduction
+ When light falls on a body, it may be absorbed, may be transmitted or light may get reflected back to the same
+medium.
+ Reflection of light is the phenomenon of bouncing back off the light rays in the same medium.
+ Laws of Reflection:
+(i) The incident ray, the reflected ray and the normal, all lie on the same plane at the point of inci-dence.
+(ii) The angle of incidence is equal to the angle of reflection.
+ Real image is obtained when the rays of light after reflection or refraction actually meet at some point. It can be
+obtained on the screen and can be seen with the eye.
+ Virtual image forms when rays of light do not actually meet, but appear to meet when produced backwards. It
+cannot be obtained on the screen.
+ Image Formed by plane Mirror:
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 39
+Characteristics of Image:
+ (i) Virtual and erect.
+ Key Words
+Spherical mirror: A mirror having a surface which either bulges out or recesses inward and which forms a
+portion of a sphere.
+Solar power plant: It is the device which converts the energy from the Sun into electricity mainly.
+ (ii) Size of image is equal to the size of the object.
+ (iii) Image is formed as far as behind the mirror as the object is in front of it.
+ (iv) Laterally inverted.
+Lateral Inversion: The phenomenon due to which the right side of the object appears as left and the left side of the
+object appears as right. i.e., the image is inverted sideways.
+A spherical mirror whose reflecting surface recessed inward, is concave mirror.
+The spherical mirror, whose reflecting surface bulges towards light source, is a convex mirror.
+Concave mirror mostly forms real images, which can be obtained on the screen. Convex mirror always form virtual
+images, which cannot be obtained on the screen.
+Differentiating between a plane mirror, a concave mirror and a convex mirror, without touching them:
+ (i) If the formed image is erect, of same size and equidistant as of object, then it is a plane mirror.
+(ii) If the formed image formed is erect but smaller in size, then it is a convex mirror.
+(iii) If the formed image is erect, real and magnified when the mirror is close to the object, then it is a concave
+mirror.
+ Key Words
+Pole: The centre of reflecting surface of spherical mirror.
+Principal axis: The straight line passing through the pole and centre of curvature.
+Centre of curvature: It is the centre of sphere of which the given mirror is a part.
+Solar concentrators use huge concave mirrors to focus large amount of solar energy thereby producing high
+temperature conditions in a solar power plant.
+The centre of the reflecting surface of a spherical mirror is called the pole of the mirror and it is usually represented
+by P.
+The horizontal line passing through the centre of curvature and pole of the spherical mirror is known as principal
+axis.
+The centre of curvature of a spherical mirror is the centre of the hollow sphere of glass, of which the spherical
+mirror is a part and is usually represented by C.
+The radius of curvature of a spherical mirror is the radius of the hollow sphere of glass, of which the spherical
+mirror is a part and is usually represented by R.
+The diameter of the reflecting surface, i.e., twice the radius is called its aperture.
+Radius of curvature (R) = 2 × focal length (f).
+Principal focus: It is the point on principal axis through which the rays of light which are parallel to it pass after
+reflection or they appear to be arising from this point.
+Rules for making ray diagrams by concave mirror:
+(i) A ray parallel to the principal axis will pass through the principal focus, after reflection.
+40 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+(ii) A ray passing through the principal focus of concave mirror will be parallel to principal axis after reflection.
+(iii) A ray of light passing through the centre of curvature of a concave mirror is reflected back along the same path
+as it is a normally incident ray.
+(iv) A ray incident obliquely to the principal axis of a concave mirror is reflected obliquely making equal angle.
+C F
+P r
+i
+Image formation by a concave mirror for different positions of the object:
+Position of Object Position of Image Size of Image Nature of Image
+At infinity At the focus F Highly diminished, point-sized Real and inverted
+Beyond C Between F and C Diminished Real and inverted
+At C At C Same size Real and inverted
+Between C and F Beyond C Enlarged Real and inverted
+At F At infinity Highly enlarged Real and inverted
+Between P and F Behind the mirror Enlarged Virtual and erect
+Image formation by a convex mirror for different positions of the object:
+Position of Object Position of Image Size of Image Nature of Image
+ At infinity At the focus F, behind the
+mirror
+Highly diminished,
+point-sized
+Virtual and erect
+Between infinity and
+the pole P of the mirror
+Between P and F, behind
+the mirror
+Diminished Virtual and erect
+Mirror Formula:
+1 1 1
+u v f
+ 
+ Where, v = Image distance
+ u = Object distance
+ f = Focal length
+Magnification of Spherical Mirrors:
+It is the ratio of the height of image to the height of object.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 41
+
+m = Height of image
+Height of object
+
+m = h
+h
+i
+o
+= – v
+u
+If 'm' is negative, image is real.
+If 'm' is positive, image is virtual.
+If hi
+ = ho then m = 1, i.e., image is equal to object.
+If hi
+ > ho then m > 1 i.e., image is enlarged.
+If hi
+ < ho then m < 1 i.e., image is diminished.
+Magnification of plane mirror is always + 1.
+'+' sign indicates virtual image.
+'1' indicates that image is equal to object's size.
+If 'm' is '+ve' and less than 1, it is a convex mirror.
+If 'm' is '+ve' and more than 1, it is a concave mirror.
+If 'm' is '–ve', it is a concave mirror.
+Topic-2
+Refraction, Lenses and Power of Lens
+Concepts Covered  Refraction,  Laws of refraction,  Refractive index, 
+Lens formula  Magnification  Power of lens
+Revision Notes
+The phenomenon of change in the path of light from one medium to another is called refraction of light.
+The angle formed between the incident ray and the normal is called angle of incidence and the angle formed
+between the refracted ray and the normal is called angle of refraction.
+The cause of refraction is the change in the speed of light as it goes from one medium to another medium.
+Larger the difference in speed of light between the two media across the interface, the greater will be the deviation
+and vice-versa.
+When a ray of light passes from a rarer medium to a denser medium, it bends towards the normal. Also, the angle
+of incidence is greater than the angle of refraction.
+When a ray of light passes from a denser medium to a rarer medium, it bends away from the normal. Also, the
+angle of incidence is less than the angle of refraction.
+Laws of refraction:
+ First law: The incident ray, the refracted ray and the normal at the point of incidence all lie on the same plane.
+ Second law: The ratio of sine of angle of incidence to the sine of angle of refraction is a constant, for the light of a
+given color and for the given pair of media. This law is also known as Snell's law of refraction.
+n i
+r = sin
+sin
+Refractive index (n): The ratio of speed of light in a given pair of media,
+
+n = Velocity of light in medium 1
+Velocity of light in medium 2
+n21 means refractive index of second medium with respect to first medium and,
+
+n21 = v
+v
+1
+2
+n12 means refractive index of first medium with respect to second medium.
+ n12 = v
+v
+2
+1
+42 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Absolute Refractive Index: Refractive index of a medium with respect to vacuum or air.
+ n = c
+v where, c = 3 × 108
+ ms–1
+Refractive index of one medium is reciprocal of other's refractive index in a given pair.
+
+n12 = 1
+n21
+If refractive index of medium 1 w.r.t. air is given as 1nair and if refractive index of medium 2 w.r.t. air is given as 2nair,
+then refractive index of medium 1 w.r.t. medium 2 = 1
+2
+n
+n
+air
+air = 1n2
+Refractive index of diamond is the highest till date. It is 2.42. It means speed of light is 1
+2 42.
+ times less in diamond
+than in vacuum.
+Lens Formula: 1 1 1
+v u f  
+ Key Diagram
+Magnification: m = h
+h
+i
+o
+= v
+u
+Power of a lens: It is defined as the reciprocal of focal length in meter.
+The degree of convergence or divergence of light rays is expressed in terms of power.
+Power = 1
+Focal length (in meter)
+or, P =
+1
+f
+SI unit of Power is dioptre = (D), 1 D = 1 m–1
+1 dioptre is the power of lens whose focal length is one meter.
+ Key Words
+Convergence of light rays: Light rays coming together.
+Divergence of light rays: Light rays moving away from each other.
+Magnification: The measure of the size of image compared to the size of object creating it.
+ Rules for making ray diagrams by convex and concave lens
+ (i) A ray of light from the object parallel to the principal axis passes through the focus after refraction.
+
+(ii) A ray of light passing through a principal focus becomes parallel to the principal axis after refraction.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 43
+ (iii) A ray of light passing through the optical centre travels undeviated even after refraction.
+ Nature, position and relative size of the image formed by a convex lens for various positions of the object:
+Position of the object Position of the image Relative size of the image Nature of the image
+At infinity At focus F2 Highly diminished, pointsized
+Real and inverted
+Beyond 2F1 Between F2 and 2F2 Diminished Real and inverted
+At 2F1 At 2F2 Same size Real and inverted
+Between F1 and 2F1 Beyond 2F2 Enlarged Real and inverted
+At focus F1 At infinity Infinitely large or highly
+enlarged
+Real and inverted
+Between focus F1 and
+optical centre
+On the same side of the
+lens as the object
+Enlarged Virtual and erect
+ Nature, position and relative size of the image formed by a concave lens for various positions of the object:
+Position of the object Position of the image Relative size of the
+image Nature of the image
+At infinity At focus F1 Highly diminished,
+point-sized
+Virtual and erect
+Between infinity and
+optical centre O of the lens
+Between focus F1 and
+optical centre O
+Diminished Virtual and erect
+ Mnemonics
+Concept: Image formation by concave mirror
+Mnemonics: 54321 to be converted in 12345
+At F 1
+Between C and F 2
+At C 3
+Beyond C 4
+Infinity 5
+Between F and P Exception
+Object 1 2 3 4 5
+Image 5 4 3 2 1
+Interpretations: If object is at infinity (5) , image will be formed at F (1)
+If object is at beyond C (4), image will be formed at between C and F (2) And so on.
+44 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+CHAPTER-10
+HUMAN EYE AND COLOURFUL WORLD
+Topic-1 Human eye, Defects of vision and its corrections
+Concepts Covered  Human eye,  Defects of vision and its Corrections.
+Revision Notes
+Human Eye
+Eye is a natural optical device using which human could see objects around him. It forms an inverted, real image
+on a light sensitive surface called retina.
+Rods and cones are the cells in retina, which are light sensitive. Rods respond to the intensity of light. Cones
+respond to the illumination of colours. There are around 125 million rods and cones cells. The cells generate
+signals which are transmitted to the brain through optic nerve.
+Parts of Human Eye
+Cornea : It is the outermost, transparent part. It provides most of the refraction of light.
+Lens : It is composed of a fibrous, jelly like material. It provides the focused, real and inverted image of the object
+on the retina. This convex lens converges light at retina.
+Iris : It is a dark muscular diaphragm that controls the size of the pupil.
+Pupil : It is the window of the eye. It is the central aperture in iris. It regulates and controls the amount of light
+entering the eye.
+Retina : It is a delicate membrane having enormous number of light sensitive cells.
+Ciliary muscles : These muscles change the shape and size of the eye lens for focussing.
+Far point : The maximum distance at which object can be seen clearly is far point of the eye. For a normal adult eye,
+its value is infinity.
+ Key Words
+Optical: Relating to sight. Illumination: To make shining or luminous.
+Optic Nerve : The optic nerve sends the electrical impulses from the retina, at the back of the eyes to the brain.
+Near point or Least distance of distinct vision
+		 The minimum distance at which objects can be seen most distinctively without strain.
+ l For a normal adult eye, its value is 25 cm.
+ l Range of human vision is 25 cm to infinity.
+Accommodation : The ability of the eye lens to adjust its focal length is called accommodation. Focal length can be
+changed with the help of ciliary muscles.
+ Structure of an Human Eye :
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 45
+Myopia (Nearsightedness) :
+Distant objects are not clearly visible.
+In a myopic eye, image of distant object is formed in front of the retina (and not on the retina)
+The far point (F) of a myopic eye is less than infinity.
+Correction : The concave lens placed in front of the eye forms a virtual image of distant object at far point (F) of
+myopic eye.
+Hypermetropia (Farsightedness) :
+Affected person can see far objects clearly but cannot see nearby objects clearly.
+The near point of the eye moves away from 25 cm.
+Image is formed behind the retina.
+Correction : Use of convex lens of suitable power can correct this defect.
+46 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Presbyopia (Old age Hypermetropia) :
+It is the defect of vision due to which an old person cannot see the nearby objects clearly due to less power of
+accommodation of the eye.
+The near-point of old person having presbyopia gradually recedes and becomes much more than 25 cm.
+Topic-2
+Refraction of light through prism, Dispersion of
+Light and Scattering of Light
+Concepts Covered  Dispersion of light,  Atmospheric refraction, 
+Refraction of light using prism,  Scattering of light.
+Revision Notes
+The phenomenon of splitting of white light into its constituent colours on passing through a glass prism is called
+dispersion of light.
+Spectrum: Band of colored components of a light beam is known as spectrum.
+Different colours undergo different deviations on passing through prism.
+If a second identical prism is placed in an inverted position with respect to the first prism, all the colours recombine
+to form white light.
+Atmospheric refraction is the phenomenon of bending of light on passing through the Earth’s atmosphere.
+As we move above the surface of the Earth, density of air goes on decreasing.
+Light travelling from rarer to denser layers always bends towards the normal.
+Stars twinkle on account of atmospheric refraction.
+The sun appears to rise two minutes earlier and set two minutes later due to atmospheric refraction.
+The phenomenon in which a part of the light incident on a particle is redirected in different directions is called
+scattering of light.
+Very small particles scatter light of shorter wavelengths better than longer wavelengths.
+The scattering of longer wavelengths of light increases as the size of the particle increases.
+ Key Words
+Wavelength: The distance between two successive crests or troughs of a light wave
+Scattering: Throwing in various random directions
+Deviation: Action of departing from the original path
+Larger particles scatter light of all wavelengths equally well.
+ Mnemonics
+Concept: Colors of spectrum
+Interpretation:
+V: Violet I: Indigo
+B: Blue G: Green
+Y: Yellow O: Orange
+R: Red
+A prism causes dispersion, Stars twinkle due to refraction, Scattering causes redirection, All have their own attraction.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 47
+Key Diagrams
+Difference in refraction of light by a glass slab and a glass prism:
+UNIT – IV: EFFECTS OF CURRENT
+CHAPTER-11
+ELECTRICITY
+Topic-1
+Electric Current, Ohm’s Law
+Concepts Covered  Electric current and Electric potential,  Electric circuit
+and symbols of some commonly used component in circuit,  Ohm’s law,  Resistance and resistivity
+Revision Notes
+ Charge is a fundamental particle of matter. It may be positive and negative.
+l S.I. unit of charge is Coulomb (C).
+ Static and Current Electricity: Static electricity deals with the electric charges at rest while the current electricity
+deals with the electric charges in motion.
+ Electric Current: The electric current is defined as the rate of flow of electric charge through any cross section of a
+conductor.
+Electric current = Charge
+Time or I Q= t
+l Electric current is a scalar quantity.
+ Mnemonics
+Concept: Current Formula
+Interpretation:
+I=Q/t
+Q=I x t
+t=Q /I
+l Ampere: It is the SI unit of current. If one Coulomb of charge flows through any cross-section of a conductor in
+one second, then current through it is said to be one ampere.
+48 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Electric circuit: The closed path along which an electric current flows is called an ‘electric circuit’.
+l The schematic diagram of a typical electric circuit is
+S.No. Components Symbol
+(i) An electric or Electronic cell
+(ii) A battery or a combination of cells
+(iii) Plug key of switch (open)
+(iv) Plug key or switch (closed)
+(v) A wire joint
+(vi) Wire crossing without joining
+(vii) Electric bulb
+
+(viii) A resistor of resistance R
+(ix) Variable resistance or rheostat
+(x) Ammeter
+(xi) Voltmeter
+ Conventional direction of current: Conventionally, the direction of motion of positive charges through the
+conductor is taken as the direction of current. The direction of conventional current is opposite to that of the
+negatively charged electrons.
+ Electrochemical or voltaic cell: It is a device which converts chemical energy into electrical energy.
+ Galvanometer: It is a device to detect current in an electric circuit.
+ Ammeter: It is a device to measure current in a circuit. It is a low resistance galvanometer and is always connected
+in series in a circuit.
+ Electric potential is the amount of electric potential energy at a point while Potential difference is the difference
+in the amount of electric potential energy between two points in an electric circuit.
+l It is known as voltage, which is equal to the work done to move a unit charge from one point to another against
+static field.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 49
+Voltage V Work done W
+Ch e Q ( ) ( )
+arg ( ) =
+l S.I unit of potential difference is Volt (V).
+l 1 Volt : When 1 Joule of work is done in carrying one Coulomb charge then potential difference is called 1 Volt.
+1 V = 1 JC-1
+ Voltmeter: It is a device to measure the potential difference. It is a high resistance galvanometer and is always
+connected in parallel to the component across which the potential difference is to be measured. Symbol is,
+ Mnemonics
+Concept: Connection of ammeter and voltmeter
+Mnemonics: I Am Sleeping Very Patiently
+Interpretation:
+Ammeter is connected in Series Voltmeter is connected in Parallel
+Ohm’s Law: It states that “the current through a conductor between two points is directly proportional to the
+voltage across the two points provided external conditions remain constant”.
+ Mnemonics
+Concept: Ohm’s Law
+Interpretation:
+To find V=Multiply I and R
+To find I=Divide V and R
+To find R=Divide V and I
+(i) Mathematical expression for Ohm’s law:
+ I ∝ V
+ V = IR
+ (where, R = Resistance)
+(ii) V-I graph for Ohm’s law : The graph between V and I is always straight line with slope equals to R
+Resistance (R): It is the property of a conductor to resist the flow of charges through it.
+(i) S.I. unit of resistance is Ohm (Ω).
+(ii) 1 Ohm =
+1 olt
+1 Ampere
+V
+l When potential difference is 1 V and current through the circuit is 1 A, then resistance will be 1 ohm.
+50 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+ Rheostat: Rheostat is a variable resistor used to regulate current without changing the source of voltage.
+ Key Word
+Resistor is a conductor which has some appreciable resistance.
+l Factors on which the Resistance of a Conductor depends: Resistance of a uniform metallic conductor is,
+(i) Directly proportional to the length of the conductor.
+(ii) Inversely proportional to the area of cross-section.
+(iii) Directly proportional to the temperature.
+(iv) Depends on nature of the material.
+Resistivity (r): The resistance offered by a wire of unit length and unit cross-sectional area is called resistivity.
+l Its S.I. unit is Ohm-metre (Ωm).
+l Resistivity does not change with change in length or area of cross-section but it changes with change in
+temperature.
+l Range of resistivity of metals and alloys is 10–8 to 10–6 Ωm.
+l Range of resistivity of insulators is 1012 to 1017 Ωm.
+l Resistivity of alloy is generally higher than that of its constituent metals.
+l Alloys do not oxidize (burn) readily at high temperature, so they are commonly used in electrical heating
+devices.
+l Copper and aluminium are used for electrical transmission lines as they have low resistivity.
+Topic-2
+Resistance in Series and Parallel Combination, Electric Power and Heating Effect
+Concepts Covered  Resistance in series and in parallel combinations
+ Electric Power  Heating effect of electric current (Joule’s law)  Applications of
+heating effect of electric current
+Revision Notes
+Resistances in series: When two or more resistances are connected end to end so that same current flows through
+each one of them in turn, they are said to be connected in series. Here, the total resistance is equal to the sum of the
+individual resistances.
+Rs = Rl
+ + R2 + R3 + ........
+Resistances in parallel: When two or more resistances are connected across two points so that each one of them
+provides a separate path for current, they are said to be connected in parallel. Here, the reciprocal of their combined
+resistance is equal to the sum of the reciprocals of the individual resistances.
+1
+RP
+= 1
+R R 1 R
++ + +
+1 1
+2 3
+....
+Heating effect of current : When an electric current is passed through a conductor, heat is produced in it. This is
+known as heating effect of current.
+Joule’s law of heating: It states that the heat produced in a conductor is directly proportional to (i) the square of
+the current I through it, (ii) its resistance R and (iii) the time t, for which current is passed. Mathematically, it can
+be expressed as :
+H = I t I Rt 2 R Joule 4.18 cal
+2
+=
+Or H = V Joule V
+4.18
+It cal It =
+ Practical application of the heating effect of electric current: It is utilised in the electrical heating appliances such
+as electric iron, room heaters, water heaters etc. The electric heating is also used to produce light as in an electricbulb.
+ Key Fact
+Tungsten filament is used for making bulb. The bulbs are filled with inert nitrogen and argon gas.
+Electric energy: It is the total work done in maintaining an electric current in an electric circuit for a given time.
+Electric energy, W = VIt = I2
+Rt Joule
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 51
+Electric Fuse: It is a safety device that protects our electrical appliances in case of short circuit or overloading.
+(i) Fuse is made up of pure tin or alloy of copper and tin.
+(ii) Fuse is always connected in series with live wire.
+(iii) Fuse has low melting point.
+(iv) Current capacity of fuse is slightly higher than that of the appliance.
+Electric Power: The rate at which electric energy is consumed or dissipated in an electric circuit :
+ P = VI
+
+P = I
+2
+R = V
+R
+2
+ Mnemonics
+Concept: Formula of power
+Mnemonics: 2 Iron men have Super Power.
+Interpretation:
+2 represents square of I.
+IRon - I and R
+S.I. unit of power = Watt (W)
+ 1 Watt = 1 Volt × 1 ampere
+Commercial unit of electric energy = kilo Watt-hour (KWh)
+ 1 kWh = 3.6 × 106
+ J
+ 1 kWh = 1 unit of electric energy
+Electrical power: Electrical power is the rate at which electric energy is consumed by an appliance.
+Watt: It is the SI unit of power. The power of an appliance is 1 Watt if one Ampere of current flows through it on
+applying a potential difference of 1 Volt across its ends.
+1 Watt = 1 Joule
+1 Second = 1 Volt × 1 Ampere
+or 1 W = 1Js–1 = 1VA
+1 kilowatt = 1000 W.
+Kilowatt hour: It is the commercial unit of electrical energy. One kilowatt hour is the electrical energy consumed
+by an appliance of 1000 watts when used for one hour.
+1 kilowatt hour (kWh) = 3·6 × 106
+ J
+Power rating: The power rating of an appliance is the electric energy consumed per second by the appliance when
+connected across the marked voltage of the mains.
+Efficiency of an electrical device: It is the ratio of the output power to the input power.
+Efficiency, h = Output power
+Input power
+CHAPTER-12
+MAGNETIC EFFECTS OF ELECTRIC CURRENT
+Topic-1
+Magnetic Effects
+Concepts Covered  Magnetic field and Magnetic field lines  Magnetic fields
+due to current through a straight conductor  Magnetic field due to current
+through a circular loop  Magnetic field due to current in a Solenoid  Force
+on a current carrying conductor in a magnetic field  Right hand thumb rule 
+Fleming’s left hand rule
+Revision Notes
+Magnet:
+The black ore of iron (Fe3O4) called magnetite, capable of attracting similar pieces of iron is called lodestone. They
+are naturally existing magnets used by human to find the directions.
+52 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+There are two poles of a magnet namely North pole and South pole. Like poles repel each other, while unlike
+poles attract each other.
+H.C. Oersted, a Danish physicist first noticed thet magnetic effect of electric current. According to him, a needle
+kept near the wire carrying current will deflect due to the magnetic field produced. Any change in the direction
+of current will show variation in the deflection.
+Magnet is any substance that attracts iron or iron-like substances.
+Properties of magnet
+(i) Every magnet has two poles i.e., North and South.
+(ii) Like poles repel each other.
+(iii) Unlike poles attract each other.
+(iv) A freely suspended bar magnet aligns itself in nearly north-south direction, with its north pole towards
+geographical south direction.
+The substances which are attracted by a magnet are called magnetic substances. Examples: Iron, nickel, cobalt, steel.
+The substances which are not attracted by a magnet are called non-magnetic substances. Examples: wood, glass,
+copper, aluminium, brass, paper etc.
+Magnetic Field: The area around a magnet in which its magnetic force can be experienced.
+(i) Its SI unit is Tesla (T).
+(ii) Magnetic field has both magnitude and direction. It is a vector quantity.
+(ii) Magnetic field can be described with help of a magnetic compass. The needle of a magnetic compass is a freely
+suspended bar magnet.
+Magnetic field lines : The imaginary lines of magnetic field around a magnet are called magnetic field lines.
+Characteristics of Field Lines
+(i) Field lines arise from North pole and end into South pole of the magnet.
+(ii) Field lines are closed curves.
+(iii) Field lines are closer in stronger magnetic field.
+(iv) Field lines never intersect each other as for two lines to intersect, there must be two directions of magnetic field
+at a point, which is not possible.
+(v) Direction of field lines inside a magnet is from South to North.
+(vi) The relative strength of magnetic field is shown by degree of closeness of field lines. Closer the lines, more will
+be the strength and farther the lines, less will be the magnetic field strength.
+Right Hand Thumb Rule: Imagine you are holding a current carrying straight conductor in your right hand such that
+the thumb is pointing towards the direction of current. Then the fingers wrapped around the conductor give the
+direction of magnetic field.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 53
+ Mnemonics
+Concept: Right Hand Thumb Rule
+Mnemonics: When current move upwards, wrap magnetic field
+Interpretations:
+Concept: Direction of field lines
+Mnemonics: O Maria Mr. Fox is moving from North to South
+Interpretation: Outside, Magnet, Magnetic, Field, North, South
+Magnetic Field Due to Current through a Straight Conductor
+Fig : A pattern of concentric circles indicating the field lines of a magnetic field around a straight conducting wire. The arrows in the
+circles show the direction of the field lines.
+l It can be represented by concentric circles at every point on conductor.
+l Direction can be given by right hand thumb rule or compass.
+l Circles are closer near the conductor.
+l Magnetic field ∝ Strength of current
+l Magnetic field ∝
+1
+Distance from the conductor
+54 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Magnetic Field Due to Current through a Circular Loop
+l It can be represented by concentric circles at every point.
+l Circles become larger and larger as we move away.
+l Every point on wire carrying current would give rise to magnetic field appearing as straight line at centre of the
+loop.
+l The direction of magnetic field inside the loop is same.
+Factors affecting magnetic field of a circular current carrying conductor
+ (i) Magnetic field ∝ Current passing through the conductor
+ (ii) Magnetic field ∝ 1
+Distance from conductor
+ (iii) Magnetic field ∝ No. of turns in the coil
+Factors affecting magnetic field of a circular current carrying conductor
+Magnetic field is additive in nature i.e., magnetic field of one loop adds up to magnetic field to another loop. This
+is because the current in each circular turn has same direction.
+The strength of magnetic field produced by a current carrying circular coil can be increased by
+(a) Increasing the number of turns of the coil.
+(b) Increasing the current flowing through the coil.
+Magnetic field due to current in a Solenoid : Solenoid is a coil of many circular turns of insulated copper wire
+wrapped closely in the shape of a cylinder. The end of the solenoid having clockwise current will act as south while
+on the other hand having anti-clockwise current will act as north pole. Thus, a solenoid acts as a normal magnet.
+Direction of magnetic field
+(i) Outside the solenoid : North to South
+(ii) Inside the solenoid : South to North
+Permanent magnets: They are made of carbon steel, chromium steel, tungsten steel and some alloys like Alnico
+and Nipermag. Alnico is an alloy of aluminium, nickel and cobalt. Nipermag is an alloy of iron that contains nickel,
+aluminium and titanium..
+When a material is placed inside a coil carrying current, it will get magnetised. A bunch of nails or an iron rod
+placed along the axis of the coil can be magnetised by the current when allowed to pass through the coil. Such
+magnets are called electromagnets.
+Force on a current carrying conductor in a magnetic field : Ampere suggested that when a current I passes through
+a conductor of length l placed in a perpendicular magnetic field B, then the force experienced is given by F = IBl
+sin q, where q is the angle between the length of the conductor and magnetic field.
+Fleming’s Left Hand Rule: Stretch the thumb, forefinger and middle finger of your left hand such that they are
+mutually perpendicular. If forefinger points in the direction of magnetic field, middle finger in the direction of
+current then thumb will point in the direction of motion or force.
+ Key Facts
+ Right hand thumb rule is a convenient way of finding the direction of magnetic field associated with current
+carrying conductor.
+ Many devices such as electric motor, electric generator, loudspeaker etc. work on Fleming’s left Hand rule.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 55
+Fleming’s left hand rule
+Topic-2
+Domestic Electric Circuits
+Concepts Covered  Direct current and alternating current,  Domestic electric
+circuits.
+Revision Notes
+Direct Current (DC) and Alternating Current (AC)
+(i) Alternate current (AC) : The current which reverses its direction periodically. In India, most of the power
+stations generate alternate current. The direction of current changes after every 1/100 second in India. i.e.,
+Frequency= 1/ Time period
+ = 1/50 Hz
+(ii) Direct Current (DC) : The current which does not reverse its direction and flows in one direction is called direct
+current. Source of DC are cell, battery, and storage cells. DC can be stored. Loss of energy during transmission
+over long distance is high.
+Domestic Electric Circuits : We receive electric supply through main supported through the poles. In our houses,
+we receive AC electric power of 220 V with a frequency of 50 Hz.
+ Mnemonics
+Concept: Electrical wiring
+Mnemonics: Rare Lawn Beautiful Nature Green Earth
+Interpretation: Red: Live; Black: Neutral; Green: Earth
+An electric circuit consists of three main wiring components:
+(i) Live wire (positive) with red insulation cover.
+(ii) Neutral wire (negative) with black insulation cover.
+(iii) Earth wire with green insulation cover. It protects us from electric shock in case of leakage of current especially
+in metallic body appliances. It provides a low resistance path for current in case of leakage of current.
+Faults and Safety Measures in Domestic Electric circuit
+(i) Short Circuiting : It is caused by touching of live wire and neutral wire either directly or via conducting wire.
+(ii) Overloading of an electric circuit : The overheating of electrical wire in any circuit due to flow of a large
+current through it is called overloading of the electrical circuit.
+Safety measures are :
+(i) Electric fuse : It is a protective device which is used for protecting the circuit from short-circuiting and
+overloading.
+ It is a piece of thin wire of material having a low melting and high resistance. Fuse is always connected in series
+to live wire and works on the principal of heating effect.
+(ii) Earth wire : The metallic body of electric appliances is connected to the Earth by means of earth wire so that
+any leakage of electric current is transferred to the ground. This prevents any electric shock to the user.
+ Key Fact
+The potential difference between live and neutral wire in India is 220 V.
+56 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+CHAPTER-13
+Our Environment
+Topic-1
+Ecosystem and Food Chain
+Concepts Covered  Ecosystem and its components,  Food chain, food web,
+trophic levels,  Energy flow,  Ten percent law,  Biological magnification
+Revision Notes
+Everything that surrounds us is environment. It includes both living (biotic) and non-living (abiotic) components.
+ Mnemonics
+Concept: Major components of environment
+Mnemonics: WASAP
+Interpretation:
+W: Water A: Air
+S: Soil A: Animals
+P: Plants
+Interaction between these biotic and abiotic components forms an ecosystem.
+Ecosystem: All the interacting organisms in an area together with the non-living constituents of the environment
+form an ecosystem. e.g., forest, pond etc.
+Types of Ecosystem: It is of two types:
+ (a) Natural Ecosystem: The ecosystem which exists in nature on its own. e.g., forest, lake, ocean, etc.
+ (b) Artificial Ecosystem: Man-made ecosystem is called artificial ecosystem. Example:- crop field, aquarium, garden,
+etc.
+Producers includes green plants and algae. They contain chlorophyll pigment which helps them to carry out the
+process of photosynthesis in the presence of light. Thus, they are also called as converters or transducers.
+Herbivores, carnivores, omnivores and parasites are the various types of consumers.
+Consumers are those organisms which depend upon the producers for food, either directly or indirectly by feeding
+on other consumers for their sustenance. They are also called heterotrophs.
+Parasites are those organisms that live outside (ectoparasites) or inside (endoparasites) the body of another
+organisms, i.e., host. e.g., parasites of human include fleas and lice.
+Decomposers are those micro-organisms that obtain energy from the chemical breakdown of dead organisms or
+animals or plant wastes. Decomposers break down the complex organic substances into simple inorganic substances
+that go into the soil and are used up again by the plants. They help in the replenishment of natural resources.
+Food chain is the sequence of organisms through which food energy flows in an ecosystem. It is a succession of
+organisms that eat other organisms and may, in turn, be eaten themselves.
+ Example:
+Grass → Grasshopper → Frog
+(Producer) (Herbivore) (Carnivore)
+→ Snake → Eagle
+(Carnivore) (Top Carnivore)
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 57
+ Key Facts
+ The first link in a food chain is always a producer (green plants) as they have the ability to trap solar energy with
+the help of chlorophyll. The last link is always a decomposer.
+ Maximum concentration of such chemicals is found to accumulate in human body as human occupies the top
+level in any food chain.
+Trophic Levels are the various steps or levels in the food chain where transfer of food or energy takes place.
+Producers are the first trophic level, herbivores are the second trophic level, carnivores or secondary consumers are
+the third trophic level and large carnivores or tertiary consumers are the fourth trophic level.
+Food Web is the network of various food chains which are interconnected at various trophic levels. Since an
+organism can occupy position in more than one food chain, in a food web it occupies more than one trophic level.
+It represents the feeding relationship within the community.
+Energy Flow: The flow of energy through different steps in the food chain is unidirectional. This means that the
+energy that is captured by the autotrophs does not revert back to the solar input and the energy which passes to
+the herbivores does not come back to autotrophs.
+The entire process of energy flow can be summarised in the following four steps:
+• The flow of energy in an ecosystem is always linear or unidirectional. The energy captured from producers
+does not revert to the solar input. Also, the energy which passes to the herbivores does not come back to
+autotrophs.
+• At every step in a food chain the energy received by the organism is also used for its own metabolism and
+maintenance. The left over is passed to next higher trophic level. Thus, energy flow decreases with successive
+trophic levels.
+• The number of trophic levels in a food chain is restricted by 10% flow of energy, very less amount of energy is
+available to the last trophic level.
+ Key Word
+Food chain describes relationship of organism about ‘who eats whom’.
+• The number of steps is limited to four or five in a food chain for the transfer of energy.
+10 Percent Law: It states that only 10 per cent of food energy is transferred from one trophic level to the next level. The
+remaining 90 per cent energy is used in life processes (digestion, growth, reproduction, etc.) by the present trophic
+level.
+Due to this gradual decrease in energy, food chains contain 3 - 4 trophic levels.
+Biological Magnification: The concentration of harmful chemicals goes on increasing with every next trophic level
+in a food chain. This is called as biological magnification.
+Example-1
+ Suppose that 1000 J of solar energy is received by green plants then only 1% of solar energy available on earth
+is utilized by plants. So, only 10 J i.e. 1% of 1000 J is trapped by plants and rest 990 J of energy is lost to the
+environment. So, plants utilise only 10 J of energy. Next, only 10% of the 10 J energy of plant i.e. 1 J is available
+to the herbivores while 9 J is lost to the environment. Again, just 10 % of the 1 J of energy of herbivore is utilized
+by carnivore animals. Thus, carnivore animal have only 0.1 J of energy while 0.9 J is lost to the environment.
+58 Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X
+Topic-2
+Biodegradable and Non–Biodegradable Substances and Global Warming
+Concepts Covered  Methods of waste disposal,  Environmental problems
+caused by humans,  Ozone depletion.
+Revision Notes
+Environmental problems caused by humans are:
+ (i) Pollution due to mismanagement of waste disposal.
+ (ii) Depletion of the Ozone Layer and waste disposal.
+Waste Materials: Unwanted or unusable materials which are discarded after primary use, or is worthless, defective
+and of no use.
+Garbage contains following type of materials:
+ (a) Biodegradable Wastes: Substances which can be decomposed by the action of micro-organisms are called as
+biodegradable wastes. e.g., fruit and vegetable peels, cotton, jute, cow-dung, paper, etc.
+ (b) Non-biodegradable Wastes: Substances which cannot be decomposed by the action of micro-organisms are called
+as non-biodegradable wastes. e.g., plastic, polythene, metals, synthetic fibres, radioactive wastes, pesticides, etc.
+Methods of Waste Disposal:
+ (a) Biogas Plant: Biodegradable waste can be used in biogas plant to produce biogas and manure.
+ (b) Sewage Treatment Plant: The drain water can be cleaned in sewage treatment plant before adding it to rivers.
+ (c) Land Fillings: The wastes are buried in low lying areas and are compacted by rolling with bulldozers.
+ (d) Composting: Organic wastes are filled in a compost pit and covered with a layer of soil, after about three months,
+garbage changes to manure.
+ (e) Recycling: Non-biodegradable waste are recycled to make new items.
+ (f) Reuse: It is a conventional technique to use an item again e.g., newspaper for making envelops.
+ (g) Biodegradable and non-biodegradable wastes should be discarded in two different dustbins. It is because:
+ (i) It saves time/ energy in segregation.
+ (ii) Biodegradable items can be sent directly for composting.
+ (iii) Non-biodegradable items can be sent for an appropriate reuse/recycle.
+Formation of ozone in Atmosphere :
+ Ozone is continuously formed by the action of UV rays on molecular oxygen, and also degraded into molecular
+oxygen in the stratosphere. The high energy ultraviolet radiations split ozone into molecular and atomic oxygen
+with release of large amount of heat. This heat is used in warming of the stratosphere.
+O3 → O2 + [O] + Heat
+ This oxygen atom then recombine with oxygen (O2) molecule to form ozone molecule.
+Oswaal CBSE Revision Notes Chapterwise & Topicwise, SCIENCE, Class-X 59
+Ozone (O3) : It is a molecule formed by three atoms of oxygen. Ozone performs an essential function of shielding
+the surface of the earth from ultraviolet radiation of the sun.
+Ozone layer is a layer of the earth’s atmosphere in which most of the atmosphere’s ozone is concentrated.
+Ozone Depletion : Ozone depletion is the reduction in concentration of ozone layer.
+There are several reasons for depletion of the ozone layer.
+The foremost is the use of chlorofluorocarbons (CFCs). The other factor responsible for ozone destruction is the
+pollutant nitrogen monoxide (NO).
+When the harmful chemicals like chlorofluorocarbons (CFCs) are released into the air, it accumulates in the upper
+atmosphere and reacts with ozone resulting in reduction in thickness of the ozone layer.
+Thus, the ozone layer in the atmosphere becomes thinner and gets depleted allowing more ultraviolet rays to pass
+through it. This phenomenon is referred as the Ozone hole.
+The Antarctic hole in ozone layer is caused due to chlorine molecules present in chlorofluorocarbons (CFCs), that
+are used by human beings.
+Ozone layer can be protected by :
+ (a) Stopping the release of Chlorofluorocarbons (CFCs).
+ (b) Removing the pollutant nitrogen monoxide.
+ (c) Reducing the usage of air conditioners.
+The Montreal Protocol (an international treaty in Canada, 1987) was signed to control the emission of ozone
+depleting substances. Subsequently many more efforts have been made and protocols have been laid down to
+define roadmaps, separately for developed and developing countries, for reducing the emission of CFCs and other
+ozone depleting chemicals.
+ United Nations Environment Programme (UNEP) succeeded in forging an agreement to stop CFC production at
+1986 levels by all the countries. (KYOTO Protocol).
+ Key Facts
+• Ozone is present in stratosphere part of the atmosphere i.e. 20- 30 km above the earth.
+• The decrease in the thickness of ozone layer over Antarctica was first observed in 1985 and was termed as ozone
+hole.
+qq
