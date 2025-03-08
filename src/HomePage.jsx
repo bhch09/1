@@ -177,7 +177,7 @@ const HomePage = ({ onStartChat }) => {
               
               <h3>Salts, Properties and Uses</h3>
               <TopicList>
-                <TopicItem><strong>Salts:</strong> Ionic compounds from neutralization of acids and bases. Types: Neutral salts (pH=7), Acidic salts (pH<7), Basic salts (pH>7).</TopicItem>
+                <TopicItem><strong>Salts:</strong> Ionic compounds from neutralization of acids and bases. Types: Neutral salts (pH=7), Acidic salts (pH less than 7), Basic salts (pH greater than 7).</TopicItem>
                 <TopicItem><strong>Common Salt (NaCl):</strong> Used in food, preservatives, and manufacture of chemicals.</TopicItem>
                 <TopicItem><strong>Sodium Hydroxide (NaOH):</strong> Made via chlor-alkali process. Used in paper, soap making, and degreasing metals.</TopicItem>
                 <TopicItem><strong>Bleaching Powder (CaOCl₂):</strong> Produced by action of chlorine on slaked lime. Used for bleaching, disinfecting water.</TopicItem>
@@ -410,7 +410,7 @@ const HomePage = ({ onStartChat }) => {
               <TopicList>
                 <TopicItem><strong>Mirror Terminology:</strong> Pole (center of reflecting surface), Principal axis (line through pole and center of curvature), Center of curvature (center of sphere), Radius of curvature (radius of sphere), Principal focus (point where parallel rays converge after reflection).</TopicItem>
                 <TopicItem><strong>Mirror Formula:</strong> 1/v + 1/u = 1/f (where v=image distance, u=object distance, f=focal length). Relation: Radius of curvature (R) = 2 × focal length (f).</TopicItem>
-                <TopicItem><strong>Magnification:</strong> m = h₂/h₁ = -v/u. Negative m means real image, positive m means virtual image. If |m|=1, image equals object size; if |m|>1, image is enlarged; if |m|<1, image is diminished.</TopicItem>
+                <TopicItem><strong>Magnification:</strong> m = h₂/h₁ = -v/u. Negative m means real image, positive m means virtual image. If |m|=1, image equals object size; if |m| greater than 1, image is enlarged; if |m|less than 1, image is diminished.</TopicItem>
                 <TopicItem><strong>Image Formation by Concave Mirror:</strong> Position and nature of image changes based on object position (at infinity, beyond C, at C, between C and F, at F, between P and F).</TopicItem>
                 <TopicItem><strong>Image Formation by Convex Mirror:</strong> Always forms virtual, erect, diminished image behind mirror.</TopicItem>
               </TopicList>
