@@ -130,7 +130,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem>Law of conservation of mass states that "The matter can neither be created nor destroyed in a chemical reaction."</TopicItem>
                 <TopicItem>Steps to balance a chemical equation: Write the skeletal equation, Count atoms on both sides, Equalize by adding coefficients, Write physical states, Write necessary conditions.</TopicItem>
               </TopicList>
-              
+
               <h3>Types of Chemical Reactions</h3>
               <TopicList>
                 <TopicItem><strong>Combination Reaction:</strong> Two or more reactants combine to form a single product. e.g., C(s) + O₂(g) → CO₂(g)</TopicItem>
@@ -140,7 +140,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Oxidation:</strong> Gain of oxygen or loss of electrons. <strong>Reduction:</strong> Gain of electrons or loss of oxygen.</TopicItem>
                 <TopicItem><strong>Exothermic Reactions:</strong> Release heat (e.g., burning of natural gas, respiration). <strong>Endothermic Reactions:</strong> Absorb heat.</TopicItem>
               </TopicList>
-              
+
               <h3>Effects of Oxidation in Everyday Life</h3>
               <TopicList>
                 <TopicItem><strong>Corrosion:</strong> Deterioration of metals by action of air, moisture, chemicals. e.g., Rusting of iron, green coating on copper.</TopicItem>
@@ -165,7 +165,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Strong bases:</strong> Completely ionize (e.g., KOH, NaOH). <strong>Weak bases:</strong> Partially ionize (e.g., Mg(OH)₂, Cu(OH)₂).</TopicItem>
                 <TopicItem><strong>Indicators:</strong> Substances that change color/smell in different media. Types include natural (litmus, red cabbage), synthetic (phenolphthalein, methyl orange), and olfactory (onion, vanilla, clove oil).</TopicItem>
               </TopicList>
-              
+
               <h3>Chemical Properties of Acids and Bases</h3>
               <TopicList>
                 <TopicItem><strong>Reaction with Metals:</strong> Acids + Metal → Salt + H₂ gas. Bases + Metal → Salt + H₂ gas.</TopicItem>
@@ -174,7 +174,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>pH Scale:</strong> Measures H⁺ ion concentration. pH = 7 (neutral), pH &lt; 7 (acidic), pH &gt; 7 (basic).</TopicItem>
                 <TopicItem><strong>Importance of pH:</strong> Human body works within pH 7-7.8. Plants require specific pH for growth. Tooth decay starts below pH 5.5.</TopicItem>
               </TopicList>
-              
+
               <h3>Salts, Properties and Uses</h3>
               <TopicList>
                 <TopicItem><strong>Salts:</strong> Ionic compounds from neutralization of acids and bases. Types: Neutral salts (pH=7), Acidic salts (pH less than 7), Basic salts (pH greater than 7).</TopicItem>
@@ -198,7 +198,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Metals:</strong> Generally have lustre, are hard (except Na, Li, K), exist as solids (except Hg), are malleable and ductile, good conductors of heat and electricity, have high density and melting point, are sonorous, form basic oxides.</TopicItem>
                 <TopicItem><strong>Non-metals:</strong> Generally lack lustre (except iodine), are soft (except diamond), exist as solids or gases (except Br), are non-malleable and non-ductile, poor conductors (except graphite), have low density and melting point, are not sonorous, form acidic oxides.</TopicItem>
               </TopicList>
-              
+
               <h3>Chemical Properties of Metals</h3>
               <TopicList>
                 <TopicItem><strong>Reaction with Air:</strong> Metals + O₂ → Metal oxide. Reactivity varies: Na/K are very reactive; Au/Ag don't react.</TopicItem>
@@ -208,7 +208,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Displacement Reactions:</strong> More reactive metals displace less reactive ones from their compounds. e.g., Fe + CuSO₄ → FeSO₄ + Cu</TopicItem>
                 <TopicItem><strong>Reactivity Series:</strong> K > Na > Ca > Mg > Al > Zn > Fe > Sn > Pb > H > Cu > Hg > Ag > Au > Pt</TopicItem>
               </TopicList>
-              
+
               <h3>Chemical Properties of Non-metals</h3>
               <TopicList>
                 <TopicItem><strong>Reaction with Oxygen:</strong> Non-metals + O₂ → Acidic oxides. e.g., C + O₂ → CO₂</TopicItem>
@@ -216,7 +216,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Reaction with Acids:</strong> No reaction.</TopicItem>
                 <TopicItem><strong>Reaction with Chlorine/Hydrogen:</strong> Form respective chlorides/hydrides.</TopicItem>
               </TopicList>
-              
+
               <h3>Ionic Compounds and Metallurgy</h3>
               <TopicList>
                 <TopicItem><strong>Ionic Compounds:</strong> Formed by transfer of electrons. Properties: solid/hard, high melting/boiling points, soluble in water, conduct electricity in molten/solution form.</TopicItem>
@@ -241,7 +241,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Properties of Covalent Compounds:</strong> Generally liquids/gases, insoluble in water but soluble in organic solvents, low melting/boiling points, don't conduct electricity.</TopicItem>
                 <TopicItem><strong>Versatile Nature:</strong> Carbon forms numerous compounds due to catenation (ability to form chains) and tetravalency.</TopicItem>
               </TopicList>
-              
+
               <h3>Hydrocarbons and Homologous Series</h3>
               <TopicList>
                 <TopicItem><strong>Hydrocarbons:</strong> Compounds of hydrogen and carbon. Types: Straight chain, Branched chain, Cyclic.</TopicItem>
@@ -251,7 +251,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Functional Groups:</strong> Atoms/groups that replace hydrogen in hydrocarbons and determine properties. e.g., -OH (alcohol), -CHO (aldehyde), -COOH (carboxylic acid).</TopicItem>
                 <TopicItem><strong>IUPAC Nomenclature:</strong> Systematic naming using word roots (number of carbon atoms) and suffixes (bond types): -ane (single), -ene (double), -yne (triple).</TopicItem>
               </TopicList>
-              
+
               <h3>Chemical Properties and Compounds</h3>
               <TopicList>
                 <TopicItem><strong>Chemical Reactions:</strong> Combustion (burning in air), Oxidation (converting alcohols to acids), Addition (in unsaturated hydrocarbons), Substitution (in saturated hydrocarbons).</TopicItem>
@@ -277,7 +277,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Photosynthesis:</strong> Process where green plants make food using CO₂, H₂O, sunlight, and chlorophyll, producing O₂ as byproduct. Takes place in chloroplasts.</TopicItem>
                 <TopicItem><strong>Human Digestive System:</strong> Consists of alimentary canal (mouth to anus) and digestive glands (salivary, gastric, liver, pancreas). Different regions perform specialized functions.</TopicItem>
               </TopicList>
-              
+
               <h3>Respiration</h3>
               <TopicList>
                 <TopicItem><strong>Respiration:</strong> Process involving breathing (gas exchange) and breakdown of food for energy. Types: Aerobic (with oxygen) and Anaerobic (without oxygen).</TopicItem>
@@ -286,7 +286,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Breathing:</strong> Inspiration (active intake of air) and Expiration (passive expelling of air). Haemoglobin carries oxygen from lungs to tissues.</TopicItem>
                 <TopicItem><strong>Respiration in Other Organisms:</strong> Unicellular animals use diffusion, earthworms use skin, aquatic animals use gills, insects use spiracles, land animals use lungs.</TopicItem>
               </TopicList>
-              
+
               <h3>Circulation and Transportation</h3>
               <TopicList>
                 <TopicItem><strong>Human Circulatory System:</strong> Consists of blood, blood vessels, and heart. Heart is four-chambered with two atria and two ventricles.</TopicItem>
@@ -295,7 +295,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Plant Transportation:</strong> Xylem transports water and minerals upward (no energy required), phloem transports food (requires energy).</TopicItem>
                 <TopicItem><strong>Transpiration:</strong> Loss of water vapor from aerial parts of plants. Translocation is transport of food from leaves to other parts.</TopicItem>
               </TopicList>
-              
+
               <h3>Excretion</h3>
               <TopicList>
                 <TopicItem><strong>Excretion:</strong> Removal of harmful metabolic nitrogenous wastes from the body.</TopicItem>
@@ -307,7 +307,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 6 */}
           <ChapterCard>
             <ChapterTitle>Chapter 6: Control and Co-ordination</ChapterTitle>
@@ -319,7 +319,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Types of Tropisms:</strong> Phototropism (light), Geotropism (gravity), Chemotropism (chemicals), Hydrotropism (water), Thigmotropism (touch).</TopicItem>
                 <TopicItem><strong>Plant Hormones:</strong> Chemical compounds that control growth and functions. Main types: Auxins (synthesized at shoot tip, helps cells grow), Gibberellins (stem growth), Cytokinins (cell division), Abscisic Acid (growth inhibitor, "stress hormone"), Ethylene (fruit ripening).</TopicItem>
               </TopicList>
-              
+
               <h3>Control and Co-ordination in Animals</h3>
               <TopicList>
                 <TopicItem><strong>Nervous System:</strong> Network of nerves that receives stimuli and transmits responses. Basic unit is neuron, consisting of cell body, dendrites, axon, myelin sheath, and synapse.</TopicItem>
@@ -327,7 +327,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Action Types:</strong> Voluntary (controlled by conscious thought, e.g., speaking), Involuntary (automatic, e.g., heartbeat), Reflex action (quick response to stimulus, e.g., withdrawing hand from hot object).</TopicItem>
                 <TopicItem><strong>Human Brain:</strong> Has three major parts: Forebrain (thinking, voluntary actions, memory), Midbrain (controls involuntary actions), Hindbrain (posture, balance, involuntary functions).</TopicItem>
               </TopicList>
-              
+
               <h3>Endocrine System</h3>
               <TopicList>
                 <TopicItem><strong>Endocrine System:</strong> Comprises glands that secrete hormones directly into bloodstream. Hormones are chemical messengers that act on target tissues/organs.</TopicItem>
@@ -338,7 +338,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 7 */}
           <ChapterCard>
             <ChapterTitle>Chapter 7: Reproduction</ChapterTitle>
@@ -350,7 +350,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Asexual Reproduction:</strong> Methods include: Fission (binary/multiple), Fragmentation (body breaks into pieces), Regeneration (regrowth from body parts), Budding (outgrowth becomes new organism), Vegetative propagation (new plants from vegetative parts), Spore formation.</TopicItem>
                 <TopicItem><strong>Vegetative Propagation:</strong> Natural methods (roots - Dahlia, stems - Potato, leaves - Bryophyllum) and Artificial methods (grafting, cutting, layering, tissue culture).</TopicItem>
               </TopicList>
-              
+
               <h3>Sexual Reproduction in Plants</h3>
               <TopicList>
                 <TopicItem><strong>Flower Parts:</strong> Sepals, petals, stamens (male reproductive parts with pollen), carpels (female reproductive parts with ovules).</TopicItem>
@@ -358,7 +358,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Fertilization:</strong> Fusion of male and female gametes to form zygote. In flowering plants, double fertilization occurs - one sperm fertilizes egg, another fertilizes secondary nucleus.</TopicItem>
                 <TopicItem><strong>Post-fertilization:</strong> Ovule develops into seed, ovary into fruit. Seed contains embryo (future plant) with seed coat, cotyledons, and embryonal axis (plumule and radicle).</TopicItem>
               </TopicList>
-              
+
               <h3>Reproduction in Human Beings</h3>
               <TopicList>
                 <TopicItem><strong>Puberty:</strong> Period of sexual maturation when production of germ cells (ova/sperm) begins. Changes include: hair growth in armpits/genitals, oily skin, breast development and menstruation in girls, facial hair and voice changes in boys.</TopicItem>
@@ -369,7 +369,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 8 */}
           <ChapterCard>
             <ChapterTitle>Chapter 8: Heredity and Evolution</ChapterTitle>
@@ -381,7 +381,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Monohybrid Cross:</strong> Cross between plants with one pair of contrasting characters. F2 generation shows phenotypic ratio of 3:1 and genotypic ratio of 1:2:1.</TopicItem>
                 <TopicItem><strong>Dihybrid Cross:</strong> Cross between plants with two pairs of contrasting characters. F2 generation shows phenotypic ratio of 9:3:3:1.</TopicItem>
               </TopicList>
-              
+
               <h3>Mendel's Laws and Sex Determination</h3>
               <TopicList>
                 <TopicItem><strong>Law of Dominance:</strong> When parents with pure contrasting characters are crossed, only dominant character expresses in F1 generation.</TopicItem>
@@ -393,7 +393,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 9 */}
           <ChapterCard>
             <ChapterTitle>Chapter 9: Light Reflection and Refraction</ChapterTitle>
@@ -405,7 +405,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Plane Mirror Image:</strong> Virtual, erect, same size as object, as far behind mirror as object is in front, laterally inverted.</TopicItem>
                 <TopicItem><strong>Spherical Mirrors:</strong> Concave (reflecting surface recessed inward) and Convex (reflecting surface bulges outward). Concave mirrors mostly form real images, convex mirrors always form virtual images.</TopicItem>
               </TopicList>
-              
+
               <h3>Mirror Terminology and Formulas</h3>
               <TopicList>
                 <TopicItem><strong>Mirror Terminology:</strong> Pole (center of reflecting surface), Principal axis (line through pole and center of curvature), Center of curvature (center of sphere), Radius of curvature (radius of sphere), Principal focus (point where parallel rays converge after reflection).</TopicItem>
@@ -414,7 +414,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Image Formation by Concave Mirror:</strong> Position and nature of image changes based on object position (at infinity, beyond C, at C, between C and F, at F, between P and F).</TopicItem>
                 <TopicItem><strong>Image Formation by Convex Mirror:</strong> Always forms virtual, erect, diminished image behind mirror.</TopicItem>
               </TopicList>
-              
+
               <h3>Refraction and Lenses</h3>
               <TopicList>
                 <TopicItem><strong>Refraction:</strong> Change in path of light when passing from one medium to another, caused by change in speed. When light goes from rarer to denser medium, it bends toward normal; from denser to rarer, it bends away.</TopicItem>
@@ -427,7 +427,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 10 */}
           <ChapterCard>
             <ChapterTitle>Chapter 10: Human Eye and Colourful World</ChapterTitle>
@@ -435,18 +435,18 @@ const HomePage = ({ onStartChat }) => {
               <h3>Human Eye</h3>
               <TopicList>
                 <TopicItem><strong>Human Eye:</strong> Natural optical device that forms inverted, real image on retina. Contains rods (respond to light intensity) and cones (respond to colors) that generate signals transmitted to brain via optic nerve.</TopicItem>
-                <TopicItem><strong>Eye Parts:</strong> Cornea (outermost transparent part), Lens (provides focusing), Iris (controls pupil size), Pupil (regulates light entering eye), Retina (light-sensitive cells), Ciliary muscles (change lens shape).</TopicItem>
+                <TopicItem><strong>Eye Parts:</strong> Cornea (outermost transparent part), Lens (provides focusing), Iris (controls pupil size), Pupil (regulates light entering eye),Retina (light-sensitive cells), Ciliary muscles (change lens shape).</TopicItem>
                 <TopicItem><strong>Near and Far Points:</strong> Far point is maximum distance for clear vision (infinity for normal eye). Near point is minimum distance for distinct vision (25 cm for normal eye).</TopicItem>
                 <TopicItem><strong>Accommodation:</strong> Ability of eye lens to adjust focal length using ciliary muscles.</TopicItem>
               </TopicList>
-              
+
               <h3>Vision Defects and Corrections</h3>
               <TopicList>
                 <TopicItem><strong>Myopia (Nearsightedness):</strong> Distant objects not clearly visible, image forms in front of retina. Far point is less than infinity. Corrected with concave lens.</TopicItem>
                 <TopicItem><strong>Hypermetropia (Farsightedness):</strong> Nearby objects not clearly visible, image forms behind retina. Near point is beyond 25 cm. Corrected with convex lens.</TopicItem>
                 <TopicItem><strong>Presbyopia:</strong> Age-related farsightedness due to decreased accommodation power. Near point recedes beyond 25 cm. Corrected with convex lens.</TopicItem>
               </TopicList>
-              
+
               <h3>Light Phenomena</h3>
               <TopicList>
                 <TopicItem><strong>Dispersion:</strong> Splitting of white light into constituent colors through prism. Different colors undergo different deviations. Spectrum is band of colored components.</TopicItem>
@@ -456,7 +456,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 11 */}
           <ChapterCard>
             <ChapterTitle>Chapter 11: Electricity</ChapterTitle>
@@ -468,7 +468,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Electric Potential:</strong> Electric potential energy at a point. Potential difference (voltage) is work done to move unit charge between two points. Unit is Volt (V): 1 Joule work per Coulomb charge.</TopicItem>
                 <TopicItem><strong>Measuring Instruments:</strong> Ammeter (measures current, connected in series, low resistance) and Voltmeter (measures potential difference, connected in parallel, high resistance).</TopicItem>
               </TopicList>
-              
+
               <h3>Ohm's Law and Resistance</h3>
               <TopicList>
                 <TopicItem><strong>Ohm's Law:</strong> Current through conductor is directly proportional to voltage across it at constant temperature. V = IR. Graph of V vs I is straight line with slope equal to resistance.</TopicItem>
@@ -477,7 +477,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Series Combination:</strong> Total resistance = Sum of individual resistances (Rs = R₁ + R₂ + R₃ + ...).</TopicItem>
                 <TopicItem><strong>Parallel Combination:</strong> Reciprocal of total resistance = Sum of reciprocals of individual resistances (1/Rp = 1/R₁ + 1/R₂ + 1/R₃ + ...).</TopicItem>
               </TopicList>
-              
+
               <h3>Heating Effect and Power</h3>
               <TopicList>
                 <TopicItem><strong>Joule's Law of Heating:</strong> Heat produced in conductor is directly proportional to square of current, resistance, and time. H = I²Rt. Used in electric irons, heaters, bulbs.</TopicItem>
@@ -488,7 +488,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 12 */}
           <ChapterCard>
             <ChapterTitle>Chapter 12: Magnetic Effects of Electric Current</ChapterTitle>
@@ -500,7 +500,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Magnetic Field Due to Current:</strong> H.C. Oersted discovered electrical current produces magnetic field. Right Hand Thumb Rule gives direction: thumb points in current direction, fingers curl in field direction.</TopicItem>
                 <TopicItem><strong>Magnetic Field of Straight Conductor:</strong> Concentric circles around wire. Strength proportional to current, inversely proportional to distance from conductor.</TopicItem>
               </TopicList>
-              
+
               <h3>Electromagnetic Applications</h3>
               <TopicList>
                 <TopicItem><strong>Magnetic Field of Circular Loop:</strong> Concentric circles, same direction inside loop. Field strength increases with current and number of turns, decreases with distance.</TopicItem>
@@ -508,7 +508,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Electromagnets:</strong> Temporary magnets made by placing iron core in current-carrying coil. Used in electric bells, motors, generators.</TopicItem>
                 <TopicItem><strong>Force on Current-Carrying Conductor:</strong> F = IBl sin θ. Fleming's Left Hand Rule: Thumb (motion/force), Forefinger (magnetic field), Middle finger (current) are mutually perpendicular.</TopicItem>
               </TopicList>
-              
+
               <h3>Electric Currents and Circuits</h3>
               <TopicList>
                 <TopicItem><strong>Direct Current (DC):</strong> Current flows in one direction. Sources: cells, batteries. Can be stored but has high energy loss over distance.</TopicItem>
@@ -519,7 +519,7 @@ const HomePage = ({ onStartChat }) => {
             </ImportantPoints>
             <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
-          
+
           {/* Chapter 13 */}
           <ChapterCard>
             <ChapterTitle>Chapter 13: Our Environment</ChapterTitle>
@@ -531,7 +531,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Ecosystem Components:</strong> Producers (green plants, algae), Consumers (herbivores, carnivores, omnivores, parasites), Decomposers (microorganisms breaking down dead matter).</TopicItem>
                 <TopicItem><strong>Food Chain:</strong> Sequence of organisms through which energy flows. Example: Grass → Grasshopper → Frog → Snake → Eagle. First link is producer, last is decomposer.</TopicItem>
               </TopicList>
-              
+
               <h3>Energy Flow and Biological Magnification</h3>
               <TopicList>
                 <TopicItem><strong>Trophic Levels:</strong> Steps in food chain where energy transfer occurs. Producers (first), Herbivores (second), Carnivores (third and fourth).</TopicItem>
@@ -540,7 +540,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>10 Percent Law:</strong> Only 10% energy transfers to next trophic level. Limits food chain length to 3-4 levels.</TopicItem>
                 <TopicItem><strong>Biological Magnification:</strong> Concentration of harmful chemicals increases at each trophic level. Highest in top consumers (humans).</TopicItem>
               </TopicList>
-              
+
               <h3>Waste Management and Environmental Issues</h3>
               <TopicList>
                 <TopicItem><strong>Waste Types:</strong> Biodegradable (decomposed by microorganisms, e.g., food waste, paper) and Non-biodegradable (not easily decomposed, e.g., plastic, metals, radioactive waste).</TopicItem>

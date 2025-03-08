@@ -362,7 +362,7 @@ const InputContainer = styled.div`
       opacity: 1;
     }
   }
-  
+
   @media (max-width: 480px) {
     padding: 8px 12px;
   }
@@ -769,19 +769,19 @@ export default function App() {
   const handleTyping = (e) => {
     // Update input value immediately for responsive UI
     setMessageInput(e.target.value);
-    
+
     // Debounce the Firebase updates to prevent lag on typing
     clearTimeout(typingTimeout.current);
-    
+
     const typingUserRef = ref(database, `typing/${user}`);
-    
+
     // Only update typing status if changed to prevent unnecessary updates
     if (e.target.value.trim()) {
       set(typingUserRef, true);
     } else {
       set(typingUserRef, false);
     }
-    
+
     // Set shorter timeout for typing indicator to feel more responsive
     typingTimeout.current = setTimeout(() => {
       set(typingUserRef, false);
@@ -863,10 +863,10 @@ export default function App() {
 
       // We'll use a simpler approach to avoid hook order issues
       // Mark messages as read separately after view change
-      
+
       // Set view state first
       setViewState(2);
-      
+
       // Process messages after state update in next render cycle
       setTimeout(() => {
         try {
@@ -876,11 +876,11 @@ export default function App() {
               update(messageRef, { read: true });
             }
           });
-  
+
           // Update last read timestamp
           const latestTimestamp = Math.max(...messages.map(msg => msg.timestamp || 0), 0);
           localStorage.setItem('lastReadMessage', latestTimestamp);
-          
+
           // Scroll to bottom after all processing is done
           scrollToBottom();
         } catch (err) {
@@ -977,7 +977,7 @@ export default function App() {
       </ThemeProvider>
     );
   }
-  
+
   // Otherwise render the chat interface (viewState === 2)
   return (
     <ThemeProvider theme={theme}>
