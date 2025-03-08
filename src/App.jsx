@@ -349,6 +349,8 @@ const InputContainer = styled.div`
   border-radius: 24px;
   padding: 8px 15px;
   animation: slideUp 0.3s ease-in-out;
+  will-change: transform;
+  transform: translateZ(0);
 
   @keyframes slideUp {
     from {
@@ -359,6 +361,10 @@ const InputContainer = styled.div`
       transform: translateY(0);
       opacity: 1;
     }
+  }
+  
+  @media (max-width: 480px) {
+    padding: 8px 12px;
   }
 `;
 
@@ -372,6 +378,11 @@ const TextInput = styled(TextareaAutosize)`
   outline: none;
   max-height: 120px;
   padding: 5px 0;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  will-change: transform;
+  transform: translateZ(0);
 
   &::-webkit-scrollbar {
     width: 6px;
@@ -754,23 +765,27 @@ export default function App() {
     }
   };
 
-  // Typing indicator handler
+  // Typing indicator handler with debounce for better input performance
   const handleTyping = (e) => {
+    // Update input value immediately for responsive UI
     setMessageInput(e.target.value);
-
+    
+    // Debounce the Firebase updates to prevent lag on typing
+    clearTimeout(typingTimeout.current);
+    
     const typingUserRef = ref(database, `typing/${user}`);
-
+    
+    // Only update typing status if changed to prevent unnecessary updates
     if (e.target.value.trim()) {
       set(typingUserRef, true);
     } else {
       set(typingUserRef, false);
     }
-
-    clearTimeout(typingTimeout.current);
-
+    
+    // Set shorter timeout for typing indicator to feel more responsive
     typingTimeout.current = setTimeout(() => {
       set(typingUserRef, false);
-    }, 2000);
+    }, 1000);
   };
 
   // Handle key press

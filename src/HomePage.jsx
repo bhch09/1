@@ -171,7 +171,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Reaction with Metals:</strong> Acids + Metal → Salt + H₂ gas. Bases + Metal → Salt + H₂ gas.</TopicItem>
                 <TopicItem><strong>Reaction with Carbonates:</strong> Acid + Metal Carbonate → Salt + CO₂ + H₂O. Bases have no reaction.</TopicItem>
                 <TopicItem><strong>Neutralization:</strong> Acid + Base → Salt + Water. H⁺ and OH⁻ ions combine to form water.</TopicItem>
-                <TopicItem><strong>pH Scale:</strong> Measures H⁺ ion concentration. pH = 7 (neutral), pH < 7 (acidic), pH > 7 (basic).</TopicItem>
+                <TopicItem><strong>pH Scale:</strong> Measures H⁺ ion concentration. pH = 7 (neutral), pH &lt; 7 (acidic), pH &gt; 7 (basic).</TopicItem>
                 <TopicItem><strong>Importance of pH:</strong> Human body works within pH 7-7.8. Plants require specific pH for growth. Tooth decay starts below pH 5.5.</TopicItem>
               </TopicList>
               
