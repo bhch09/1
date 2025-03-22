@@ -24,13 +24,13 @@ import HomePage from './HomePage';
 
 // Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyBwUwNuu3XsKVKM3eLgNQAQvwK2JCxGM_g",
-  databaseURL: "https://chat123-9a070-default-rtdb.firebaseio.com",
-  authDomain: "chat123-9a070.firebaseapp.com",
-  projectId: "chat123-9a070",
-  storageBucket: "chat123-9a070.firebasestorage.app",
-  messagingSenderId: "1082838182445",
-  measurementId: "G-CD955M31V2"
+  apiKey: "AIzaSyA7hJnfxATQdPY2sQ0nofc0Yj_kBj3-IVI",
+  authDomain: "aass-b08ba.firebaseapp.com",
+  databaseURL: "https://aass-b08ba-default-rtdb.firebaseio.com/",
+  projectId: "aass-b08ba",
+  storageBucket: "aass-b08ba.firebasestorage.app",
+  messagingSenderId: "31785151815",
+  appId: "1:31785151815:web:164856e11fa28fef17b062"
 };
 
 // Initialize Firebase
