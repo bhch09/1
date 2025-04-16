@@ -226,7 +226,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Alloys:</strong> Homogeneous mixtures of metals or metals and non-metals. e.g., Stainless steel, Brass, Bronze, Solder.</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn className="chat-button" onClick={handleStartChat}>Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 4 */}
@@ -305,7 +305,7 @@ const HomePage = ({ onStartChat }) => {
                 <TopicItem><strong>Plant Excretion:</strong> Plants excrete oxygen, CO₂, and water through stomata via transpiration.</TopicItem>
               </TopicList>
             </ImportantPoints>
-            <DownloadBtn className="chat-button">Download Notes</DownloadBtn>
+            <DownloadBtn className="chat-button" onClick={handleStartChat}>Download Notes</DownloadBtn>
           </ChapterCard>
 
           {/* Chapter 6 */}
