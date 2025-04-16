@@ -793,9 +793,12 @@ export default function App() {
 
   // Handle key press
   const handleKeyPress = (e) => {
-    // If Enter is pressed without Shift and emoji picker is closed, send message
-    if (e.key === 'Enter' && !e.shiftKey && !showEmojiPicker) {
+    // Always prevent default Enter behavior and send message
+    if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
+      if (showEmojiPicker) {
+        setShowEmojiPicker(false);
+      }
       sendMessage();
     }
   };
