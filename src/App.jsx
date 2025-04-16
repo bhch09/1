@@ -676,12 +676,15 @@ export default function App() {
 
         setMessages(messagesData);
 
-        // Only scroll and mark as read if in chat interface
+        // Scroll to bottom if in chat interface
         if (viewState === 2) {
           setTimeout(scrollToBottom, 100);
-
-          // Mark messages as read if window is focused
+          
+          // Mark messages as read only when in chat interface and window is focused
           if (user && windowFocus) {
+            const latestTimestamp = Math.max(...messagesData.map(msg => msg.timestamp || 0));
+            localStorage.setItem('lastReadMessage', latestTimestamp);
+            
             messagesData.forEach(message => {
               if (message.sender !== user && !message.read) {
                 const messageRef = ref(database, `messages/${message.id}`);

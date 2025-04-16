@@ -67,16 +67,16 @@ const HomePage = ({ onStartChat }) => {
           latestMessageTimestamp = message.timestamp;
         }
 
-        // Check if this is a new message from the other user
-        if (user && message.sender !== user && message.timestamp > lastReadMessage) {
+        // Check if this is a new message from the other user and not marked as read
+        if (user && message.sender !== user && !message.read) {
           hasUnread = true;
         }
       });
 
       // Play sound if there's a new unread message but ONLY:
       // 1. When we have unread messages that we didn't know about before (!hasNewMessage)
-      // 2. When we're on the homepage (to prevent sounds in the chat interface)
-      // 3. When the latest message is newer than our last check (to avoid playing on initial load)
+      // 2. When we're on the homepage
+      // 3. When the latest message is newer than our last check
       if (hasUnread && !hasNewMessage && latestMessageTimestamp > lastReadMessage) {
         notificationSound.play().catch(e => console.log("Audio play error:", e));
       }
