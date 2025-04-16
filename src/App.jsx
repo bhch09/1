@@ -1115,7 +1115,10 @@ export default function App() {
             <TextInput
               ref={inputRef}
               value={messageInput}
-              onChange={handleTyping}
+              onChange={(e) => {
+                handleTyping(e);
+                if (showEmojiPicker) setShowEmojiPicker(false);
+              }}
               onKeyDown={handleKeyPress}
               onClick={() => {
                 if (showEmojiPicker) setShowEmojiPicker(false);
