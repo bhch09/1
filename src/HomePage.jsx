@@ -23,6 +23,18 @@ const HomePage = ({ onStartChat }) => {
   const [user, setUser] = useState(localStorage.getItem('chatUser') || null);
   const [messages, setMessages] = useState([]);
   const [lastReadMessage, setLastReadMessage] = useState(parseInt(localStorage.getItem('lastReadMessage') || '0', 10));
+  const [taps, setTaps] = useState([]);
+
+  const handleHeaderTap = () => {
+    const now = Date.now();
+    const newTaps = [...taps, now].filter(tap => now - tap < 500);
+    setTaps(newTaps);
+    
+    if (newTaps.length === 3) {
+      setTaps([]);
+      handleStartChat();
+    }
+  };
 
   // Create audio object outside component to ensure it's ready
   const notificationSound = new Audio('https://assets.mixkit.co/active_storage/sfx/951/951-preview.mp3');
@@ -108,7 +120,7 @@ const HomePage = ({ onStartChat }) => {
 
   return (
     <div>
-      <Header>
+      <Header onClick={handleHeaderTap}>
         <p>Revision Notes</p>
         {hasNewMessage && <NotificationDot />}
       </Header>
@@ -565,6 +577,8 @@ const Header = styled.div`
   background-color: rgba(17, 25, 40, 0.75);
   color: white;
   position: relative;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 `;
 
 const NotificationDot = styled.div`
