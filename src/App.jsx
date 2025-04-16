@@ -1138,9 +1138,9 @@ export default function App() {
               <EmojiPicker
                 onEmojiClick={(emojiObj) => {
                   setMessageInput(prev => prev + emojiObj.emoji);
-                  // Don't close picker after selection so user can pick multiple emojis
+                  inputRef.current?.focus();
                 }}
-                searchDisabled={false}
+                searchDisabled={true}
                 lazyLoadEmojis={true}
                 skinTonesDisabled={false}
               />
