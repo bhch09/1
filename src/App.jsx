@@ -1151,7 +1151,7 @@ export default function App() {
                 flexDirection: 'column'
               }}>
                 <EmojiPicker
-                  lazyLoadEmojis={true}
+                  lazyLoadEmojis={false}
                   searchDisabled={true}
                   skinTonesDisabled={true}
                   previewConfig={{
@@ -1167,12 +1167,13 @@ export default function App() {
                   }}
                   theme="dark"
                   autoFocusSearch={false}
-                  emojiStyle="native"
+                  emojiStyle="apple"
+                  emojiVersion="14"
                   searchPlaceHolder=""
                   defaultCategory="smileys_people"
                   customCategories={[{
                     category: "smileys_people",
-                    name: "Smileys & People"
+                    name: "Smileys"
                   }]}
                 />
               </div>
