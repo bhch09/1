@@ -971,6 +971,7 @@ export default function App() {
       --font-size: 14px;
       height: 350px;
       width: 100%;
+      font-family: "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", sans-serif;
     }
   `;
 
