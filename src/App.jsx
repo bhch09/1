@@ -1143,20 +1143,21 @@ export default function App() {
             <EmojiPickerWrapper>
               <EmojiPicker
                 lazyLoadEmojis={true}
-                searchDisabled={false}
+                searchDisabled={true}
                 skinTonesDisabled={true}
-                width="100%"
-                height={350}
                 previewConfig={{
                   showPreview: false
                 }}
-                categories={['smileys_people', 'animals_nature', 'food_drink', 'travel_places', 'activities', 'objects', 'symbols', 'flags']}
+                width={300}
+                height={300}
+                categories={['smileys_people']}
                 onEmojiClick={(emojiObj) => {
                   setMessageInput(prev => prev + emojiObj.emoji);
                   inputRef.current?.focus();
                   setShowEmojiPicker(false);
                 }}
                 theme="dark"
+                autoFocusSearch={false}
               />
             </EmojiPickerWrapper>
           )}
