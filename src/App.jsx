@@ -19,7 +19,8 @@ import { BsEmojiSmile, BsReply } from 'react-icons/bs';
 import { RiFileGifLine } from 'react-icons/ri';
 import Emoji from 'react-emoji-render';
 import TextareaAutosize from 'react-textarea-autosize';
-import EmojiPicker from 'emoji-picker-react';
+import Picker from '@emoji-mart/react';
+import data from '@emoji-mart/data';
 import HomePage from './HomePage';
 
 // Firebase config
@@ -963,14 +964,13 @@ export default function App() {
       width: auto;
     }
 
-    & .EmojiPickerReact {
-      --epr-bg-color: transparent;
-      --epr-category-label-bg-color: rgba(17, 25, 40, 0.3);
-      --epr-text-color: ${props => props.theme.text};
-      --epr-search-input-bg-color: rgba(17, 25, 40, 0.3);
-      --epr-hover-bg-color: ${props => props.theme.secondary};
-      height: 350px !important;
-      width: 100% !important;
+    & em-emoji-picker {
+      --background-rgb: 17, 25, 40;
+      --border-radius: 8px;
+      --category-icon-size: 20px;
+      --font-size: 14px;
+      height: 350px;
+      width: 100%;
     }
   `;
 
@@ -1141,14 +1141,15 @@ export default function App() {
 
           {showEmojiPicker && (
             <EmojiPickerWrapper>
-              <EmojiPicker
-                onEmojiClick={(emojiObj) => {
-                  setMessageInput(prev => prev + emojiObj.emoji);
+              <Picker
+                data={data}
+                onEmojiSelect={(emoji) => {
+                  setMessageInput(prev => prev + emoji.native);
                   inputRef.current?.focus();
                 }}
-                searchDisabled={true}
-                lazyLoadEmojis={true}
-                skinTonesDisabled={false}
+                theme="dark"
+                previewPosition="none"
+                navPosition="bottom"
               />
             </EmojiPickerWrapper>
           )}
