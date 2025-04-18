@@ -1168,6 +1168,12 @@ export default function App() {
                   theme="dark"
                   autoFocusSearch={false}
                   emojiStyle="native"
+                  searchPlaceHolder=""
+                  defaultCategory="smileys_people"
+                  customCategories={[{
+                    category: "smileys_people",
+                    name: "Smileys & People"
+                  }]}
                 />
               </div>
             </EmojiPickerWrapper>
