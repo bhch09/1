@@ -1141,15 +1141,40 @@ export default function App() {
 
           {showEmojiPicker && (
             <EmojiPickerWrapper>
-              <EmojiPicker
-                onEmojiClick={(emojiObj) => {
-                  setMessageInput(prev => prev + emojiObj.emoji);
-                  inputRef.current?.focus();
-                }}
-                searchDisabled={false}
-                lazyLoadEmojis={true}
-                skinTonesDisabled={false}
-              />
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(10, 1fr)',
+                gap: '8px',
+                padding: '10px',
+                background: 'rgba(17, 25, 40, 0.75)',
+                borderRadius: '8px',
+                maxHeight: '200px',
+                overflowY: 'auto'
+              }}>
+                {commonEmojis.map((emoji, index) => (
+                  <button
+                    key={index}
+                    onClick={() => {
+                      setMessageInput(prev => prev + emoji);
+                      inputRef.current?.focus();
+                      setShowEmojiPicker(false);
+                    }}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      fontSize: '1.2rem',
+                      cursor: 'pointer',
+                      padding: '5px',
+                      borderRadius: '4px',
+                      transition: 'background-color 0.2s',
+                    }}
+                    onMouseEnter={e => e.target.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'}
+                    onMouseLeave={e => e.target.style.backgroundColor = 'transparent'}
+                  >
+                    {emoji}
+                  </button>
+                ))}
+              </div>
             </EmojiPickerWrapper>
           )}
         </InputArea>
