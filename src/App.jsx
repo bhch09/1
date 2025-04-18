@@ -1141,24 +1141,35 @@ export default function App() {
 
           {showEmojiPicker && (
             <EmojiPickerWrapper>
-              <EmojiPicker
-                lazyLoadEmojis={true}
-                searchDisabled={true}
-                skinTonesDisabled={true}
-                previewConfig={{
-                  showPreview: false
-                }}
-                width={300}
-                height={300}
-                categories={['smileys_people']}
-                onEmojiClick={(emojiObj) => {
-                  setMessageInput(prev => prev + emojiObj.emoji);
-                  inputRef.current?.focus();
-                  setShowEmojiPicker(false);
-                }}
-                theme="dark"
-                autoFocusSearch={false}
-              />
+              <div style={{
+                width: '300px',
+                height: '350px',
+                overflow: 'hidden',
+                background: 'rgba(17, 25, 40, 0.75)',
+                borderRadius: '8px',
+                display: 'flex',
+                flexDirection: 'column'
+              }}>
+                <EmojiPicker
+                  lazyLoadEmojis={true}
+                  searchDisabled={true}
+                  skinTonesDisabled={true}
+                  previewConfig={{
+                    showPreview: false
+                  }}
+                  width="100%"
+                  height="100%"
+                  categories={['smileys_people']}
+                  onEmojiClick={(emojiObj) => {
+                    setMessageInput(prev => prev + emojiObj.emoji);
+                    inputRef.current?.focus();
+                    setShowEmojiPicker(false);
+                  }}
+                  theme="dark"
+                  autoFocusSearch={false}
+                  emojiStyle="native"
+                />
+              </div>
             </EmojiPickerWrapper>
           )}
         </InputArea>
