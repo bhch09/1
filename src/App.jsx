@@ -24,13 +24,13 @@ import HomePage from './HomePage';
 
 // Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyCwWT-c_i2CZMVAVvxjSmu2Z_RxIDJU2M0",
-  authDomain: "abcd-dcffb.firebaseapp.com",
-  databaseURL: "https://abcd-dcffb-default-rtdb.asia-southeast1.firebasedatabase.app/",
-  projectId: "abcd-dcffb",
-  storageBucket: "abcd-dcffb.firebasestorage.app",
-  messagingSenderId: "815732362631",
-  appId: "1:815732362631:web:fdad2c8706dba17fcbd722"
+  apiKey: "AIzaSyBQhdzWKoGJxSZB_U7XYK9CSzX2EwEqmQg",
+  authDomain: "xzzz-26e00.firebaseapp.com",
+  databaseURL: "https://xzzz-26e00-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  projectId: "xzzz-26e00",
+  storageBucket: "xzzz-26e00.firebasestorage.app",
+  messagingSenderId: "94939982094",
+  appId: "1:94939982094:web:adff143b27417f3b46cf5f"
 };
 
 // Initialize Firebase
